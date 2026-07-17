@@ -1,0 +1,10 @@
+server.log
+server-error.log
+*.out.log
+*.err.log
+dictionary-source/
+.env
+.DS_Store
+
+__pycache__/
+*.pyc

@@ -1,0 +1,6111 @@
+{
+  "id": "Mxs4erDxOEE",
+  "model": "faster-whisper base.en (independent ASR)",
+  "language": "en",
+  "complete": true,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.72,
+      "en": "There are many things that made software sticky, but a lot of it had to do with the fact that",
+      "zh": "有许多东西使软件粘滞,但很多事情都与事实有关:"
+    },
+    {
+      "start": 4.72,
+      "end": 8.4,
+      "en": "the way a human interacts in an agenda world do you actually need that?",
+      "zh": "人类在议程世界的互动方式 你真的需要吗?"
+    },
+    {
+      "start": 8.4,
+      "end": 12.72,
+      "en": "The data, the logic, everything stored below it is really where the value is.",
+      "zh": "数据,逻辑,所有存储在它下面的东西 都是真的值所在。"
+    },
+    {
+      "start": 12.72,
+      "end": 17.44,
+      "en": "There's this wild underestimation about like you could vibe code your way into enterprise software.",
+      "zh": "有一种疯狂的低估 认为你可以 感觉你的方式 进入企业软件。"
+    },
+    {
+      "start": 17.44,
+      "end": 23.92,
+      "en": "Larry Ellison at Oracle, he went on a rant about how enterprise software was so stupid",
+      "zh": "在甲骨文的拉里·埃里森, 他大喊企业软件怎么这么愚蠢"
+    },
+    {
+      "start": 23.92,
+      "end": 28.48,
+      "en": "because everybody customized it. The minute you automate the most mundane thing and think you",
+      "zh": "因为每个人都定制了 你一把最普通的东西自动化 就会觉得你"
+    },
+    {
+      "start": 28.48,
+      "end": 31.58,
+      "en": "have it all squared away, whole new things appear.",
+      "zh": "全部平整, 全新的事物出现。"
+    },
+    {
+      "start": 31.58,
+      "end": 36.4,
+      "en": "Misconception right now is that you can just have, you know, postcast database and",
+      "zh": "现在的误解是,你可以 仅仅拥有,你知道, 后播数据库和"
+    },
+    {
+      "start": 36.4,
+      "end": 41.0,
+      "en": "APIs and then BAM, like you can replace SAP. That's like absolutely not true. That",
+      "zh": "APIs,然后是BAM,比如你可以替换SAP. 这就像绝对不是真的。 那个"
+    },
+    {
+      "start": 41.0,
+      "end": 46.6,
+      "en": "piece around the logic and everything else that is captured in SAP is way, way",
+      "zh": "环绕逻辑的棋子 而在SAP中捕捉到的所有东西都是路,路"
+    },
+    {
+      "start": 46.6,
+      "end": 50.22,
+      "en": "more important than the fact that like, oh, this data just happens to be in this",
+      "zh": "比事实更重要的是,像,哦, 这些数据只是恰巧在这个"
+    },
+    {
+      "start": 50.22,
+      "end": 54.16,
+      "en": "database. One of the things that happens in technology shifts is nobody understands",
+      "zh": "数据库。 在技术转变中发生的事情之一 是没有人理解"
+    },
+    {
+      "start": 54.16,
+      "end": 58.08,
+      "en": "exponential when it's happening. The biggest opportunity right now is",
+      "zh": "当它发生时指数化。 现在最大的机会是"
+    },
+    {
+      "start": 60.7,
+      "end": 67.9,
+      "en": "Welcome to the A16Z podcast. I'm here with Sima Amble, a partner here on the enterprise team",
+      "zh": "欢迎收看A16Z播客 我和Sima Amble一起来的 是企业团队的合伙人"
+    },
+    {
+      "start": 67.9,
+      "end": 79.98,
+      "en": "and Steven Sonofsky, who is a board partner at A16Z as well as a former member of Microsoft,",
+      "zh": "和史蒂文·索诺夫斯基,他是A16Z的董事会合伙人以及微软的前成员,"
+    },
+    {
+      "start": 79.98,
+      "end": 88.62,
+      "en": "friend of the firm. And here we are today to talk about a piece that Zima wrote about a month ago",
+      "zh": "公司的朋友。 今天我们来谈谈 一个月前齐玛写的一篇作品"
+    },
+    {
+      "start": 88.62,
+      "end": 95.98,
+      "en": "called The Software Losing Its Head. And this piece, I'll let Zima talk about it in her own words. But",
+      "zh": "名为软件失去它的头。 这篇,我会让齐玛用她自己的话说. 不过"
+    },
+    {
+      "start": 95.98,
+      "end": 102.3,
+      "en": "this piece was written a couple months ago, Salesforce announced that they would be going headless.",
+      "zh": "这篇作品是几个月前写的, 塞勒斯福尔宣布 他们将去无头。"
+    },
+    {
+      "start": 103.34,
+      "end": 108.62,
+      "en": "And today we're here to kind of discuss, you know, what does that mean? What does that mean for,",
+      "zh": "今天我们在这里讨论, 你知道,这是什么意思? 这是什么意思,"
+    },
+    {
+      "start": 108.62,
+      "end": 115.06,
+      "en": "you know, the future of SaaS products, the future of, you know, just kind of software",
+      "zh": "你知道 SaaS产品的未来 软件的未来"
+    },
+    {
+      "start": 115.06,
+      "end": 116.06,
+      "en": "more generally.",
+      "zh": "更笼统地说。"
+    },
+    {
+      "start": 116.06,
+      "end": 122.26,
+      "en": "So, Sima, can you just walk me through first what headless software means and explain kind",
+      "zh": "所以,西玛,你能不能先带我走过 无头软件的意思"
+    },
+    {
+      "start": 122.26,
+      "end": 124.38,
+      "en": "of what changes it introduces?",
+      "zh": "它带来了什么变化?"
+    },
+    {
+      "start": 124.38,
+      "end": 125.38,
+      "en": "Yeah.",
+      "zh": "对"
+    },
+    {
+      "start": 125.38,
+      "end": 130.74,
+      "en": "So, headless software is really, it's not a new term, but I think has really risen in",
+      "zh": "所以,无头软件真的, 这不是一个新术语, 但我认为真的上升"
+    },
+    {
+      "start": 130.74,
+      "end": 136.34,
+      "en": "like the public domain of interest in what a topic that people are talking about.",
+      "zh": "就像人们在谈论的话题中感兴趣的公共领域。"
+    },
+    {
+      "start": 136.34,
+      "end": 139.58,
+      "en": "One of the interesting news points has been Salesforce making this announcement.",
+      "zh": "一个有趣的新闻点是 Salesforce 发布这个公告。"
+    },
+    {
+      "start": 139.58,
+      "end": 145.3,
+      "en": "They were launching Headless 360, which was really in classic Salesforce, you know, history",
+      "zh": "他们推出了无头360, 这在经典的销售部队, 你知道,历史"
+    },
+    {
+      "start": 145.3,
+      "end": 147.98,
+      "en": "of marketing announcement more than anything else.",
+      "zh": "营销广告比其他任何广告都要多"
+    },
+    {
+      "start": 147.98,
+      "end": 154.22,
+      "en": "But it does capture, it's sort of, it's an acknowledgement of what's happening, which is,",
+      "zh": "但它确实捕捉到, 它有点, 这是承认 发生了什么,这就是,"
+    },
+    {
+      "start": 154.22,
+      "end": 161.66,
+      "en": "you know, traditional software had been built around humans accessing it and it was workflow",
+      "zh": "你知道,传统的软件是围绕 人类访问它 它是工作流程"
+    },
+    {
+      "start": 161.66,
+      "end": 164.7,
+      "en": "to capture data and we could talk more about what that meant.",
+      "zh": "我们可以多谈谈这意味着什么。"
+    },
+    {
+      "start": 164.7,
+      "end": 168.1,
+      "en": "In an agentic world, do you actually need that?",
+      "zh": "在一个代理世界, 你真的需要吗?"
+    },
+    {
+      "start": 168.1,
+      "end": 171.1,
+      "en": "The UI doesn't matter because the agent isn't accessing",
+      "zh": "内线不重要 因为特工没有进入"
+    },
+    {
+      "start": 171.1,
+      "end": 173.4,
+      "en": "the software via the UI.",
+      "zh": "软件通过UI。"
+    },
+    {
+      "start": 173.4,
+      "end": 175.26,
+      "en": "We get on-pack whether the UI matters or not.",
+      "zh": "无论UI是否重要,我们都要整理好"
+    },
+    {
+      "start": 175.26,
+      "end": 180.26,
+      "en": "But the idea of it being headless is the data,",
+      "zh": "但数据是无头的"
+    },
+    {
+      "start": 180.66,
+      "end": 183.02,
+      "en": "the logic, having stored below it,",
+      "zh": "逻辑, 存储在它的下面,"
+    },
+    {
+      "start": 183.02,
+      "end": 184.34,
+      "en": "is really where the value is,",
+      "zh": "真正的价值在哪里,"
+    },
+    {
+      "start": 184.34,
+      "end": 187.02,
+      "en": "not just the workflow software that's being tracked",
+      "zh": "不只是被跟踪的工作流程软件"
+    },
+    {
+      "start": 187.02,
+      "end": 188.65,
+      "en": "at the top.",
+      "zh": "在顶部。"
+    },
+    {
+      "start": 188.65,
+      "end": 190.21,
+      "en": "Gotcha.",
+      "zh": "抓到他们了"
+    },
+    {
+      "start": 190.21,
+      "end": 193.41,
+      "en": "And this was announced a couple months ago.",
+      "zh": "这是几个月前宣布的。"
+    },
+    {
+      "start": 193.41,
+      "end": 196.97,
+      "en": "I'm curious in the past couple of months, what have we seen?",
+      "zh": "我好奇在过去几个月, 我们看到了什么?"
+    },
+    {
+      "start": 196.97,
+      "end": 199.65,
+      "en": "I mean, you wrote even in the piece,",
+      "zh": "我的意思是,你写 即使在片中,"
+    },
+    {
+      "start": 199.65,
+      "end": 203.53,
+      "en": "kind of, at the beginning, you were a little bit funny,",
+      "zh": "那种,在一开始, 你有点搞笑,"
+    },
+    {
+      "start": 203.53,
+      "end": 205.97,
+      "en": "maybe, and you said, is this really even that big",
+      "zh": "也许,你说,这是真的 即使是大"
+    },
+    {
+      "start": 205.97,
+      "end": 206.89,
+      "en": "of an announcement?",
+      "zh": "通知吗?"
+    },
+    {
+      "start": 206.89,
+      "end": 210.09,
+      "en": "Is this sort of a rebrand of APIs",
+      "zh": "是这种API的重命名"
+    },
+    {
+      "start": 210.09,
+      "end": 212.77,
+      "en": "that they had already made available?",
+      "zh": "他们已经提供了?"
+    },
+    {
+      "start": 212.77,
+      "end": 215.57,
+      "en": "So does this feel like a significant change?",
+      "zh": "那么,这感觉 是一个重大的变化?"
+    },
+    {
+      "start": 215.57,
+      "end": 218.33,
+      "en": "Is this maybe more of a branding exercise?",
+      "zh": "这也许更像是打牌?"
+    },
+    {
+      "start": 218.33,
+      "end": 221.17,
+      "en": "And what have we even seen in the past couple of months",
+      "zh": "我们在过去几个月里所看到的"
+    },
+    {
+      "start": 221.17,
+      "end": 225.17,
+      "en": "since we've been able to observe what changes have really happened.",
+      "zh": "因为我们已经能够观察 到底发生了什么变化。"
+    },
+    {
+      "start": 225.17,
+      "end": 229.45,
+      "en": "So I'll separate it out into the Salesforce context and then the broader context.",
+      "zh": "所以,我把它分为 销售力的背景,然后更广泛的背景。"
+    },
+    {
+      "start": 229.45,
+      "end": 231.49,
+      "en": "I think the broader context is more interesting.",
+      "zh": "我认为更广泛的背景更有趣。"
+    },
+    {
+      "start": 231.49,
+      "end": 234.97,
+      "en": "In the Salesforce context, probably not that interesting.",
+      "zh": "在销售力方面,可能没那么有趣。"
+    },
+    {
+      "start": 234.97,
+      "end": 237.25,
+      "en": "I think Salesforce, I think rightfully again,",
+      "zh": "我认为销售部队, 我认为正确再次,"
+    },
+    {
+      "start": 237.25,
+      "end": 239.85,
+      "en": "is acknowledging a shift that's happening in the market.",
+      "zh": "承认市场正在发生转变"
+    },
+    {
+      "start": 239.85,
+      "end": 242.53,
+      "en": "From what I can tell, nothing actually changed.",
+      "zh": "据我所知,没有什么变化。"
+    },
+    {
+      "start": 242.53,
+      "end": 247.77,
+      "en": "Their 360 product was the same APIs that had always been exposed,",
+      "zh": "他们的360产品是一直曝光的API,"
+    },
+    {
+      "start": 247.77,
+      "end": 250.77,
+      "en": "now rebranded as their 360 product.",
+      "zh": "现在被重新命名为他们的360产品。"
+    },
+    {
+      "start": 250.77,
+      "end": 252.93,
+      "en": "And APAs have always existed.",
+      "zh": "而APAs一直存在."
+    },
+    {
+      "start": 252.93,
+      "end": 257.41,
+      "en": "So many, or I should say always, but for a long time it existed.",
+      "zh": "如此之多,或我应该说永远, 但它存在了很长时间。"
+    },
+    {
+      "start": 257.41,
+      "end": 261.11,
+      "en": "But I think the broader trend here is,",
+      "zh": "但我认为更大的趋势是,"
+    },
+    {
+      "start": 261.11,
+      "end": 266.37,
+      "en": "Salesforce among others are thinking about how they build themselves for the",
+      "zh": "销售力量等正在思考如何为人类建立自己"
+    },
+    {
+      "start": 266.37,
+      "end": 267.61,
+      "en": "agentic world.",
+      "zh": "代理世界。"
+    },
+    {
+      "start": 267.61,
+      "end": 273.33,
+      "en": "And so if an agent needs to access the data in CRM like Salesforce,",
+      "zh": "所以如果特工需要像销售部队一样 访问客户关系管理系统的数据"
+    },
+    {
+      "start": 273.33,
+      "end": 274.81,
+      "en": "what are they doing it?",
+      "zh": "他们在做什么?"
+    },
+    {
+      "start": 274.81,
+      "end": 277.85,
+      "en": "Are they doing it via the UI or the API?",
+      "zh": "他们通过UI还是API?"
+    },
+    {
+      "start": 277.85,
+      "end": 280.13,
+      "en": "And that's the, you know, Salesforce is saying like, okay,",
+      "zh": "这就是,你知道, Salesforce说,好吧,"
+    },
+    {
+      "start": 280.13,
+      "end": 281.65,
+      "en": "hey, we know what is changing,",
+      "zh": "我们知道有什么变化"
+    },
+    {
+      "start": 281.65,
+      "end": 284.17,
+      "en": "that there are agents who are needing to access the data.",
+      "zh": "有一些特工需要访问数据。"
+    },
+    {
+      "start": 284.17,
+      "end": 285.97,
+      "en": "Let's look at the, you know,",
+      "zh": "让我们看看,你知道,"
+    },
+    {
+      "start": 285.97,
+      "end": 288.45,
+      "en": "let's offer a headless version for them to interact",
+      "zh": "让我们提供一个无头版本让他们互动"
+    },
+    {
+      "start": 288.45,
+      "end": 293.29,
+      "en": "with the data versus going via the UI.",
+      "zh": "与数据对通过UI。"
+    },
+    {
+      "start": 293.29,
+      "end": 295.29,
+      "en": "That said, again, I don't think any actually change",
+      "zh": "再说一遍,我觉得没有改变"
+    },
+    {
+      "start": 295.29,
+      "end": 297.29,
+      "en": "in the Salesforce context, but Salesforce is the other one.",
+      "zh": "但\"销售力\"是另一个"
+    },
+    {
+      "start": 297.29,
+      "end": 300.37,
+      "en": "Another example is Notion has a headless product.",
+      "zh": "另一个例子是Notion有一个无头产品."
+    },
+    {
+      "start": 300.37,
+      "end": 302.81,
+      "en": "And actually I think that makes even more sense",
+      "zh": "其实我觉得这更有意义"
+    },
+    {
+      "start": 302.81,
+      "end": 304.41,
+      "en": "because it's much harder.",
+      "zh": "因为它更难。"
+    },
+    {
+      "start": 304.41,
+      "end": 306.13,
+      "en": "Like I think many users of Salesforce",
+      "zh": "就像我认为很多用户的销售力量"
+    },
+    {
+      "start": 306.13,
+      "end": 308.49,
+      "en": "are probably less technically adept,",
+      "zh": "技术上可能不太合适"
+    },
+    {
+      "start": 308.49,
+      "end": 310.25,
+      "en": "less likely to be building their own agents.",
+      "zh": "不太可能建立他们自己的代理人。"
+    },
+    {
+      "start": 310.25,
+      "end": 311.85,
+      "en": "Although there are many, many more people",
+      "zh": "虽然有很多人,但更多的人"
+    },
+    {
+      "start": 311.85,
+      "end": 313.01,
+      "en": "who are doing that Salesforce.",
+      "zh": "他们正在做 销售力量。"
+    },
+    {
+      "start": 313.01,
+      "end": 316.33,
+      "en": "Notion users tend, you know, all things being equal",
+      "zh": "概念使用者往往,你知道的, 所有的事情都是平等的"
+    },
+    {
+      "start": 316.33,
+      "end": 319.09,
+      "en": "are more, I'd say, tech savvy and more",
+      "zh": "更多,我会说, 技术精华和更多"
+    },
+    {
+      "start": 319.09,
+      "end": 320.81,
+      "en": "agentic as builders.",
+      "zh": "代理建筑师。"
+    },
+    {
+      "start": 320.81,
+      "end": 323.41,
+      "en": "And I think Notion is one of many other companies",
+      "zh": "我认为Notion是许多其他公司之一"
+    },
+    {
+      "start": 323.41,
+      "end": 325.09,
+      "en": "that has also tried to figure out, okay,",
+      "zh": "也试图想明白,好吗,"
+    },
+    {
+      "start": 325.09,
+      "end": 327.57,
+      "en": "what is it that I offer?",
+      "zh": "我提供什么?"
+    },
+    {
+      "start": 329.41,
+      "end": 331.85,
+      "en": "How do I make, you know, what APIs do I expose?",
+      "zh": "我该如何做,你知道, 我暴露什么API?"
+    },
+    {
+      "start": 331.85,
+      "end": 334.69,
+      "en": "I think Steven will talk more about MCP.",
+      "zh": "我想史蒂芬会多谈谈MCP"
+    },
+    {
+      "start": 334.69,
+      "end": 338.45,
+      "en": "And again, I think a lot of this is also getting caught up a little bit in nomenclature and like,",
+      "zh": "再说一遍,我觉得很多事情 也有点在名词上被卷入了"
+    },
+    {
+      "start": 338.45,
+      "end": 344.77,
+      "en": "okay, what are we calling things? And I think that's one thing, but I think the broader trend around how",
+      "zh": "好吧,我们叫什么来着? 我认为这是一件事, 但我认为更广泛的趋势如何"
+    },
+    {
+      "start": 344.77,
+      "end": 349.49,
+      "en": "agents access systems of record, I think is the bigger point.",
+      "zh": "特工进入记录系统, 我认为是更大的问题。"
+    },
+    {
+      "start": 349.49,
+      "end": 355.41,
+      "en": "Yeah, and for my understanding, it's also, I mean, it could also apply to something as simple as a chat",
+      "zh": "是的,我的理解是,它也,我的意思是,它也可以 应用到一个简单的事物,像聊天"
+    },
+    {
+      "start": 355.41,
+      "end": 361.09,
+      "en": "thought, you know, it's not necessarily just an API or an MCP server, you know, you could be,",
+      "zh": "想想,你知道, 它不一定只是API或MCP服务器, 你知道,你可以,"
+    },
+    {
+      "start": 361.09,
+      "end": 366.37,
+      "en": "you know, Salesforce acquired Slack a couple of years ago and like it could be something as",
+      "zh": "你知道,销售部队 收购Slack几年前, 像它可能是一种东西"
+    },
+    {
+      "start": 366.37,
+      "end": 372.85,
+      "en": "simple as like you you sort of interacting with with the CRM via chatbot. Totally. And I think I",
+      "zh": "就像你通过聊天机 和CRM互动一样 当然 我觉得我"
+    },
+    {
+      "start": 372.85,
+      "end": 378.29,
+      "en": "read somewhere that there has been like a 300% increase in Slack bot and Slack agent usage.",
+      "zh": "在某处读到,Slack bot和Slack代理的使用量增加了300%。"
+    },
+    {
+      "start": 378.29,
+      "end": 382.29,
+      "en": "Yeah. Which is essentially saying that you don't need to log into the Salesforce",
+      "zh": "对 也就是说你不需要进入销售部队"
+    },
+    {
+      "start": 382.29,
+      "end": 387.89,
+      "en": "e-co- yeah interface to get the data or whatever data it is. So yeah, it's essentially again,",
+      "zh": "e -co 所以,是的,它实质上再次,"
+    },
+    {
+      "start": 387.89,
+      "end": 393.33,
+      "en": "all these are agentic ways of accessing it versus the human needing to go in, log the data, or",
+      "zh": "所有这些都是利用它的手段 与人类需要进入、登录数据或"
+    },
+    {
+      "start": 394.37,
+      "end": 398.45,
+      "en": "from a read perspective, go back and say, okay, here we're like, here's this opportunity, here's",
+      "zh": "从一个读的视角,回去说,好吧,我们是这样的,这是这个机会,这是"
+    },
+    {
+      "start": 398.45,
+      "end": 404.77,
+      "en": "what happened, and look at themselves, and so that interface is less relevant.",
+      "zh": "发生了什么事,看看自己, 这样接口就不那么相关了。"
+    },
+    {
+      "start": 404.77,
+      "end": 409.09,
+      "en": "Yeah. And Stephen, do you have anything to add here just on the kind of like",
+      "zh": "对 史蒂芬,你有什么要补充的吗?"
+    },
+    {
+      "start": 409.09,
+      "end": 413.49,
+      "en": "definitional territory that we're covering right now or kind of this discussion?",
+      "zh": "我们现在所覆盖的定义领土 还是这种讨论?"
+    },
+    {
+      "start": 413.49,
+      "end": 418.54,
+      "en": "Well, sir, I mean, like we're in definitional hell right now, where",
+      "zh": "嗯,先生,我的意思是,像我们现在 在定义地狱 现在,在哪里"
+    },
+    {
+      "start": 418.54,
+      "end": 425.1,
+      "en": "is is, you know, part of a new wave of technology is you make up a lot of new",
+      "zh": "是,你知道,新浪科技的一部分 是,你编造了很多新的"
+    },
+    {
+      "start": 425.1,
+      "end": 430.3,
+      "en": "words for things that you kind of did before. And that's just a natural part of",
+      "zh": "你以前做过的事 这是自然的一部分"
+    },
+    {
+      "start": 430.3,
+      "end": 435.9,
+      "en": "technology evolution. But I actually think it's super important. Like first you have this,",
+      "zh": "技术演变。 但我真的觉得这很重要 就像你先有这个一样"
+    },
+    {
+      "start": 435.9,
+      "end": 442.54,
+      "en": "you know, a agent, which as far as I can tell right now is also a new word for program that",
+      "zh": "你知道,一个特工, 据我所知,现在也是一个新词 程序"
+    },
+    {
+      "start": 442.54,
+      "end": 445.54,
+      "en": "takes a very long time to run and might not finish.",
+      "zh": "需要很长的时间才能完成。"
+    },
+    {
+      "start": 445.54,
+      "end": 449.34,
+      "en": "And so yet that's just like a branding.",
+      "zh": "所以,这就像一个品牌。"
+    },
+    {
+      "start": 449.34,
+      "end": 452.26,
+      "en": "That's the best branding ever is to call a program",
+      "zh": "这是有史以来最好的品牌 叫做程序"
+    },
+    {
+      "start": 452.26,
+      "end": 455.7,
+      "en": "that takes a really long time, which we used to call a bug.",
+      "zh": "这需要很长的时间 我们以前称之为虫子"
+    },
+    {
+      "start": 455.7,
+      "end": 458.42,
+      "en": "It's now like the coolest new feature ever.",
+      "zh": "这就像有史以来最酷的新特色。"
+    },
+    {
+      "start": 458.42,
+      "end": 460.06,
+      "en": "And it's just now an agent.",
+      "zh": "而且现在只是个特工"
+    },
+    {
+      "start": 460.06,
+      "end": 463.94,
+      "en": "But in seriousness, the most interesting way I think",
+      "zh": "但说真的,我觉得最有趣的方式"
+    },
+    {
+      "start": 463.94,
+      "end": 467.91,
+      "en": "to think up what you're really talking about doing differently",
+      "zh": "想想你到底在说什么"
+    },
+    {
+      "start": 467.91,
+      "end": 471.39,
+      "en": "between an agent and an API is really,",
+      "zh": "特工和API之间真的"
+    },
+    {
+      "start": 471.39,
+      "end": 474.25,
+      "en": "What are you actually doing?",
+      "zh": "你们到底在做什么?"
+    },
+    {
+      "start": 474.25,
+      "end": 476.19,
+      "en": "What is the agent itself doing?",
+      "zh": "探员自己在做什么?"
+    },
+    {
+      "start": 476.19,
+      "end": 478.23,
+      "en": "Is it looking something up?",
+      "zh": "它在看东西吗?"
+    },
+    {
+      "start": 478.23,
+      "end": 480.53,
+      "en": "Because that's actually a pretty lightweight thing",
+      "zh": "因为那其实很轻"
+    },
+    {
+      "start": 480.53,
+      "end": 482.37,
+      "en": "that all systems are pretty good at.",
+      "zh": "所有的系统都很擅长。"
+    },
+    {
+      "start": 482.37,
+      "end": 486.85,
+      "en": "And in fact, many, many of the newly announced,",
+      "zh": "事实上,许多,许多新宣布,"
+    },
+    {
+      "start": 486.85,
+      "end": 490.49,
+      "en": "headless agent APIs are just look up.",
+      "zh": "无头特工API只是抬头看."
+    },
+    {
+      "start": 490.49,
+      "end": 493.13,
+      "en": "And you basically have a new interface",
+      "zh": "你基本上有一个新的界面"
+    },
+    {
+      "start": 493.13,
+      "end": 495.37,
+      "en": "to the old way to look something up,",
+      "zh": "以旧的方式寻找一些东西,"
+    },
+    {
+      "start": 495.37,
+      "end": 496.97,
+      "en": "which is a lot more forgiving,",
+      "zh": "这更能宽恕,"
+    },
+    {
+      "start": 496.97,
+      "end": 500.01,
+      "en": "a lot less UI goo and stuff like that.",
+      "zh": "更少的UIGO之类的东西。"
+    },
+    {
+      "start": 500.01,
+      "end": 503.37,
+      "en": "Then there's like, I wanna do something.",
+      "zh": "然后,我想做点什么。"
+    },
+    {
+      "start": 503.37,
+      "end": 506.61,
+      "en": "And that's where you get into very interesting issues",
+      "zh": "那就是你陷入非常有趣的问题的地方"
+    },
+    {
+      "start": 506.61,
+      "end": 509.57,
+      "en": "over like, well, if you do something,",
+      "zh": "如果你做点什么"
+    },
+    {
+      "start": 509.57,
+      "end": 512.17,
+      "en": "you have to be impersonating a specific person,",
+      "zh": "你必须冒充一个人,"
+    },
+    {
+      "start": 512.17,
+      "end": 513.97,
+      "en": "you have to have their credentials.",
+      "zh": "你必须有他们的证书。"
+    },
+    {
+      "start": 513.97,
+      "end": 516.33,
+      "en": "Like it's a very, is it another paid seat?",
+      "zh": "就像一个非常, 是另一个付费座位?"
+    },
+    {
+      "start": 516.33,
+      "end": 517.69,
+      "en": "Is it the same paid seat?",
+      "zh": "是同一个付费座位吗?"
+    },
+    {
+      "start": 517.69,
+      "end": 521.25,
+      "en": "You have all these interesting enterprise software issues",
+      "zh": "你有这些有趣的企业软件问题"
+    },
+    {
+      "start": 521.25,
+      "end": 524.69,
+      "en": "that come up if you actually wanna cause a change",
+      "zh": "如果你真的想改变的话"
+    },
+    {
+      "start": 524.69,
+      "end": 527.41,
+      "en": "to a system of record.",
+      "zh": "到记录系统。"
+    },
+    {
+      "start": 527.41,
+      "end": 531.67,
+      "en": "And then there's the third thing, which is analyze.",
+      "zh": "还有第三件事,那就是分析。"
+    },
+    {
+      "start": 531.67,
+      "end": 534.13,
+      "en": "And so analyze is more than look something up.",
+      "zh": "所以,分析不仅仅是看一些东西。"
+    },
+    {
+      "start": 534.13,
+      "end": 535.85,
+      "en": "It's actually look up a bunch of stuff.",
+      "zh": "它实际上在寻找一堆东西。"
+    },
+    {
+      "start": 535.85,
+      "end": 538.23,
+      "en": "It often involves multiple systems.",
+      "zh": "它常常涉及多个系统。"
+    },
+    {
+      "start": 538.23,
+      "end": 541.41,
+      "en": "And that seems very, very tuned to an agent",
+      "zh": "这似乎非常,非常调侃 代理"
+    },
+    {
+      "start": 541.41,
+      "end": 543.25,
+      "en": "because you're not time-mounted.",
+      "zh": "因为你没有时间"
+    },
+    {
+      "start": 543.25,
+      "end": 545.33,
+      "en": "You can spend energy, iterate.",
+      "zh": "你可以花精力,电梯。"
+    },
+    {
+      "start": 545.33,
+      "end": 547.75,
+      "en": "You can route it to different models",
+      "zh": "你可以通过它到不同的模型"
+    },
+    {
+      "start": 547.75,
+      "end": 550.19,
+      "en": "and get different answers back and compare them.",
+      "zh": "然后得到不同的答案 并比较它们。"
+    },
+    {
+      "start": 550.19,
+      "end": 554.67,
+      "en": "But it's also where hallucination really is a huge issue.",
+      "zh": "幻觉确实是一个大问题。"
+    },
+    {
+      "start": 554.67,
+      "end": 557.15,
+      "en": "Because if you're gonna go and analyze something,",
+      "zh": "因为如果你要去分析一些东西,"
+    },
+    {
+      "start": 557.15,
+      "end": 561.19,
+      "en": "you actually need a way to verify that everything,",
+      "zh": "你其实需要一种方法 来证实一切,"
+    },
+    {
+      "start": 561.19,
+      "end": 563.89,
+      "en": "every step of that analysis was correct.",
+      "zh": "分析的每一个步骤都是正确的。"
+    },
+    {
+      "start": 563.89,
+      "end": 566.67,
+      "en": "And so I think it's super interesting and important",
+      "zh": "所以我觉得这很有趣,很重要"
+    },
+    {
+      "start": 566.67,
+      "end": 570.63,
+      "en": "when you look at headless and agent, which are conflated,",
+      "zh": "当你们看见无头的、密探的时候,"
+    },
+    {
+      "start": 570.63,
+      "end": 572.47,
+      "en": "in you sort of have to figure out",
+      "zh": "{\\fn黑体\\fs22\\bord1\\shad0\\3aHBE\\4aH00\\fscx67\\fscy66\\2cHFFFFFF\\3cH808080}你必须想出办法"
+    },
+    {
+      "start": 572.47,
+      "end": 574.03,
+      "en": "what you're talking about,",
+      "zh": "你在说什么,"
+    },
+    {
+      "start": 574.03,
+      "end": 577.23,
+      "en": "because we're on different places in the evolution",
+      "zh": "因为我们在进化的不同地方"
+    },
+    {
+      "start": 577.23,
+      "end": 579.95,
+      "en": "and the learning curve and the deployment of agents",
+      "zh": "以及学习曲线和部署代理"
+    },
+    {
+      "start": 579.95,
+      "end": 583.11,
+      "en": "relative to sort of that three way matrix.",
+      "zh": "相对这三种模式而言"
+    },
+    {
+      "start": 583.11,
+      "end": 588.71,
+      "en": "dangerous. Yeah, I think this is actually a good lead up into a follow up question, which is kind",
+      "zh": "危险 是的,我觉得这是一个很好的线索 进入一个后续问题, 这是善良的"
+    },
+    {
+      "start": 588.71,
+      "end": 595.91,
+      "en": "of like historically what has made software sticky and tower agents starting to disrupt that. And I",
+      "zh": "就像历史上让软件粘贴 和塔的代理开始破坏它。 还有我"
+    },
+    {
+      "start": 596.47,
+      "end": 600.95,
+      "en": "leave that to either of you to answer. Maybe you guys can both kind of debate about that.",
+      "zh": "由你们自己回答 也许你们可以争论一下"
+    },
+    {
+      "start": 601.51,
+      "end": 607.59,
+      "en": "Yeah, I'd say there are many things that made software sticky, but a lot of it had to do with",
+      "zh": "是的,我想说有很多事情 让软件粘在一起, 但很多事情都和"
+    },
+    {
+      "start": 607.59,
+      "end": 612.45,
+      "en": "the fact that it was built around the way a human interacts.",
+      "zh": "它是围绕人类互动的方式构建的"
+    },
+    {
+      "start": 612.45,
+      "end": 617.64,
+      "en": "So the UI was sticky because the number of times",
+      "zh": "所以,UI是粘的,因为次数"
+    },
+    {
+      "start": 617.64,
+      "end": 621.32,
+      "en": "you had to read and write, the frequency of access,",
+      "zh": "你不得不读写, 访问的频率,"
+    },
+    {
+      "start": 621.32,
+      "end": 624.68,
+      "en": "the downstream workflows, all of the undocumented,",
+      "zh": "下游的工作流程, 所有无证,"
+    },
+    {
+      "start": 624.68,
+      "end": 627.88,
+      "en": "what we call SOPs or center operating procedures,",
+      "zh": "我们称之为SOP或中心操作程序,"
+    },
+    {
+      "start": 627.88,
+      "end": 629.98,
+      "en": "all the stuff that happened around the software",
+      "zh": "软件上发生的一切"
+    },
+    {
+      "start": 629.98,
+      "end": 632.36,
+      "en": "that got engrained in muscle memory and process,",
+      "zh": "被植入肌肉记忆和过程,"
+    },
+    {
+      "start": 632.36,
+      "end": 634.62,
+      "en": "and then external parties, et cetera.",
+      "zh": "然后是外部的派对等等"
+    },
+    {
+      "start": 634.62,
+      "end": 640.34,
+      "en": "So like a CRM may be sticky because a sales rep needs to go in and out of it all the time.",
+      "zh": "所以像一个客户关系管理系统 可能是粘糊糊的 因为销售代表需要 进出它所有的时间。"
+    },
+    {
+      "start": 640.34,
+      "end": 641.9,
+      "en": "They're used to interacting with Salesforce.",
+      "zh": "他们习惯于与销售力量互动."
+    },
+    {
+      "start": 641.9,
+      "end": 645.86,
+      "en": "A lot of times when like new VPs of sales come into our companies, they're like, they",
+      "zh": "很多时候,当像新的VP 销售进入我们的公司, 他们喜欢,他们"
+    },
+    {
+      "start": 645.86,
+      "end": 648.58,
+      "en": "mandate that Salesforce is there because they're used to using it.",
+      "zh": "授权销售力量在那里 因为他们习惯使用它。"
+    },
+    {
+      "start": 648.58,
+      "end": 649.58,
+      "en": "Their teams are used to using it.",
+      "zh": "他们的队伍习惯使用它."
+    },
+    {
+      "start": 650.78,
+      "end": 656.86,
+      "en": "And then there's, you know, finance may rely on the Salesforce output for billing and",
+      "zh": "还有,你知道的, 金融可能依赖于销售力的产出 开账单和"
+    },
+    {
+      "start": 656.9,
+      "end": 658.94,
+      "en": "upstream marketing is going to rely on it as well.",
+      "zh": "上游营销也会依赖它"
+    },
+    {
+      "start": 658.94,
+      "end": 660.22,
+      "en": "And so there's these dependencies.",
+      "zh": "所以有这些依赖。"
+    },
+    {
+      "start": 661.18,
+      "end": 664.14,
+      "en": "And these all are driving stickiness.",
+      "zh": "这些都是驱动粘性。"
+    },
+    {
+      "start": 664.14,
+      "end": 668.62,
+      "en": "But I think the other piece too is you need one single set of truth, right?",
+      "zh": "但我认为另一块也是你需要一套事实,对吧?"
+    },
+    {
+      "start": 668.62,
+      "end": 675.14,
+      "en": "You need to know an account is closed and who is working on it and all of that needs to be logged in one place.",
+      "zh": "你需要知道一个账户是关闭的, 谁在做它的工作, 所有这一切需要记录在一个地方。"
+    },
+    {
+      "start": 675.14,
+      "end": 693.74,
+      "en": "And I think if you go from CRM to say an ERP or payroll, that absolutely has even legal reasons and compliance reasons why you can't have numbers that are not being tracked as cleanly and correctly as an auditor might like, for example.",
+      "zh": "我认为如果你从客户关系管理系统说一个ERP或薪工单, 这绝对有法律理由和遵守理由, 为什么你不能有那些没有像审计师可能喜欢的那样 被完整和正确跟踪的数字。"
+    },
+    {
+      "start": 693.74,
+      "end": 700.54,
+      "en": "So anyways, these all drove stickiness and durability because you were used to using Salesforce,",
+      "zh": "所以不管怎样,这些都驱动粘度和耐久性 因为你习惯使用销售力,"
+    },
+    {
+      "start": 700.54,
+      "end": 705.58,
+      "en": "the whole ecosystem was using Salesforce, and it was the default option.",
+      "zh": "整个生态系统都在使用\"销售力量\",这是默认的选择."
+    },
+    {
+      "start": 705.58,
+      "end": 708.54,
+      "en": "Maybe there's one or two others in the market.",
+      "zh": "也许还有一两个在市场上。"
+    },
+    {
+      "start": 708.54,
+      "end": 712.3,
+      "en": "So I think historically those were some of the things that were driving stickiness.",
+      "zh": "因此,我认为从历史上看,这些是一些 驱动粘性的东西。"
+    },
+    {
+      "start": 712.3,
+      "end": 716.57,
+      "en": "Yeah, I mean, those are all exactly right.",
+      "zh": "是啊,我的意思是,这些都是完全正确。"
+    },
+    {
+      "start": 716.57,
+      "end": 722.53,
+      "en": "I think it's important to also consider that the most sticky thing you could do is actually",
+      "zh": "我认为重要的是要考虑 你所能做的最粘的一件事是"
+    },
+    {
+      "start": 722.53,
+      "end": 724.61,
+      "en": "collect money from a customer.",
+      "zh": "向顾客收钱"
+    },
+    {
+      "start": 724.61,
+      "end": 729.37,
+      "en": "If you're collecting money, it turns out it's really, really hard for them to stop sending",
+      "zh": "如果你在收钱,他们很难停止寄钱"
+    },
+    {
+      "start": 729.37,
+      "end": 733.73,
+      "en": "you money and it's really hard for them to figure out what to do if they stop sending",
+      "zh": "你的钱,他们很难想出 如果他们停止发送怎么办"
+    },
+    {
+      "start": 733.73,
+      "end": 735.21,
+      "en": "you money.",
+      "zh": "你的钱。"
+    },
+    {
+      "start": 735.21,
+      "end": 741.73,
+      "en": "And it sounds really trite, but the stickiest software is software that's getting used somewhere.",
+      "zh": "听起来很老套,但最黏糊糊的软件 是某个地方使用的软件。"
+    },
+    {
+      "start": 741.73,
+      "end": 746.09,
+      "en": "Then when you dig in and try to come up with reasons, well, it just depends on who you",
+      "zh": "然后,当你挖掘 并试图想出 原因,嗯,它只是取决于你是谁"
+    },
+    {
+      "start": 746.09,
+      "end": 747.85,
+      "en": "talk to in a company.",
+      "zh": "在公司里说话。"
+    },
+    {
+      "start": 747.85,
+      "end": 753.13,
+      "en": "You talk to the HIPAA compliance people in some company and they're going to tell you,",
+      "zh": "你和某个公司的HIPAA遵纪守法者谈话 他们会告诉你"
+    },
+    {
+      "start": 753.13,
+      "end": 758.45,
+      "en": "This is the software I have to use because it's like the most bestest HIPAA compliant software.",
+      "zh": "这是我必须使用的软件,因为它是最好的HIPAA兼容软件。"
+    },
+    {
+      "start": 758.45,
+      "end": 762.89,
+      "en": "If you talk to the administrators, you're going to hear about onboarding your users.",
+      "zh": "如果你和管理员交谈,你会听到关于录用用户的消息."
+    },
+    {
+      "start": 762.89,
+      "end": 768.29,
+      "en": "If you talk to the users, you're going to hear about muscle memory and keystrokes or labor",
+      "zh": "如果你和用户说话,你会听到关于肌肉记忆 键盘或劳动"
+    },
+    {
+      "start": 768.29,
+      "end": 771.05,
+      "en": "unions or whatever.",
+      "zh": "工会什么的。"
+    },
+    {
+      "start": 771.05,
+      "end": 776.73,
+      "en": "And so you have to be, you really want to get the software sold and that's your fastest",
+      "zh": "所以,你必须,你真的想 让软件出售,这是你最快的"
+    },
+    {
+      "start": 776.73,
+      "end": 778.61,
+      "en": "path to sticky.",
+      "zh": "路径粘着。"
+    },
+    {
+      "start": 778.61,
+      "end": 786.09,
+      "en": "And after that, it's sort of a winner's tale over what caused it to be sticky.",
+      "zh": "之后,它有点像一个胜利者的故事 是什么导致它的粘滞。"
+    },
+    {
+      "start": 786.09,
+      "end": 791.01,
+      "en": "And in fact, the best thing about sticky is if you're the rep for a company that you've",
+      "zh": "事实上,粘性最好的东西是 如果你是一个公司的代表,你已经"
+    },
+    {
+      "start": 791.01,
+      "end": 796.33,
+      "en": "sold something to and the company is threatening you like, hey, we're going to replace you.",
+      "zh": "卖了东西给公司 公司威胁你喜欢, 嘿,我们要取代你。"
+    },
+    {
+      "start": 796.33,
+      "end": 801.21,
+      "en": "You're just going to listen to them and you're going to find what's sticky.",
+      "zh": "你只要听他们的话 你会发现什么是粘的"
+    },
+    {
+      "start": 801.21,
+      "end": 805.09,
+      "en": "And if that works like three or four times across different accounts, then you've just",
+      "zh": "如果它工作 像三四次 通过不同的账户, 那么你只是"
+    },
+    {
+      "start": 805.09,
+      "end": 808.01,
+      "en": "told the tale as to what made the product sticky.",
+      "zh": "讲述了是什么让产品粘着的故事."
+    },
+    {
+      "start": 808.01,
+      "end": 811.73,
+      "en": "It doesn't matter what the PMs or what anybody else thought of.",
+      "zh": "首相和别人怎么想不重要"
+    },
+    {
+      "start": 811.73,
+      "end": 814.97,
+      "en": "It could be some crazy arcane thing.",
+      "zh": "这可能是一些疯狂的 弧性的东西。"
+    },
+    {
+      "start": 814.97,
+      "end": 819.49,
+      "en": "You know, I have stories of lots of sticky software and lots of arcane things.",
+      "zh": "你知道,我有很多关于粘性软件的故事 和很多电弧的东西。"
+    },
+    {
+      "start": 819.49,
+      "end": 826.69,
+      "en": "But like anyone who's ever tried to displace Microsoft Outlook as email, very quickly learned",
+      "zh": "但是,像任何人 谁曾经试图取代微软 Outlook 作为电子邮件,"
+    },
+    {
+      "start": 826.69,
+      "end": 834.33,
+      "en": "about delegate access and having calendars owned by multiple people and all of this crazy stuff.",
+      "zh": "关于授权访问 和拥有日历 拥有多人 和所有这些疯狂的东西。"
+    },
+    {
+      "start": 834.33,
+      "end": 838.83,
+      "en": "like I can tell you there was no meeting where we said, okay, let's figure out how to make",
+      "zh": "就像我告诉你,没有开会 在那里我们说,好吗, 让我们想出如何做"
+    },
+    {
+      "start": 838.83,
+      "end": 844.29,
+      "en": "the calendar of the sticky part of Outlook and make sure we handle recurring meeting exception",
+      "zh": "确保我们处理反复出现的会议例外"
+    },
+    {
+      "start": 844.29,
+      "end": 846.13,
+      "en": "handling well.",
+      "zh": "处理得很好。"
+    },
+    {
+      "start": 846.13,
+      "end": 850.05,
+      "en": "And then you go and you find out, you know, General Motors isn't going to displace like",
+      "zh": "然后你去,你发现,你知道, 通用汽车不会像"
+    },
+    {
+      "start": 850.05,
+      "end": 854.93,
+      "en": "600,000 seats because of the calendar or some crazy thing like that.",
+      "zh": "六十万个座位 因为日历之类的疯狂事"
+    },
+    {
+      "start": 854.93,
+      "end": 860.89,
+      "en": "And so you can, it's really amazing in enterprise software what causes sticky and how you can",
+      "zh": "所以,你可以,这真的惊人 在企业软件 是什么引起粘滞,如何你可以"
+    },
+    {
+      "start": 860.89,
+      "end": 862.97,
+      "en": "and actually capitalize it on it",
+      "zh": "并实际利用它"
+    },
+    {
+      "start": 862.97,
+      "end": 867.05,
+      "en": "when somebody threatens to take you out of the enterprise.",
+      "zh": "有人威胁要把你赶出企业"
+    },
+    {
+      "start": 867.05,
+      "end": 868.57,
+      "en": "I think there's a really good point there.",
+      "zh": "我觉得这话有道理"
+    },
+    {
+      "start": 868.57,
+      "end": 871.65,
+      "en": "And two things, inertia is a really powerful force.",
+      "zh": "有两件事,惯性是一种非常强大的力量。"
+    },
+    {
+      "start": 871.65,
+      "end": 872.65,
+      "en": "And then I think the other thing is,",
+      "zh": "然后我认为另外一件事是,"
+    },
+    {
+      "start": 872.65,
+      "end": 874.65,
+      "en": "yeah, nobody, when they're building the software",
+      "zh": "是啊,没有人,当他们 建造软件"
+    },
+    {
+      "start": 874.65,
+      "end": 876.93,
+      "en": "and they're thinking about this rubric we put together",
+      "zh": "他们想着我们拼凑起来的这个主题"
+    },
+    {
+      "start": 876.93,
+      "end": 878.97,
+      "en": "and like tick, tick, tick, we got all these features",
+      "zh": "像滴答,滴答,滴答,我们有所有这些特征"
+    },
+    {
+      "start": 878.97,
+      "end": 880.45,
+      "en": "that are gonna do all these things.",
+      "zh": "这会做所有这些事情。"
+    },
+    {
+      "start": 880.45,
+      "end": 882.69,
+      "en": "But I think the practical reality is also,",
+      "zh": "但我认为现实也是"
+    },
+    {
+      "start": 882.69,
+      "end": 886.37,
+      "en": "as software extends its tentacles across an organization",
+      "zh": "作为软件将其触角延伸至一个组织"
+    },
+    {
+      "start": 886.37,
+      "end": 889.09,
+      "en": "and it gets ingrained in people using it",
+      "zh": "并被人们使用它"
+    },
+    {
+      "start": 889.09,
+      "end": 891.33,
+      "en": "and they've been paying for it for a long time,",
+      "zh": "他们付了很长一段时间,"
+    },
+    {
+      "start": 891.33,
+      "end": 894.25,
+      "en": "it just seeps into how people are doing things.",
+      "zh": "它只是渗入 如何人们在做什么。"
+    },
+    {
+      "start": 894.25,
+      "end": 895.73,
+      "en": "And that's like hard to rip out.",
+      "zh": "这就像很难撕裂。"
+    },
+    {
+      "start": 895.73,
+      "end": 898.69,
+      "en": "Yeah, yeah, you even talk about this in your PC Mo",
+      "zh": "是啊,是啊,你甚至谈论这个 在你的PC Mo"
+    },
+    {
+      "start": 898.69,
+      "end": 902.95,
+      "en": "where there's sort of all of these invisible tacit",
+      "zh": "那种隐形的隐性"
+    },
+    {
+      "start": 902.95,
+      "end": 905.83,
+      "en": "sort of understandings about how to use different products",
+      "zh": "对如何使用不同产品的理解"
+    },
+    {
+      "start": 905.83,
+      "end": 908.69,
+      "en": "or things that are embedded both within the software",
+      "zh": "或同时嵌入软件内的东西"
+    },
+    {
+      "start": 908.69,
+      "end": 910.45,
+      "en": "but also within the people using them",
+      "zh": "在使用它们的人中,"
+    },
+    {
+      "start": 910.45,
+      "end": 914.21,
+      "en": "where it's just like it does become hard after a while",
+      "zh": "一会儿就变得很困难了"
+    },
+    {
+      "start": 914.21,
+      "end": 917.81,
+      "en": "to to extricate yourself from whatever ecosystem",
+      "zh": "让自己脱离任何生态系统"
+    },
+    {
+      "start": 917.81,
+      "end": 925.57,
+      "en": "happened to be. And in fact, Steven, I think you've even said the SaaS apocalypse is overblown.",
+      "zh": "恰巧是这样 而事实上,史蒂芬,我想你甚至说 萨斯启示录是过度的。"
+    },
+    {
+      "start": 925.57,
+      "end": 934.37,
+      "en": "You've run an essay called The Death of Software, nah, where you emphatically rejected this idea.",
+      "zh": "你做了一篇名为\"软件的死亡\"的散文, 不,你强烈反对这个想法。"
+    },
+    {
+      "start": 934.37,
+      "end": 939.17,
+      "en": "So maybe if you want to maybe just recount that piece a little bit for us.",
+      "zh": "所以,也许如果你想要 只是重新叙述 部分给我们。"
+    },
+    {
+      "start": 939.17,
+      "end": 945.57,
+      "en": "Well, I mean, SEMA Corota posed on SAP, which is sort of the ultimate, ultimate example of",
+      "zh": "我的意思是,SEMA Corota在SAP上展示, 这算是最终,最终的例子"
+    },
+    {
+      "start": 945.57,
+      "end": 952.37,
+      "en": "Sticky software. I mean, there is nothing the only software that's stickier than SAP is behind the scenes",
+      "zh": "粘性软件. 没有什么比SAP更粘的软件在幕后"
+    },
+    {
+      "start": 952.37,
+      "end": 957.37,
+      "en": "And it's the software that insurance companies wrote and they wrote all this software",
+      "zh": "这是保险公司写的软件 他们写的这些软件"
+    },
+    {
+      "start": 957.93,
+      "end": 964.73,
+      "en": "like 50 years ago or 75 years ago, and if you ever there's no replacing it like it just it",
+      "zh": "比如50年前或75年前 如果你再没有替代它"
+    },
+    {
+      "start": 965.17,
+      "end": 970.61,
+      "en": "In fact, whatever jokes come up about like businesses that are looking for cobalt programmers",
+      "zh": "事实上,任何笑话都可能出现 像企业寻找钴程序员"
+    },
+    {
+      "start": 970.61,
+      "end": 977.61,
+      "en": "It's to go and work on the insurance software that exists in every state of the union.",
+      "zh": "这是去工作 保险软件存在 在工会的每一个州。"
+    },
+    {
+      "start": 977.61,
+      "end": 984.41,
+      "en": "In many ways, what you're seeing, one of the biggest successes to date in Stripe, has been",
+      "zh": "在许多方面,你所看到的, 有史以来最大的成功之一 在史蒂芬,"
+    },
+    {
+      "start": 984.41,
+      "end": 991.85,
+      "en": "somebody actually went in, and for the first time in two generations, coded up the software",
+      "zh": "有人真的进去了 两代人第一次输入了软件"
+    },
+    {
+      "start": 991.85,
+      "end": 997.57,
+      "en": "to collect money from people, which itself had previously been an unsolved problem on",
+      "zh": "向人们募集钱财 这本身就是一个未解决的问题"
+    },
+    {
+      "start": 997.57,
+      "end": 1001.77,
+      "en": "on the scale of insurance, because nobody put together",
+      "zh": "保险规模,因为没有人会合"
+    },
+    {
+      "start": 1001.77,
+      "end": 1006.49,
+      "en": "the tax laws for every country, every jurisdiction,",
+      "zh": "每一个国家,每一个管辖区的税法,"
+    },
+    {
+      "start": 1006.49,
+      "end": 1009.17,
+      "en": "every locality, every border crossing,",
+      "zh": "每一个地方,每一个过境点,"
+    },
+    {
+      "start": 1009.17,
+      "end": 1014.17,
+      "en": "every currency exchange, like it's mind-blowing.",
+      "zh": "每一次货币兑换, 就像它的心跳。"
+    },
+    {
+      "start": 1014.97,
+      "end": 1016.93,
+      "en": "And so now that is the most sticky,",
+      "zh": "所以现在,这是最粘的,"
+    },
+    {
+      "start": 1016.93,
+      "end": 1019.65,
+      "en": "like that is not going anywhere, ever.",
+      "zh": "像那样是不会去任何地方,永远。"
+    },
+    {
+      "start": 1019.65,
+      "end": 1022.57,
+      "en": "Like it'll be like we'll be doing this podcast",
+      "zh": "就像我们做播客一样"
+    },
+    {
+      "start": 1022.57,
+      "end": 1025.89,
+      "en": "with like great-grandchildren, 100 years from now,",
+      "zh": "像曾孙子一样 一百年后"
+    },
+    {
+      "start": 1025.89,
+      "end": 1029.21,
+      "en": "talking about how sticky that experience was,",
+      "zh": "说到那段经历有多粘"
+    },
+    {
+      "start": 1029.21,
+      "end": 1031.73,
+      "en": "just like I told like, oh, you didn't know this,",
+      "zh": "就像我说过的,你不知道"
+    },
+    {
+      "start": 1031.73,
+      "end": 1035.21,
+      "en": "but the software that runs all state is older than me.",
+      "zh": "但运行所有状态的软件比我老。"
+    },
+    {
+      "start": 1035.21,
+      "end": 1037.17,
+      "en": "And it's not going anywhere.",
+      "zh": "而无所去."
+    },
+    {
+      "start": 1037.17,
+      "end": 1041.97,
+      "en": "And that's because these examples are ones that codified",
+      "zh": "这是因为这些例子 编纂"
+    },
+    {
+      "start": 1041.97,
+      "end": 1045.05,
+      "en": "an external force, and that external force",
+      "zh": "外部力量和外部力量"
+    },
+    {
+      "start": 1045.05,
+      "end": 1048.67,
+      "en": "was the regulatory body that they embraced.",
+      "zh": "是他们接纳的管理机构。"
+    },
+    {
+      "start": 1048.67,
+      "end": 1051.17,
+      "en": "The same as examples of SAP,",
+      "zh": "与SAP的例子相同,"
+    },
+    {
+      "start": 1051.17,
+      "end": 1053.81,
+      "en": "like it just codified a company.",
+      "zh": "就像它刚刚编纂了一个公司。"
+    },
+    {
+      "start": 1053.81,
+      "end": 1058.45,
+      "en": "And so like if you take SAP out of a large automobile",
+      "zh": "就像你把SAP从一辆大汽车里拿出来"
+    },
+    {
+      "start": 1058.45,
+      "end": 1062.89,
+      "en": "manufacturer, there's no automobile manufacturer left or",
+      "zh": "制造商,没有汽车制造商了"
+    },
+    {
+      "start": 1062.89,
+      "end": 1063.65,
+      "en": "Lamort.",
+      "zh": "兰莫特."
+    },
+    {
+      "start": 1063.65,
+      "end": 1066.09,
+      "en": "Like the company just evaporates.",
+      "zh": "像公司刚刚蒸发。"
+    },
+    {
+      "start": 1066.09,
+      "end": 1070.57,
+      "en": "Because the company is defined not just by purchasing the",
+      "zh": "因为公司的定义不只是购买"
+    },
+    {
+      "start": 1070.57,
+      "end": 1074.65,
+      "en": "software, not even by just using it, but by how they",
+      "zh": "软件,甚至不只是用它, 而是如何使用它"
+    },
+    {
+      "start": 1074.65,
+      "end": 1078.29,
+      "en": "codified the business rules into that product.",
+      "zh": "将商业规则编入该产品。"
+    },
+    {
+      "start": 1078.29,
+      "end": 1079.93,
+      "en": "I think it's a good point to double click on, because I",
+      "zh": "我想这是一个好点 双击,因为我"
+    },
+    {
+      "start": 1079.93,
+      "end": 1087.73,
+      "en": "I think misconception right now is that SAP, okay, well, you can just have Postgres database",
+      "zh": "我觉得现在的误解是SAP, 好吧,嗯,你可以有Postgres数据库"
+    },
+    {
+      "start": 1087.73,
+      "end": 1094.77,
+      "en": "and APIs and then BAM, you can replace SAP and that's absolutely not true.",
+      "zh": "和API,然后BAM, 你可以替换SAP,这绝对不是事实。"
+    },
+    {
+      "start": 1094.77,
+      "end": 1097.89,
+      "en": "I think partly, I mean, Stephen, I don't know if you want to elaborate and I'm happy to,",
+      "zh": "我想部分地,我的意思是,史蒂芬,我不知道你是否想 详细,我很高兴,"
+    },
+    {
+      "start": 1097.89,
+      "end": 1105.53,
+      "en": "but I think it's that piece around the logic and everything else that is captured in SAP",
+      "zh": "但我认为是那块 围绕逻辑和SAP所捕获的一切"
+    },
+    {
+      "start": 1105.53,
+      "end": 1108.01,
+      "en": "is way, way more important than the fact that like,",
+      "zh": "方式,比事实更重要,就像,"
+    },
+    {
+      "start": 1108.01,
+      "end": 1111.33,
+      "en": "oh, this data just happens to be in this database.",
+      "zh": "哦,这个数据正好在这个数据库里"
+    },
+    {
+      "start": 1111.33,
+      "end": 1114.89,
+      "en": "Because there's a reason why also SAP takes multiple years",
+      "zh": "因为SAP也需要好几年"
+    },
+    {
+      "start": 1114.89,
+      "end": 1117.45,
+      "en": "to implement and get, it's not because like,",
+      "zh": "执行和得到,这不是因为,"
+    },
+    {
+      "start": 1117.45,
+      "end": 1120.81,
+      "en": "oh, yes, the system integrators are slow and part of it,",
+      "zh": "哦,是的,系统集成器 缓慢和它的一部分,"
+    },
+    {
+      "start": 1120.81,
+      "end": 1125.81,
+      "en": "but it's customized to the way that business actually operates.",
+      "zh": "但它的定制 与企业的实际运作方式。"
+    },
+    {
+      "start": 1126.41,
+      "end": 1128.33,
+      "en": "And I think that's like an important part about",
+      "zh": "我觉得这就像一个重要部分"
+    },
+    {
+      "start": 1128.33,
+      "end": 1131.21,
+      "en": "why you can't just obscure away the software completely",
+      "zh": "为什么你不能完全掩盖软件"
+    },
+    {
+      "start": 1131.21,
+      "end": 1134.05,
+      "en": "from an intern to a database plus APIs.",
+      "zh": "从实习生到数据库加上API."
+    },
+    {
+      "start": 1134.05,
+      "end": 1135.05,
+      "en": "them.",
+      "zh": "他们。"
+    },
+    {
+      "start": 1135.05,
+      "end": 1140.91,
+      "en": "It's just so important because this is one of the things where startups look at enterprise",
+      "zh": "这太重要了 因为这是创业者看企业的其中一件事"
+    },
+    {
+      "start": 1140.91,
+      "end": 1144.87,
+      "en": "software and they think about it in terms of startup scale.",
+      "zh": "他们从启动规模的角度来考虑这个问题。"
+    },
+    {
+      "start": 1144.87,
+      "end": 1151.77,
+      "en": "They take something like mundane expense reporting and like, okay, well, we have 40 people and",
+      "zh": "他们拿的东西 像普通支出报告 喜欢,好吧,我们有40人"
+    },
+    {
+      "start": 1151.77,
+      "end": 1155.33,
+      "en": "one person can figure out expense reports for 40 people.",
+      "zh": "一个人可以算出40个人的支出报告。"
+    },
+    {
+      "start": 1155.33,
+      "end": 1158.41,
+      "en": "You could hire a human and be done with it.",
+      "zh": "你可以雇一个人类来做这件事"
+    },
+    {
+      "start": 1158.41,
+      "end": 1162.17,
+      "en": "Literally you come back from a truck, you dump the receipts in a bucket and one human",
+      "zh": "从卡车上回来,把收据扔进水桶和一个人"
+    },
+    {
+      "start": 1162.17,
+      "end": 1166.53,
+      "en": "rifles through them and the expense supporting problem goes away. Or you say, oh, forget",
+      "zh": "冲锋枪通过它们,支持开支问题就消失了。 或者你说,哦,忘了"
+    },
+    {
+      "start": 1166.53,
+      "end": 1171.21,
+      "en": "the human, we'll just all take pictures of our receipts and OCR it and categorize it and",
+      "zh": "人类,我们只拍下我们的收据 和OCR,然后分类"
+    },
+    {
+      "start": 1171.21,
+      "end": 1179.13,
+      "en": "the whole thing will go away. And that's fine until you have 100,000 people in 20 countries",
+      "zh": "这一切都会消失。 这很好,直到你有10万人 在20个国家"
+    },
+    {
+      "start": 1179.13,
+      "end": 1183.69,
+      "en": "with different national laws and policies about business expense and all of this. And",
+      "zh": "在商业开支方面有不同的国家法律和政策。 还有"
+    },
+    {
+      "start": 1183.69,
+      "end": 1189.17,
+      "en": "then you overlay corporate policies and the whole thing just and then your business is",
+      "zh": "然后把公司政策 和整个事情 刚刚和然后你的业务是"
+    },
+    {
+      "start": 1189.17,
+      "end": 1196.77,
+      "en": "just codified that way. And you can't replace it. Back in the late 1990s, we now is sort",
+      "zh": "刚编纂成这样。 而你不能替换它。 回到1990年代后期,我们现在有点"
+    },
+    {
+      "start": 1196.77,
+      "end": 1201.05,
+      "en": "of the godfather of enterprise software Larry Ellison at Oracle. Back then they were only",
+      "zh": "企业软件的教父Larry Ellison 在甲骨文。 当时他们只是"
+    },
+    {
+      "start": 1201.05,
+      "end": 1206.81,
+      "en": "a database company and entering the world of NetSuite, ERP and all this. But he went",
+      "zh": "进入NetSuite、ERP和这一切的世界。 不过他去了"
+    },
+    {
+      "start": 1206.81,
+      "end": 1214.37,
+      "en": "on a rant, a multi-year rant about how enterprise software was so stupid because everybody customized",
+      "zh": "说企业软件太蠢了 因为每个人都定制了"
+    },
+    {
+      "start": 1214.37,
+      "end": 1221.03,
+      "en": "And he had this saying that just said, businesses should just stick with the 80% solution and they should just",
+      "zh": "他有一句话说 企业应该坚持80%的解决方案"
+    },
+    {
+      "start": 1221.65,
+      "end": 1227.49,
+      "en": "use whatever works like 80% of the time and most enterprise people were like, well, hey",
+      "zh": "80%的时间都用在工作上 大多数企业的人喜欢,嗯,嘿"
+    },
+    {
+      "start": 1227.49,
+      "end": 1235.17,
+      "en": "you're just talking your book because your software only does 80% of what I need. But B, like that's that's just not how it works.",
+      "zh": "你在谈论你的书 因为你的软件只做我需要的80% 但是,B,就像这不是它是如何工作的。"
+    },
+    {
+      "start": 1235.17,
+      "end": 1239.97,
+      "en": "Like if you take the auto industry and you just take the top 10 companies and autos,",
+      "zh": "就像你拿汽车行业,你只拿前十家公司和汽车,"
+    },
+    {
+      "start": 1239.97,
+      "end": 1246.97,
+      "en": "They all, you know, putting aside EV versus gas or whatever, they all just make cars,",
+      "zh": "他们都把EV和煤气放在一起 他们都只是制造汽车"
+    },
+    {
+      "start": 1246.97,
+      "end": 1251.37,
+      "en": "which is a lot of known technology with assembly lines and workers.",
+      "zh": "这是很多已知的技术 装配线和工人。"
+    },
+    {
+      "start": 1251.37,
+      "end": 1257.37,
+      "en": "Like what differentiates the companies and what differentiates them is how they operate",
+      "zh": "喜欢什么区别 公司和区别 他们是如何运作的"
+    },
+    {
+      "start": 1257.37,
+      "end": 1262.73,
+      "en": "and the internal processes to decide what car to make, how many more materials to buy,",
+      "zh": "以及决定要制造什么汽车的内部程序,以及需要购买多少材料,"
+    },
+    {
+      "start": 1262.73,
+      "end": 1267.81,
+      "en": "what currencies to hedge, how many people to hire, when to introduce a new product line.",
+      "zh": "什么样的货币可以套期, 多少人可以雇佣, 什么时候引入一个新的产品线。"
+    },
+    {
+      "start": 1267.81,
+      "end": 1275.28,
+      "en": "All of that is enterprise resource management and planning and how is all that done?",
+      "zh": "所有这一切都是企业资源管理和规划,以及所有这一切是如何做到的?"
+    },
+    {
+      "start": 1275.28,
+      "end": 1276.8,
+      "en": "It's all in SAP.",
+      "zh": "都写在SAP上."
+    },
+    {
+      "start": 1276.8,
+      "end": 1281.8,
+      "en": "So those companies are effectively run by people sitting in conference rooms looking",
+      "zh": "所以这些公司都是由坐在会议室里的人管理"
+    },
+    {
+      "start": 1281.8,
+      "end": 1284.98,
+      "en": "at SAP screens.",
+      "zh": "在SAP屏幕。"
+    },
+    {
+      "start": 1284.98,
+      "end": 1290.95,
+      "en": "And the difference between Florida and Toyota and General Motors and Daimler are just, are",
+      "zh": "佛罗里达和丰田的区别 通用汽车和戴姆勒的区别"
+    },
+    {
+      "start": 1290.95,
+      "end": 1294.38,
+      "en": "not just that they're looking at the same screen.",
+      "zh": "不只是他们在看同一个屏幕"
+    },
+    {
+      "start": 1294.38,
+      "end": 1299.98,
+      "en": "that they chose which screens to look at, which customizations to make in those screens,",
+      "zh": "他们选择了要看的屏幕,"
+    },
+    {
+      "start": 1299.98,
+      "end": 1305.38,
+      "en": "and then they go and they buy steel and aluminum and wire and dashboards and radios from all",
+      "zh": "然后他们去买钢铁和铝 电线和仪表板 还有收音机"
+    },
+    {
+      "start": 1305.38,
+      "end": 1306.78,
+      "en": "the same places.",
+      "zh": "同样的地方。"
+    },
+    {
+      "start": 1306.78,
+      "end": 1313.94,
+      "en": "And so it's a I just think that people wildly underestimate the level of how of sophistication",
+      "zh": "所以,我只是觉得 人们疯狂地低估了 如何精密的水平"
+    },
+    {
+      "start": 1313.94,
+      "end": 1316.58,
+      "en": "that customers apply to this software.",
+      "zh": "客户申请这个软件。"
+    },
+    {
+      "start": 1316.58,
+      "end": 1320.98,
+      "en": "Like when back when we were first starting to get Excel used in companies, you'll laugh",
+      "zh": "就像当我们第一次开始使用 Excel 在公司,你会笑"
+    },
+    {
+      "start": 1320.98,
+      "end": 1321.98,
+      "en": "at this.",
+      "zh": "这个"
+    },
+    {
+      "start": 1321.98,
+      "end": 1325.38,
+      "en": "Like the we used to do these little visits and we go visit bankers.",
+      "zh": "就像我们以前经常去拜访银行家一样"
+    },
+    {
+      "start": 1325.38,
+      "end": 1329.74,
+      "en": "And so we're sitting in Goldman Sachs and we're telling you about Excel is better.",
+      "zh": "所以我们坐在高盛 告诉你Excel更好"
+    },
+    {
+      "start": 1329.74,
+      "end": 1331.4,
+      "en": "The Lotus 123, blah, blah.",
+      "zh": "莲华123等."
+    },
+    {
+      "start": 1331.4,
+      "end": 1332.42,
+      "en": "That's super old.",
+      "zh": "这是超旧的。"
+    },
+    {
+      "start": 1332.48,
+      "end": 1334.7,
+      "en": "You don't even know what one, two, three, oh, yes.",
+      "zh": "你甚至不知道什么是一,二,三,哦,是的。"
+    },
+    {
+      "start": 1335.54,
+      "end": 1339.98,
+      "en": "And the guy at Goldman looked at us and said, I don't think you understand.",
+      "zh": "Goldman那个家伙看着我们说 我想你不明白"
+    },
+    {
+      "start": 1340.68,
+      "end": 1343.18,
+      "en": "We make more money from Excel than you do.",
+      "zh": "我们从Excel赚的钱比你多"
+    },
+    {
+      "start": 1345.2,
+      "end": 1348.3,
+      "en": "And, and we're just, and we're like, what is he talking about?",
+      "zh": "而且,我们只是,我们一样, 他在说什么?"
+    },
+    {
+      "start": 1348.56,
+      "end": 1349.88,
+      "en": "Like it made no sense to us.",
+      "zh": "好像这对我们毫无意义"
+    },
+    {
+      "start": 1349.88,
+      "end": 1350.98,
+      "en": "And then we started thinking about it.",
+      "zh": "然后我们开始思考。"
+    },
+    {
+      "start": 1350.98,
+      "end": 1356.62,
+      "en": "And it's like, well, we sell Excel to Morgan Stanley and JP Chase and everybody else.",
+      "zh": "我们把Excel卖给摩根斯坦利和JP大通 还有其他人"
+    },
+    {
+      "start": 1356.62,
+      "end": 1362.58,
+      "en": "And the Goldman was saying is their application of Excel is so differentiated.",
+      "zh": "Goldman说,他们应用的Excel 是有区别的。"
+    },
+    {
+      "start": 1362.58,
+      "end": 1365.6,
+      "en": "And that's, and that wasn't just people typing.",
+      "zh": "这不仅仅是人们打字。"
+    },
+    {
+      "start": 1365.6,
+      "end": 1366.64,
+      "en": "They built add-ins.",
+      "zh": "他们加装了"
+    },
+    {
+      "start": 1366.64,
+      "end": 1368.1,
+      "en": "They wrote all this code.",
+      "zh": "密码都是他们写的"
+    },
+    {
+      "start": 1368.1,
+      "end": 1369.4,
+      "en": "They defined their work process.",
+      "zh": "他们确定了他们的工作程序。"
+    },
+    {
+      "start": 1369.4,
+      "end": 1374.2,
+      "en": "So there's this wild underestimation about like you could vibe code your way into enterprise",
+      "zh": "所以,有一个疯狂的低估 关于像 你可以感觉 密码你的方式进入企业"
+    },
+    {
+      "start": 1374.2,
+      "end": 1375.2,
+      "en": "software.",
+      "zh": "软件。"
+    },
+    {
+      "start": 1375.2,
+      "end": 1380.64,
+      "en": "I was at a dinner last night and there was someone there who was like the, had a rev",
+      "zh": "我昨晚在吃晚饭 那儿有人喜欢吃 吃晚饭"
+    },
+    {
+      "start": 1380.64,
+      "end": 1384.64,
+      "en": "I don't know, maybe growth stage startup and his task,",
+      "zh": "我不知道,也许成长阶段 启动和他的任务,"
+    },
+    {
+      "start": 1384.64,
+      "end": 1386.64,
+      "en": "this is like a thousand plus person company",
+      "zh": "这就像千人公司"
+    },
+    {
+      "start": 1386.64,
+      "end": 1389.92,
+      "en": "was to rebuild their Salesforce instance internally.",
+      "zh": "是为了重建他们的销售力量公司"
+    },
+    {
+      "start": 1389.92,
+      "end": 1392.76,
+      "en": "And, you know, I think he's like,",
+      "zh": "而且,你知道,我觉得他喜欢,"
+    },
+    {
+      "start": 1392.76,
+      "end": 1394.24,
+      "en": "oh, well, you know, we know all the fields,",
+      "zh": "哦,嗯,你知道, 我们知道所有的领域,"
+    },
+    {
+      "start": 1394.24,
+      "end": 1395.4,
+      "en": "we can import all the data.",
+      "zh": "我们可以导入所有的数据。"
+    },
+    {
+      "start": 1395.4,
+      "end": 1399.4,
+      "en": "And I was like, that's not really the part that's tough, right?",
+      "zh": "我当时想,这不是真正的 部分是艰难的,对不对?"
+    },
+    {
+      "start": 1399.4,
+      "end": 1402.88,
+      "en": "It's, well, how are you deciding what,",
+      "zh": "你如何决定"
+    },
+    {
+      "start": 1402.88,
+      "end": 1406.16,
+      "en": "like what gets captured, how the whole organizational lines",
+      "zh": "像什么被抓住, 如何整个组织线"
+    },
+    {
+      "start": 1406.16,
+      "end": 1409.92,
+      "en": "around it, and then who's gonna maintain this also over time?",
+      "zh": "周围,然后谁会保持这一点 同时一段时间?"
+    },
+    {
+      "start": 1409.92,
+      "end": 1412.52,
+      "en": "I think that's like a piece that just gets falls off.",
+      "zh": "我觉得这就像一块 刚刚掉下来。"
+    },
+    {
+      "start": 1412.52,
+      "end": 1414.64,
+      "en": "You can vibe code a CRM.",
+      "zh": "你可以发出CRM的信号"
+    },
+    {
+      "start": 1414.64,
+      "end": 1417.08,
+      "en": "We've all vibe coded projects that have already gotten stale",
+      "zh": "我们都在编解码 已经过时了"
+    },
+    {
+      "start": 1417.08,
+      "end": 1419.16,
+      "en": "and we haven't touched again because it's painful",
+      "zh": "我们再也没有碰过 因为很痛苦"
+    },
+    {
+      "start": 1419.16,
+      "end": 1423.0,
+      "en": "and it takes time and needs to adapt the business.",
+      "zh": "并且需要时间 需要调整企业。"
+    },
+    {
+      "start": 1423.0,
+      "end": 1425.4,
+      "en": "And Sima, you've also written about how,",
+      "zh": "还有西玛,你还写道,"
+    },
+    {
+      "start": 1425.4,
+      "end": 1429.48,
+      "en": "you know, there's an entire ecosystem of startups now",
+      "zh": "你知道,有一个完整的生态系统 初创企业现在"
+    },
+    {
+      "start": 1429.48,
+      "end": 1432.0,
+      "en": "that are just building on top of SAP",
+      "zh": "在SAP的顶部"
+    },
+    {
+      "start": 1432.0,
+      "end": 1436.16,
+      "en": "and that are, you know, like sort of building around",
+      "zh": "而这就像,你知道, 那种建筑周围"
+    },
+    {
+      "start": 1436.16,
+      "end": 1438.48,
+      "en": "all of the kind of headache-inducing stuff",
+      "zh": "那种令人头痛的东西"
+    },
+    {
+      "start": 1438.48,
+      "end": 1440.7,
+      "en": "and but still using SAP.",
+      "zh": "但仍使用SAP."
+    },
+    {
+      "start": 1440.7,
+      "end": 1442.98,
+      "en": "So like to both of your points earlier,",
+      "zh": "所以,喜欢你们两个 两点之前,"
+    },
+    {
+      "start": 1442.98,
+      "end": 1447.22,
+      "en": "like these like legacy SaaS systems",
+      "zh": "像这些像遗留的SaaS系统"
+    },
+    {
+      "start": 1447.22,
+      "end": 1448.78,
+      "en": "are just like so deeply embedded",
+      "zh": "就像深深地嵌入"
+    },
+    {
+      "start": 1448.78,
+      "end": 1451.66,
+      "en": "that the newer insurgents are just coming",
+      "zh": "新的叛乱分子来了"
+    },
+    {
+      "start": 1451.66,
+      "end": 1454.58,
+      "en": "and they're, you know, building on top and around them",
+      "zh": "他们正在,你知道, 在他们上面和周围建设"
+    },
+    {
+      "start": 1454.58,
+      "end": 1457.02,
+      "en": "rather than kind of like trying to rip out",
+      "zh": "而不是那种试图撕裂"
+    },
+    {
+      "start": 1457.02,
+      "end": 1459.18,
+      "en": "and get people to migrate completely.",
+      "zh": "让人们完全迁移"
+    },
+    {
+      "start": 1459.18,
+      "end": 1461.58,
+      "en": "A lot of what we're seeing AI being used today",
+      "zh": "我们今天看到很多AI被使用的东西"
+    },
+    {
+      "start": 1461.58,
+      "end": 1464.82,
+      "en": "is for is how do you make it like,",
+      "zh": "是因为你是如何让它像,"
+    },
+    {
+      "start": 1464.82,
+      "end": 1466.74,
+      "en": "I think the word is often used like conversational",
+      "zh": "我想这个词经常被用在谈话上"
+    },
+    {
+      "start": 1466.74,
+      "end": 1468.38,
+      "en": "or like how do you pull the information out",
+      "zh": "或喜欢如何拔出信息"
+    },
+    {
+      "start": 1468.38,
+      "end": 1470.64,
+      "en": "to actually make it more usable.",
+      "zh": "让它更有用"
+    },
+    {
+      "start": 1470.64,
+      "end": 1473.18,
+      "en": "How do you retrieve the information from SAP",
+      "zh": "如何从SAP中获取信息"
+    },
+    {
+      "start": 1473.18,
+      "end": 1476.26,
+      "en": "without needing to go run a SQL query",
+      "zh": "不需要运行 SQL 查询"
+    },
+    {
+      "start": 1476.26,
+      "end": 1478.38,
+      "en": "and get all the information or look at a bunch of screens?",
+      "zh": "得到所有的信息 还是看一堆屏幕?"
+    },
+    {
+      "start": 1478.38,
+      "end": 1480.26,
+      "en": "It's like, OK, well, if I want to be able to connect",
+      "zh": "这就像,OK,嗯,如果我想能够连接"
+    },
+    {
+      "start": 1480.26,
+      "end": 1484.42,
+      "en": "to Stephen's point or analyze three different sets",
+      "zh": "到Stephen的点 或分析三套不同的"
+    },
+    {
+      "start": 1484.42,
+      "end": 1485.82,
+      "en": "of tables and different geographies,",
+      "zh": "表格和不同的地理图,"
+    },
+    {
+      "start": 1485.82,
+      "end": 1489.66,
+      "en": "can I quickly query that in a natural language way?",
+      "zh": "我能用自然的语言快速地问一下吗?"
+    },
+    {
+      "start": 1489.66,
+      "end": 1491.5,
+      "en": "Can I get reports automatically generated",
+      "zh": "能自动生成报告吗?"
+    },
+    {
+      "start": 1491.5,
+      "end": 1493.14,
+      "en": "that are customized to me without needing",
+      "zh": "那些适合我而不需要的东西"
+    },
+    {
+      "start": 1493.14,
+      "end": 1497.26,
+      "en": "to go back through the SAP customization process?",
+      "zh": "要通过 SAP 定制程序返回吗 ?"
+    },
+    {
+      "start": 1497.26,
+      "end": 1503.42,
+      "en": "And I think that usability layer is indicative of what's happening out with software in general,",
+      "zh": "我认为,可用性层 显示 软件发生的总体,"
+    },
+    {
+      "start": 1503.42,
+      "end": 1507.56,
+      "en": "which is accessing the UI is optional.",
+      "zh": "访问 UI 是可选的。"
+    },
+    {
+      "start": 1507.56,
+      "end": 1512.46,
+      "en": "And going back to the Slackbots point, you want the information delivered to you versus",
+      "zh": "回到Slackbots点,你想要给你的信息,对"
+    },
+    {
+      "start": 1512.46,
+      "end": 1515.1,
+      "en": "needing to go to the UI.",
+      "zh": "需要去UI。"
+    },
+    {
+      "start": 1515.1,
+      "end": 1520.26,
+      "en": "But the data and the business logic inside, either it's SAP or something else that's being",
+      "zh": "但里面的数据和业务逻辑 要么是SAP 要么是别的"
+    },
+    {
+      "start": 1520.26,
+      "end": 1526.18,
+      "en": "replacing it that's building it, but that all still needs to exist one way or another.",
+      "zh": "替换它,它正在建设, 但所有仍然需要存在 一种或另一种方式。"
+    },
+    {
+      "start": 1526.18,
+      "end": 1532.1,
+      "en": "That's an incredibly important point is for folks to take away, which is that the biggest",
+      "zh": "这是一个令人难以置信的要点 是人们带走, 这是最大的"
+    },
+    {
+      "start": 1532.1,
+      "end": 1539.06,
+      "en": "thing about enterprise software is it almost always does what somebody wants it to do.",
+      "zh": "企业软件几乎总是 做别人想要它做的。"
+    },
+    {
+      "start": 1539.06,
+      "end": 1541.86,
+      "en": "They just don't know how to make it do that.",
+      "zh": "他们只是不知道如何让它做到这一点。"
+    },
+    {
+      "start": 1541.86,
+      "end": 1545.3,
+      "en": "There's no report that SAP can't generate.",
+      "zh": "没有SAP无法生成的报告."
+    },
+    {
+      "start": 1545.3,
+      "end": 1550.86,
+      "en": "No graph, no chart, no analysis or whatever, but you just can't figure it out.",
+      "zh": "没有图表,没有图表,没有分析什么的, 但你只是无法想明白。"
+    },
+    {
+      "start": 1550.86,
+      "end": 1554.22,
+      "en": "Or maybe it's configured so you don't have permissions or something.",
+      "zh": "或者,也许它是配置 这样你没有权限什么的。"
+    },
+    {
+      "start": 1554.22,
+      "end": 1559.98,
+      "en": "So the way to think of it is in enterprise software, the two most frequently used features",
+      "zh": "企业软件中最常用的两个功能"
+    },
+    {
+      "start": 1559.98,
+      "end": 1564.62,
+      "en": "exist in no enterprise software natively.",
+      "zh": "企业软件不存在。"
+    },
+    {
+      "start": 1564.62,
+      "end": 1571.68,
+      "en": "It's export to Excel and export as CSV or PDF, you pick.",
+      "zh": "出口到Excel 出口作为CSV或PDF,你选."
+    },
+    {
+      "start": 1571.68,
+      "end": 1575.8,
+      "en": "And so all enterprise software, the first thing they have to do that's missing when they",
+      "zh": "所以所有的企业软件, 他们必须做的第一件事 当他们"
+    },
+    {
+      "start": 1575.8,
+      "end": 1580.28,
+      "en": "show up and they do that first demo is the customer say, does it do export to Excel or",
+      "zh": "出现,他们做的第一个演示 是客户说,它是出口到Excel或"
+    },
+    {
+      "start": 1580.28,
+      "end": 1583.88,
+      "en": "does it do export to CSV or PDF?",
+      "zh": "它是要导出到 CSV 还是 PDF ?"
+    },
+    {
+      "start": 1583.88,
+      "end": 1589.88,
+      "en": "then you know you haven't escaped valve to do the thing that you couldn't do before on analysis.",
+      "zh": "那你知道没有逃出阀门 做你之前无法做的分析"
+    },
+    {
+      "start": 1590.76,
+      "end": 1598.68,
+      "en": "And so what's so cool about where we are today is that now with the language models,",
+      "zh": "所以,今天我们这里最酷的是 现在语言模型,"
+    },
+    {
+      "start": 1598.68,
+      "end": 1604.28,
+      "en": "you have this incredible way to actually consume those in much easier than you could before. If you",
+      "zh": "你有一个不可思议的方式 真正消耗这些 比你以前容易得多。 如果你们"
+    },
+    {
+      "start": 1604.28,
+      "end": 1610.68,
+      "en": "think about PDF, like the old way used to be like, okay, I want to figure out like exception handling,",
+      "zh": "想想PDF,就像以前一样, 好吧,我想想出一个例外处理方法,"
+    },
+    {
+      "start": 1610.68,
+      "end": 1616.44,
+      "en": "some report that my system emits, declined expense reports or whatever.",
+      "zh": "有人报告说 我的系统 发送, 拒绝支出报告或什么的。"
+    },
+    {
+      "start": 1616.44,
+      "end": 1621.88,
+      "en": "I want to do it over some weird time period or across different currencies that it doesn't",
+      "zh": "我想在一段怪异的时期 或不同货币之间做,但不会"
+    },
+    {
+      "start": 1621.88,
+      "end": 1625.48,
+      "en": "handle or some weirdness that you can't figure out the UI.",
+      "zh": "手柄或一些怪异,你无法找出UI。"
+    },
+    {
+      "start": 1625.48,
+      "end": 1632.06,
+      "en": "Now you can export them all and take this 20 PDFs and put them in a model and do a bunch",
+      "zh": "现在你可以把它们都输出出来 拿走这20个PDF 然后放进模型里 然后做一堆"
+    },
+    {
+      "start": 1632.06,
+      "end": 1635.1,
+      "en": "of analysis that you couldn't do before.",
+      "zh": "你以前无法做的分析"
+    },
+    {
+      "start": 1635.1,
+      "end": 1639.5,
+      "en": "Or if you did, it was all copy and paste in this mundane thing.",
+      "zh": "或者,如果你做了, 这一切都复制和粘贴 在这个普通的事情。"
+    },
+    {
+      "start": 1639.5,
+      "end": 1643.74,
+      "en": "that seem a lot about these sort of, I don't remember the word we use, but these ad hoc business",
+      "zh": "这似乎很多 关于这种, 我不记得 我们使用的词,"
+    },
+    {
+      "start": 1643.74,
+      "end": 1649.1,
+      "en": "processes are the ones that really become the most interesting because they're interesting because",
+      "zh": "过程是真正成为最有趣的 因为它们很有趣 因为"
+    },
+    {
+      "start": 1649.1,
+      "end": 1654.38,
+      "en": "that's how a business runs, but they're also interesting because those are the next products,",
+      "zh": "企业就是这样经营的 但他们也很有趣 因为这些是下一个产品"
+    },
+    {
+      "start": 1655.02,
+      "end": 1660.62,
+      "en": "like those are the next companies that people start. CRM used to just be a spreadsheet.",
+      "zh": "像那些是下一个公司 人们开始。 CRM 曾经只是一个电子表格 。"
+    },
+    {
+      "start": 1663.03,
+      "end": 1666.79,
+      "en": "If you're in a business and you were account manager and you kept track of your accounts,",
+      "zh": "如果你在做生意,你是账户经理 你跟踪你的账户,"
+    },
+    {
+      "start": 1666.79,
+      "end": 1668.95,
+      "en": "you've just kept track of it in Excel.",
+      "zh": "你刚刚在Excel追踪到"
+    },
+    {
+      "start": 1668.95,
+      "end": 1672.93,
+      "en": "Then a company got started to do that.",
+      "zh": "然后一家公司开始这样做。"
+    },
+    {
+      "start": 1672.93,
+      "end": 1674.93,
+      "en": "It wasn't Salesforce first,",
+      "zh": "它不是销售力量先,"
+    },
+    {
+      "start": 1674.93,
+      "end": 1677.29,
+      "en": "it was the predecessor called Siebel.",
+      "zh": "之前叫西贝尔的"
+    },
+    {
+      "start": 1677.29,
+      "end": 1679.97,
+      "en": "Then people like, oh,",
+      "zh": "然后人们喜欢,哦,"
+    },
+    {
+      "start": 1679.97,
+      "end": 1682.66,
+      "en": "we should make a whole company that does this.",
+      "zh": "我们应该让整个公司做这件事"
+    },
+    {
+      "start": 1682.66,
+      "end": 1686.58,
+      "en": "That's what some of these apps are that you're seeing using",
+      "zh": "这就是这些应用程序的所在 你看到的是使用"
+    },
+    {
+      "start": 1686.58,
+      "end": 1691.5,
+      "en": "language models and interfaces that are chat to SAP or to Salesforce.",
+      "zh": "语言模型和接口,这些语言模型和接口正在和SAP或Salesforce聊天。"
+    },
+    {
+      "start": 1691.5,
+      "end": 1695.42,
+      "en": "They are just trying to take advantage of what the LMs are really good at,",
+      "zh": "他们只是想利用 LMs 真正擅长的东西"
+    },
+    {
+      "start": 1695.42,
+      "end": 1698.62,
+      "en": "which is synthesizing and orchestrating unstructured information.",
+      "zh": "它正在合成和整理无结构的信息。"
+    },
+    {
+      "start": 1699.18,
+      "end": 1704.54,
+      "en": "Yeah, I think we also forgot that like Salesforce is like really an enforcement mechanism for",
+      "zh": "是啊,我想我们也忘了,像销售部队 是一个真正的执行机制"
+    },
+    {
+      "start": 1705.66,
+      "end": 1710.62,
+      "en": "the go-to-market team, which is like, okay, are you collecting all of the information that you need",
+      "zh": "上市的团队, 这就像,好吧,你收集 所有你需要的信息"
+    },
+    {
+      "start": 1710.62,
+      "end": 1714.46,
+      "en": "to? And of course, we can talk about Salesforce hygiene, etc, as a separate point. But like,",
+      "zh": "给? 当然,我们可以单独谈谈销售力量卫生等等。 但喜欢,"
+    },
+    {
+      "start": 1714.46,
+      "end": 1724.62,
+      "en": "do you have all, you know, is the human getting the data to then capture the state of the business?",
+      "zh": "你知道,你所有的,你知道, 是人类得到的数据 然后捕捉 企业状态?"
+    },
+    {
+      "start": 1725.42,
+      "end": 1727.9,
+      "en": "which, okay, but I think if we like now switch to the",
+      "zh": "好吧,但我想 如果我们喜欢现在切换到"
+    },
+    {
+      "start": 1727.9,
+      "end": 1731.62,
+      "en": "agent world, you know, I think again, we can talk about what",
+      "zh": "特工世界,你知道,我想再说一遍,我们可以谈谈什么"
+    },
+    {
+      "start": 1731.62,
+      "end": 1737.26,
+      "en": "agent means, but imagine there's an agent that needs to do",
+      "zh": "特工的意思是 但想象一下有特工需要帮忙"
+    },
+    {
+      "start": 1737.26,
+      "end": 1740.66,
+      "en": "outbound calling or outbound messaging. They want to be able",
+      "zh": "外出呼叫或外出消息。 他们想要有能力"
+    },
+    {
+      "start": 1740.66,
+      "end": 1742.94,
+      "en": "to retrieve that information. They don't really care about",
+      "zh": "获取信息。 他们真的不在乎"
+    },
+    {
+      "start": 1742.94,
+      "end": 1746.06,
+      "en": "how the fields are organized or, you know, how many clicks",
+      "zh": "字段是如何排列的,或者,你知道,多少点击"
+    },
+    {
+      "start": 1746.06,
+      "end": 1748.82,
+      "en": "it takes, but they do want to be they still need to access",
+      "zh": "需要,但他们确实想要 他们仍然需要进入"
+    },
+    {
+      "start": 1748.82,
+      "end": 1751.3,
+      "en": "that information. But then the second piece they need is",
+      "zh": "那个信息 但是他们需要的第二块是"
+    },
+    {
+      "start": 1751.3,
+      "end": 1754.14,
+      "en": "this context thing. So we've talked a lot. I feel like the",
+      "zh": "这个背景的东西。 所以我们谈了很多。 我觉得"
+    },
+    {
+      "start": 1754.14,
+      "end": 1757.96,
+      "en": "internet has talked a lot about context graphs over the last six months.",
+      "zh": "过去六个月,"
+    },
+    {
+      "start": 1757.96,
+      "end": 1759.06,
+      "en": "But what is that?",
+      "zh": "但这是什么?"
+    },
+    {
+      "start": 1759.06,
+      "end": 1761.36,
+      "en": "That's all the exceptions.",
+      "zh": "这就是所有例外。"
+    },
+    {
+      "start": 1761.36,
+      "end": 1762.36,
+      "en": "What do you do?",
+      "zh": "你们做什么的?"
+    },
+    {
+      "start": 1762.36,
+      "end": 1764.44,
+      "en": "How do you handle certain cases?",
+      "zh": "你怎么处理某些案件?"
+    },
+    {
+      "start": 1764.44,
+      "end": 1769.28,
+      "en": "It's the edge cases and the permissioning and all that stuff that needs to be and all",
+      "zh": "这是边缘案例 授权 和所有的东西 需要的东西和所有"
+    },
+    {
+      "start": 1769.28,
+      "end": 1773.68,
+      "en": "the policies that are not necessarily in the fields of Salesforce.",
+      "zh": "不一定是销售力领域的政策。"
+    },
+    {
+      "start": 1773.68,
+      "end": 1779.6,
+      "en": "And so for the agent to then go back to this 8020 thing, the agent can extract all the information,",
+      "zh": "所以如果特工再回到8020事件 特工可以提取所有信息"
+    },
+    {
+      "start": 1779.6,
+      "end": 1783.68,
+      "en": "send an outbound email based on the information that's in the CRM around the person and their",
+      "zh": "根据客户关系管理系统中的信息 发送一封外出邮件"
+    },
+    {
+      "start": 1783.68,
+      "end": 1789.96,
+      "en": "persona and what they do and all that. But then like, okay, how do you deal with a case, one",
+      "zh": "人,他们做什么,这一切。 但那样的话,好吧,你怎么处理一个案子,一个"
+    },
+    {
+      "start": 1789.96,
+      "end": 1794.12,
+      "en": "case versus another and how they respond? And it's like, oh, well, normally if it's a person",
+      "zh": "案件对另一个案件 以及他们如何回应? 这就像,哦,嗯, 通常如果它是个人"
+    },
+    {
+      "start": 1794.12,
+      "end": 1797.72,
+      "en": "who's in Asia, we respond this way. But if it's a person in the US, we respond this other",
+      "zh": "谁在亚洲,我们的反应是这样。 但是,如果它是在美国的一个人, 我们回应这个另一个"
+    },
+    {
+      "start": 1797.72,
+      "end": 1802.78,
+      "en": "way, that's not captured in Salesforce. But that's, that was in someone's head. And so that's",
+      "zh": "说来话长 这在\"销售部队\"里可没抓到 但是,那是在某人的脑海里。 这就是"
+    },
+    {
+      "start": 1802.78,
+      "end": 1808.24,
+      "en": "the context that I think is really important now for agents to be able to act on behalf of",
+      "zh": "我认为,对于特工能够代表"
+    },
+    {
+      "start": 1808.24,
+      "end": 1809.24,
+      "en": "this data.",
+      "zh": "此数据。"
+    },
+    {
+      "start": 1809.24,
+      "end": 1814.02,
+      "en": "Well, that's two, I mean, for Salesforce in particular, that's incredibly important because",
+      "zh": "嗯,这是两个,我的意思是, 对于销售力特别, 这是惊人的重要 因为"
+    },
+    {
+      "start": 1814.02,
+      "end": 1820.5,
+      "en": "I've never met a salesperson, an account manager, an account executive who thinks that the default",
+      "zh": "我从来没有见过一个推销员,一个账户经理,一个认为违约的账户主管"
+    },
+    {
+      "start": 1820.5,
+      "end": 1824.34,
+      "en": "is the right answer for anything with their account.",
+      "zh": "这是对他们所叙述的一切的正确答案。"
+    },
+    {
+      "start": 1824.34,
+      "end": 1828.64,
+      "en": "And like, no, even if they get the Japanese language right, you know, oh, it's spring and",
+      "zh": "而且,不,即使他们得到 日语正确, 你知道,哦,这是春天和"
+    },
+    {
+      "start": 1828.64,
+      "end": 1833.0,
+      "en": "the birds are chirping and put your, your overdo on your payment, your license count is wrong.",
+      "zh": "鸟儿们在鸣叫,把你的,你的过度 支付,你的执照数错了。"
+    },
+    {
+      "start": 1833.0,
+      "end": 1837.1,
+      "en": "That even if you do that correctly, the rep is going to want to handle it in their, in their",
+      "zh": "即使你做正确, 代表会想处理它 在他们,在他们"
+    },
+    {
+      "start": 1837.1,
+      "end": 1844.86,
+      "en": "specifically. And I think that this notion of exception handling is just the root of the challenge",
+      "zh": "特别的。 我认为这个例外处理的概念 只是挑战的根源"
+    },
+    {
+      "start": 1844.86,
+      "end": 1850.7,
+      "en": "with agents, which is almost everything interesting in an enterprise is an exception.",
+      "zh": "与代理,这几乎是企业中所有有趣的东西是一个例外。"
+    },
+    {
+      "start": 1850.7,
+      "end": 1852.14,
+      "en": "Yes. Yeah.",
+      "zh": "对 对"
+    },
+    {
+      "start": 1852.14,
+      "end": 1857.66,
+      "en": "Like that, like all the people are about exception handling. It's basically like,",
+      "zh": "像这样,就像所有人 是关于例外处理。 这基本上就像,"
+    },
+    {
+      "start": 1858.22,
+      "end": 1864.46,
+      "en": "spend 15 minutes at McDonald's and watch people start in the kiosk and give up. And then go watch",
+      "zh": "在麦当劳待了15分钟 看着人们从亭子开始放弃 然后去看着"
+    },
+    {
+      "start": 1864.46,
+      "end": 1869.02,
+      "en": "what they really want. And they're like, well, I wanted to make flurry, but I wanted two flavors",
+      "zh": "他们真正想要的 他们喜欢,嗯,我想 做福瑞,但我想要两个口味"
+    },
+    {
+      "start": 1869.02,
+      "end": 1874.46,
+      "en": "and mix them together. And that's not in the end. It's always the exceptions. And everything",
+      "zh": "把它们混在一起 然则终非此. 总是例外 还有一切"
+    },
+    {
+      "start": 1874.46,
+      "end": 1881.02,
+      "en": "about automation and enterprise is handling exceptions. It just is. It's the strangest thing. But,",
+      "zh": "关于自动化和企业 正在处理例外。 就是这样 这是最奇怪的事情。 不过"
+    },
+    {
+      "start": 1881.02,
+      "end": 1885.26,
+      "en": "you know, enterprise pricing is a great example. Like, how much is it perceived? Well, you have to",
+      "zh": "你知道,企业定价是一个很好的例子。 比如说,它能感觉到多少? 你必须"
+    },
+    {
+      "start": 1885.26,
+      "end": 1889.34,
+      "en": "call us. Well, you call, then you talk, and then it's still an exception.",
+      "zh": "打给我们 好吧,你打电话,然后你说话, 然后它仍然是一个例外。"
+    },
+    {
+      "start": 1889.34,
+      "end": 1891.54,
+      "en": "Yeah, and that's exactly right.",
+      "zh": "是啊,这是完全正确的。"
+    },
+    {
+      "start": 1891.54,
+      "end": 1896.34,
+      "en": "So these exceptions, they're not captured anywhere right now.",
+      "zh": "所以,这些例外, 它们现在没有被抓住。"
+    },
+    {
+      "start": 1896.34,
+      "end": 1902.96,
+      "en": "Now, I think if you say, if there's a voice agent that is doing, let's say compliance",
+      "zh": "现在,我想如果你说, 如果有一个语音代理 这样做,让我们说遵守"
+    },
+    {
+      "start": 1902.96,
+      "end": 1907.18,
+      "en": "check calls for freight is one of our portfolio companies does, they are now collecting the",
+      "zh": "我们的组合公司正在收货"
+    },
+    {
+      "start": 1907.18,
+      "end": 1911.78,
+      "en": "exceptions through their voice agent and getting some of that context.",
+      "zh": "通过他们的语音代理 和获得一些背景。"
+    },
+    {
+      "start": 1911.78,
+      "end": 1915.92,
+      "en": "Or if we're looking, we can talk about computers and agents, if you're observing humans and",
+      "zh": "或者,如果我们在寻找, 我们可以谈论计算机和特工, 如果你在观察人类和"
+    },
+    {
+      "start": 1915.92,
+      "end": 1919.76,
+      "en": "how they are clinging through software, how they are responding to things.",
+      "zh": "他们是如何坚持通过软件, 如何应对事物。"
+    },
+    {
+      "start": 1919.76,
+      "end": 1924.92,
+      "en": "And now we have this ability now to, you know, not only record data or like record interactions,",
+      "zh": "现在,我们现在有这种能力, 你知道,不仅记录数据 或者像记录的相互作用,"
+    },
+    {
+      "start": 1924.92,
+      "end": 1929.04,
+      "en": "but then process it via LMS, then you're able to start collecting some of those contacts.",
+      "zh": "然后通过LMS处理, 然后你就可以开始收集一些这些接触。"
+    },
+    {
+      "start": 1929.04,
+      "end": 1930.04,
+      "en": "But it's a lot there.",
+      "zh": "但这里很多"
+    },
+    {
+      "start": 1930.04,
+      "end": 1933.92,
+      "en": "I mean, as Stephen was saying, it's all the interesting work is around the exception.",
+      "zh": "正如史蒂芬所说 有趣的工作都围绕着例外"
+    },
+    {
+      "start": 1933.92,
+      "end": 1937.52,
+      "en": "So it's not like, okay, you know, three days later, we've got it all.",
+      "zh": "所以,这不是像,好吧,你知道, 三天后,我们已经得到了这一切。"
+    },
+    {
+      "start": 1937.52,
+      "end": 1940.76,
+      "en": "We've got all the contacts because also like sales cycles take a long time.",
+      "zh": "我们已经得到了所有的接触,因为同样像销售周期需要很长时间。"
+    },
+    {
+      "start": 1940.76,
+      "end": 1945.4,
+      "en": "Each exception isn't like handled with the frequency that you get the data immediately,",
+      "zh": "每个例外都不像你立刻得到数据的频率那样"
+    },
+    {
+      "start": 1945.4,
+      "end": 1947.86,
+      "en": "And so you have to feel comfortable.",
+      "zh": "所以你必须感到舒服。"
+    },
+    {
+      "start": 1947.86,
+      "end": 1948.86,
+      "en": "You have to get to that point where you're like,",
+      "zh": "你必须走到你喜欢的地步"
+    },
+    {
+      "start": 1948.86,
+      "end": 1951.76,
+      "en": "okay, we've observed enough interactions",
+      "zh": "好吧,我们已经观察到 足够的相互作用"
+    },
+    {
+      "start": 1951.76,
+      "end": 1954.82,
+      "en": "to actually capture, to understand the exceptions.",
+      "zh": "来了解例外"
+    },
+    {
+      "start": 1954.82,
+      "end": 1958.28,
+      "en": "And then on the sales side, the buyer trusts",
+      "zh": "在销售方面,买方相信"
+    },
+    {
+      "start": 1960.2,
+      "end": 1962.76,
+      "en": "that this piece of software can actually,",
+      "zh": "这个软件可以"
+    },
+    {
+      "start": 1962.76,
+      "end": 1964.28,
+      "en": "has captured all the contacts to handle it.",
+      "zh": "已经捕捉到所有接触者处理它。"
+    },
+    {
+      "start": 1964.28,
+      "end": 1965.96,
+      "en": "Well, I don't understand solely on that,",
+      "zh": "好吧,我不理解 仅仅这一点,"
+    },
+    {
+      "start": 1965.96,
+      "end": 1968.04,
+      "en": "because I think it helps us to go back",
+      "zh": "因为我认为它帮助我们回去"
+    },
+    {
+      "start": 1968.04,
+      "end": 1969.92,
+      "en": "to this notion of headless,",
+      "zh": "至於这个无头的概念,"
+    },
+    {
+      "start": 1969.92,
+      "end": 1972.22,
+      "en": "and what abuzz the challenges and the opportunities.",
+      "zh": "以及那些困扰挑战与机遇的事物。"
+    },
+    {
+      "start": 1972.22,
+      "end": 1974.8,
+      "en": "Because of course, if you're an engineer,",
+      "zh": "当然 如果你是工程师"
+    },
+    {
+      "start": 1974.8,
+      "end": 1979.28,
+      "en": "which almost everyone talking about what's going on in the world in AI today is,",
+      "zh": "几乎每个人都在谈论 当今世界上发生的事情是,"
+    },
+    {
+      "start": 1979.28,
+      "end": 1984.28,
+      "en": "you think headless and API, agent API just interchange them.",
+      "zh": "你认为无头和API,代理API只是交换它们。"
+    },
+    {
+      "start": 1984.28,
+      "end": 1986.24,
+      "en": "And so you think, oh, well, it's code.",
+      "zh": "所以你认为 这是密码"
+    },
+    {
+      "start": 1986.24,
+      "end": 1988.92,
+      "en": "I can write the business process down.",
+      "zh": "我可以把业务记录下来"
+    },
+    {
+      "start": 1988.92,
+      "end": 1992.16,
+      "en": "And the problem that you hit right at the beginning is,",
+      "zh": "你一开始就碰到的问题是"
+    },
+    {
+      "start": 1992.16,
+      "end": 1994.8,
+      "en": "is that if you're not an engineer,",
+      "zh": "如果你不是工程师"
+    },
+    {
+      "start": 1994.8,
+      "end": 2000.52,
+      "en": "you can't even explain the process that you use to resolve a customer issue.",
+      "zh": "你甚至无法解释你用来解决客户问题的流程。"
+    },
+    {
+      "start": 2000.52,
+      "end": 2003.68,
+      "en": "And in fact, it's sort of very interesting to watch Amazon",
+      "zh": "事实上,看着亚马逊是很有趣的"
+    },
+    {
+      "start": 2003.68,
+      "end": 2006.48,
+      "en": "really do some of the best work on this,",
+      "zh": "真正做一些最好的工作 关于这一点,"
+    },
+    {
+      "start": 2006.48,
+      "end": 2009.34,
+      "en": "because they really, really don't want to have humans.",
+      "zh": "因为他们真的,真的不想有人类。"
+    },
+    {
+      "start": 2009.34,
+      "end": 2013.28,
+      "en": "Like, you can't call Amazon for anything.",
+      "zh": "就像,你不能叫亚马逊什么。"
+    },
+    {
+      "start": 2013.28,
+      "end": 2014.94,
+      "en": "Like, it's just hopeless.",
+      "zh": "喜欢,只是没有希望。"
+    },
+    {
+      "start": 2014.94,
+      "end": 2017.96,
+      "en": "And so what they're doing is they're learning",
+      "zh": "他们正在学习"
+    },
+    {
+      "start": 2017.96,
+      "end": 2021.08,
+      "en": "with everybody, like the best way to automate something,",
+      "zh": "和每个人, 像最好的方法 自动化的东西,"
+    },
+    {
+      "start": 2021.08,
+      "end": 2023.4,
+      "en": "and it's their religion, it's their core principle,",
+      "zh": "这是他们的宗教,这是他们的核心原则,"
+    },
+    {
+      "start": 2023.4,
+      "end": 2026.61,
+      "en": "which is you just decide it in favor of the customer.",
+      "zh": "这是你为了顾客而决定的"
+    },
+    {
+      "start": 2026.61,
+      "end": 2028.51,
+      "en": "You know, oh, they sent the wrong thing.",
+      "zh": "你知道,哦,他们送错了东西。"
+    },
+    {
+      "start": 2028.51,
+      "end": 2030.09,
+      "en": "So you go to the chat bot, you tell them,",
+      "zh": "你去聊天室,告诉他们"
+    },
+    {
+      "start": 2030.09,
+      "end": 2033.45,
+      "en": "the chat bot understands that you got the wrong thing,",
+      "zh": "聊天机器人明白你搞错了"
+    },
+    {
+      "start": 2033.45,
+      "end": 2036.45,
+      "en": "and it just sends you a new one.",
+      "zh": "它只是给你发了一个新的。"
+    },
+    {
+      "start": 2036.45,
+      "end": 2038.69,
+      "en": "And I think that that's so interesting",
+      "zh": "我觉得这很有趣"
+    },
+    {
+      "start": 2038.69,
+      "end": 2041.35,
+      "en": "compared to sort of old school exception handling.",
+      "zh": "和旧学校的例外处理相比"
+    },
+    {
+      "start": 2041.35,
+      "end": 2043.77,
+      "en": "And then they use the data to go and improve",
+      "zh": "然后他们利用数据去改进"
+    },
+    {
+      "start": 2043.77,
+      "end": 2047.33,
+      "en": "the internal shipping and handling and warehouse process.",
+      "zh": "内部运输和装卸及仓库流程。"
+    },
+    {
+      "start": 2047.33,
+      "end": 2048.97,
+      "en": "Maybe it's the product description,",
+      "zh": "也许是产品描述"
+    },
+    {
+      "start": 2048.97,
+      "end": 2051.61,
+      "en": "a zillion other things or reviews.",
+      "zh": "a 近千其他东西或评论。"
+    },
+    {
+      "start": 2051.61,
+      "end": 2054.25,
+      "en": "And so I find that's what I find so interesting",
+      "zh": "所以我发现这就是我发现如此有趣的"
+    },
+    {
+      "start": 2054.25,
+      "end": 2057.41,
+      "en": "about the capabilities of AI is that it's driving",
+      "zh": "关于AI的能力 是它正在驱动"
+    },
+    {
+      "start": 2057.41,
+      "end": 2061.05,
+      "en": "a different definition and different behavior at companies",
+      "zh": "不同的定义和公司的不同行为"
+    },
+    {
+      "start": 2061.05,
+      "end": 2062.97,
+      "en": "about how to handle exceptions.",
+      "zh": "关于如何处理例外。"
+    },
+    {
+      "start": 2062.97,
+      "end": 2066.97,
+      "en": "And I think when we get through sort of the 1.0 version of this,",
+      "zh": "我想当我们通过 1.0版本这个,"
+    },
+    {
+      "start": 2066.97,
+      "end": 2069.53,
+      "en": "we're gonna get to a new version where people are like",
+      "zh": "我们会找到一个新版本,人们喜欢"
+    },
+    {
+      "start": 2069.53,
+      "end": 2074.33,
+      "en": "comfortable letting AI do or decide things",
+      "zh": "让AI做或决定一切"
+    },
+    {
+      "start": 2074.33,
+      "end": 2077.33,
+      "en": "because they realize it's adding a level of predictability",
+      "zh": "因为他们意识到这增加了一定的可预测性"
+    },
+    {
+      "start": 2077.33,
+      "end": 2079.65,
+      "en": "and repeatability to their enterprise.",
+      "zh": "和重复他们的企业。"
+    },
+    {
+      "start": 2079.65,
+      "end": 2083.13,
+      "en": "It is, it's funny to think that maybe customer service",
+      "zh": "是的,这很有趣,认为 也许客户服务"
+    },
+    {
+      "start": 2083.13,
+      "end": 2086.49,
+      "en": "gets worse in the short term because things stop",
+      "zh": "短期内情况会更糟 因为事情停止了"
+    },
+    {
+      "start": 2086.49,
+      "end": 2089.65,
+      "en": "getting default decided in favor of the customer.",
+      "zh": "由客户决定违约"
+    },
+    {
+      "start": 2089.65,
+      "end": 2100.89,
+      "en": "You know, like suddenly you actually have to defend your case again instead of like you being, you know, reshipped via the sensitive toothpaste like you feel like you were owed.",
+      "zh": "就像突然你不得不再次为自己辩护 而不是像... 你知道..."
+    },
+    {
+      "start": 2101.77,
+      "end": 2114.49,
+      "en": "But I think I think maybe then more generally it sounds like you're both saying that automating the long tail is still kind of the hardest thing about about all of this is that true.",
+      "zh": "但我想也许更一般地说, 你们都说, 将长尾巴自动化, 仍然是最难做到的。"
+    },
+    {
+      "start": 2114.49,
+      "end": 2117.13,
+      "en": "Or would you say that there are other hard things",
+      "zh": "或者你会说还有其他难事"
+    },
+    {
+      "start": 2117.13,
+      "end": 2120.73,
+      "en": "that developers and founders also need to think about?",
+      "zh": "开发者和创始人也需要考虑?"
+    },
+    {
+      "start": 2120.73,
+      "end": 2122.79,
+      "en": "I think that's part of it.",
+      "zh": "我认为这是其中的一部分。"
+    },
+    {
+      "start": 2122.79,
+      "end": 2124.83,
+      "en": "I think there are a lot of other things around",
+      "zh": "我觉得周围有很多其他东西"
+    },
+    {
+      "start": 2124.83,
+      "end": 2127.29,
+      "en": "like permissioning and this is all I think",
+      "zh": "就像允许,这就是我想的"
+    },
+    {
+      "start": 2127.29,
+      "end": 2129.25,
+      "en": "you could probably lump it into the hard tail,",
+      "zh": "你也许可以把它拼成硬尾巴"
+    },
+    {
+      "start": 2129.25,
+      "end": 2130.45,
+      "en": "but I'll start with long tail,",
+      "zh": "但我从长尾巴开始"
+    },
+    {
+      "start": 2130.45,
+      "end": 2132.41,
+      "en": "but like permissioning is part of this, right?",
+      "zh": "但像允许是其中的一部分,对不对?"
+    },
+    {
+      "start": 2132.41,
+      "end": 2137.25,
+      "en": "And as you give people or give API access,",
+      "zh": "当你给人或API进入,"
+    },
+    {
+      "start": 2137.25,
+      "end": 2140.77,
+      "en": "it's like, okay, so in which cases can people extract data?",
+      "zh": "所以在哪些情况下人们可以提取数据?"
+    },
+    {
+      "start": 2140.77,
+      "end": 2143.73,
+      "en": "When can they write versus read?",
+      "zh": "他们什么时候能写对读?"
+    },
+    {
+      "start": 2143.73,
+      "end": 2146.89,
+      "en": "Like that all needs to be figured out over time as well.",
+      "zh": "像那样,所有的事情都需要经过一段时间才能解决。"
+    },
+    {
+      "start": 2146.89,
+      "end": 2149.45,
+      "en": "And like interactions also between agents, right?",
+      "zh": "就像特工之间的相互作用,对吧?"
+    },
+    {
+      "start": 2149.45,
+      "end": 2152.21,
+      "en": "And I think if you go back to the idea of a system of record, right,",
+      "zh": "我想如果你回到记录系统的想法,对吗?"
+    },
+    {
+      "start": 2152.21,
+      "end": 2154.69,
+      "en": "it's one ideally, one cent of",
+      "zh": "这是理想的,一分之一"
+    },
+    {
+      "start": 2154.69,
+      "end": 2158.21,
+      "en": "one central repository of data that is the source of truth.",
+      "zh": "一个作为真相来源的数据中央存储库。"
+    },
+    {
+      "start": 2158.21,
+      "end": 2163.01,
+      "en": "Well, that now if you have multiple accessing and writing to it,",
+      "zh": "那么,现在如果你有多重访问 和写它,"
+    },
+    {
+      "start": 2163.01,
+      "end": 2164.85,
+      "en": "like who gets to access one?",
+      "zh": "就像谁可以进入一个?"
+    },
+    {
+      "start": 2164.85,
+      "end": 2166.13,
+      "en": "And I think that's a,",
+      "zh": "我认为这是一个,"
+    },
+    {
+      "start": 2166.13,
+      "end": 2169.33,
+      "en": "that anyways, these are additional problems that I think need to be solved,",
+      "zh": "无论如何,这些都是额外的问题 我认为需要解决,"
+    },
+    {
+      "start": 2169.33,
+      "end": 2171.17,
+      "en": "solvable, but we'll take time.",
+      "zh": "难熬 但我们需要时间"
+    },
+    {
+      "start": 2171.17,
+      "end": 2177.61,
+      "en": "One of the things that happens in technology shifts is everybody knows the thing about",
+      "zh": "在技术转变中发生的事情之一 就是每个人都知道"
+    },
+    {
+      "start": 2177.61,
+      "end": 2180.05,
+      "en": "nobody understands exponential when it's happening.",
+      "zh": "发生的时候没人能理解指数"
+    },
+    {
+      "start": 2180.05,
+      "end": 2184.17,
+      "en": "So you have to be very careful to extrapolate and end up extrapolating linear when something",
+      "zh": "所以,你必须非常小心 推导和最终推导线性 当某事"
+    },
+    {
+      "start": 2184.17,
+      "end": 2185.85,
+      "en": "exponential is happening.",
+      "zh": "指数发生。"
+    },
+    {
+      "start": 2185.85,
+      "end": 2189.81,
+      "en": "But the same thing happens with productivity or an analogous thing happens with productivity,",
+      "zh": "但同样的事情发生于生产力 或者类似的事情发生于生产力,"
+    },
+    {
+      "start": 2189.81,
+      "end": 2195.61,
+      "en": "which is people look at the existing body of work that happens today and they say, okay,",
+      "zh": "这就是人们看 现有的工作体 今天发生, 他们说,好吧,"
+    },
+    {
+      "start": 2195.61,
+      "end": 2197.33,
+      "en": "how do we make that easier?",
+      "zh": "我们怎样才能更轻松?"
+    },
+    {
+      "start": 2197.33,
+      "end": 2200.29,
+      "en": "And then all of a sudden there's all this fear that we're going to automate everything",
+      "zh": "然后突然间,我们开始害怕一切的自动化"
+    },
+    {
+      "start": 2200.29,
+      "end": 2205.09,
+      "en": "away, that everything is just going to become an API, which developers and engineers say,",
+      "zh": "开发商和工程师说,"
+    },
+    {
+      "start": 2205.09,
+      "end": 2206.73,
+      "en": "Oh, that will be easy.",
+      "zh": "哦,那会很容易。"
+    },
+    {
+      "start": 2206.73,
+      "end": 2213.17,
+      "en": "And then we'll be in this Nirvana world where everything is automated and easy and predictable,",
+      "zh": "然后我们将生活在一个 尼尔瓦纳世界, 在那里,一切都是自动化的, 容易和可预测的,"
+    },
+    {
+      "start": 2213.17,
+      "end": 2217.85,
+      "en": "but they forget that productivity drives new scenarios.",
+      "zh": "但是他们忘记了生产力驱动着新的情景。"
+    },
+    {
+      "start": 2217.85,
+      "end": 2222.65,
+      "en": "And so the minute that you can get something easier with automation and you can actually",
+      "zh": "所以,一旦你可以得到一些更容易的东西 自动化,你可以实际上"
+    },
+    {
+      "start": 2222.65,
+      "end": 2228.25,
+      "en": "automated, which I do think is happening right now with agents and with language models.",
+      "zh": "自动的,我确实认为 代理和语言模型正在发生。"
+    },
+    {
+      "start": 2228.25,
+      "end": 2231.05,
+      "en": "Well, then we're going to dream up a whole bunch of new stuff to do.",
+      "zh": "好吧,然后我们要去梦想 一大堆新的事情做。"
+    },
+    {
+      "start": 2231.05,
+      "end": 2235.85,
+      "en": "Like, I just mentioned this loop that Amazon must be in on customer service.",
+      "zh": "我刚刚提到亚马逊一定在为客户服务"
+    },
+    {
+      "start": 2235.85,
+      "end": 2241.85,
+      "en": "Well, they got rid of all the phone people and the phone experience that would be miserable to",
+      "zh": "好吧,他们摆脱了所有的电话人 和电话体验,这将是可悲的"
+    },
+    {
+      "start": 2241.85,
+      "end": 2247.13,
+      "en": "do a return and the challenge response and the fighting and like, can I return this and",
+      "zh": "做一个返回, 挑战反应和战斗一样, 我可以返回这个,"
+    },
+    {
+      "start": 2247.13,
+      "end": 2251.29,
+      "en": "do I have to package it up or will you just ignore like toothpaste? They don't want it back.",
+      "zh": "我必须把它包起来 还是你像牙膏一样忽略? 他们不想拿回来"
+    },
+    {
+      "start": 2251.29,
+      "end": 2257.05,
+      "en": "Like that's a pioneering invention by Amazon is like, you know, if somebody gets the wrong",
+      "zh": "亚马逊的开创性发明就是 如果有人搞错了"
+    },
+    {
+      "start": 2257.05,
+      "end": 2259.09,
+      "en": "consumable, we just don't want it.",
+      "zh": "消费,我们只是不希望它。"
+    },
+    {
+      "start": 2259.09,
+      "end": 2261.01,
+      "en": "Like they're poisoning it.",
+      "zh": "好像他们在下毒"
+    },
+    {
+      "start": 2261.01,
+      "end": 2261.97,
+      "en": "They use part of it.",
+      "zh": "他们用它的一部分。"
+    },
+    {
+      "start": 2261.97,
+      "end": 2264.29,
+      "en": "It's cheaper to just have them throw it away.",
+      "zh": "让他们扔掉比较便宜"
+    },
+    {
+      "start": 2264.29,
+      "end": 2266.21,
+      "en": "Well, that never happened before.",
+      "zh": "那以前从未发生过"
+    },
+    {
+      "start": 2266.21,
+      "end": 2270.65,
+      "en": "Like you used to have to actually bring spoiled food to the supermarket and show it to them.",
+      "zh": "就像你以前把变质的食物带到超市 给他们看一样"
+    },
+    {
+      "start": 2270.65,
+      "end": 2273.45,
+      "en": "And so they've fixed that level of productivity.",
+      "zh": "所以他们已经固定了生产力的水平。"
+    },
+    {
+      "start": 2273.45,
+      "end": 2278.13,
+      "en": "But now there's this backend that's just out there constantly figuring out how to not",
+      "zh": "但现在有一个后端 它只是在那里 不断思考如何不"
+    },
+    {
+      "start": 2278.13,
+      "end": 2279.76,
+      "en": "happen again.",
+      "zh": "再来一次"
+    },
+    {
+      "start": 2279.76,
+      "end": 2283.48,
+      "en": "And now they need a new level of analysis, a new set of tools.",
+      "zh": "现在他们需要一个新的分析水平, 一套新的工具。"
+    },
+    {
+      "start": 2283.48,
+      "end": 2285.72,
+      "en": "And the long tail got no shorter.",
+      "zh": "尾巴也长得很短"
+    },
+    {
+      "start": 2285.72,
+      "end": 2287.68,
+      "en": "It just got longer in a different way.",
+      "zh": "它只是得到了更长的方式不同。"
+    },
+    {
+      "start": 2287.68,
+      "end": 2288.76,
+      "en": "Yes.",
+      "zh": "对"
+    },
+    {
+      "start": 2288.76,
+      "end": 2293.28,
+      "en": "And I think people forget that that's how innovation is this constant",
+      "zh": "我认为人们忘记了 创新就是这种常态"
+    },
+    {
+      "start": 2293.28,
+      "end": 2294.64,
+      "en": "reinvention.",
+      "zh": "重塑。"
+    },
+    {
+      "start": 2294.64,
+      "end": 2298.44,
+      "en": "And it's a growing pie, not a static pie.",
+      "zh": "它是一个生长的馅饼,而不是静态的馅饼."
+    },
+    {
+      "start": 2298.44,
+      "end": 2302.2,
+      "en": "And all the negativity around AI comes from just thinking",
+      "zh": "而AI周围的消极情绪 都来自思考"
+    },
+    {
+      "start": 2302.2,
+      "end": 2307.12,
+      "en": "that the work to be done is this fixed thing that takes N people",
+      "zh": "做的工作是这个固定的事情 需要N的人"
+    },
+    {
+      "start": 2307.12,
+      "end": 2312.52,
+      "en": "an m amount of software and we're just going to replace n people with m plus 5.",
+      "zh": "一个m量的软件,我们只是要去 替换n的人为m+5。"
+    },
+    {
+      "start": 2312.52,
+      "end": 2313.72,
+      "en": "And then we don't, we're done.",
+      "zh": "然后我们不,我们结束了。"
+    },
+    {
+      "start": 2313.72,
+      "end": 2315.12,
+      "en": "There's no jobs anymore.",
+      "zh": "没有工作了。"
+    },
+    {
+      "start": 2315.12,
+      "end": 2317.24,
+      "en": "There's just an agent running.",
+      "zh": "有个特工在跑"
+    },
+    {
+      "start": 2317.24,
+      "end": 2319.0,
+      "en": "And that's just never going to happen.",
+      "zh": "这绝对不会发生"
+    },
+    {
+      "start": 2319.0,
+      "end": 2323.64,
+      "en": "Like legal is a great example of this, like where people do contracts and they think that",
+      "zh": "就像法律是这方面的一个很好的例子, 就像人们做合同 他们认为"
+    },
+    {
+      "start": 2323.64,
+      "end": 2329.0,
+      "en": "the law is going to help contracts get done quicker without lawyers.",
+      "zh": "法律将会帮助没有律师的合同更快地完成。"
+    },
+    {
+      "start": 2329.0,
+      "end": 2333.92,
+      "en": "Except I can assure you contracts will get longer and more sophisticated and encompass",
+      "zh": "但我可以保证合同会越来越长 更精细"
+    },
+    {
+      "start": 2333.92,
+      "end": 2337.48,
+      "en": "is way more sets of scenarios than a person ever could.",
+      "zh": "这比人想象的要多得多"
+    },
+    {
+      "start": 2337.48,
+      "end": 2340.04,
+      "en": "And if we weren't gonna create a whole more litigation",
+      "zh": "如果我们不创造更多的诉讼"
+    },
+    {
+      "start": 2340.04,
+      "end": 2341.88,
+      "en": "around it and that creates a whole ecosystem.",
+      "zh": "环绕着它,这创造了整个生态系统。"
+    },
+    {
+      "start": 2341.88,
+      "end": 2342.72,
+      "en": "And more deals.",
+      "zh": "还有更多的交易"
+    },
+    {
+      "start": 2342.72,
+      "end": 2344.04,
+      "en": "And more deals.",
+      "zh": "还有更多的交易"
+    },
+    {
+      "start": 2344.04,
+      "end": 2347.48,
+      "en": "Look, there's the now apocryphal semi-apocryphal famous",
+      "zh": "你看,有现在的 apocryphal 半acryphal 著名"
+    },
+    {
+      "start": 2347.48,
+      "end": 2351.32,
+      "en": "example of radiology, which is a correlation, not a causation.",
+      "zh": "放射学的例子,是一种相关性,而不是因果关系。"
+    },
+    {
+      "start": 2351.32,
+      "end": 2354.88,
+      "en": "But radiologists all love AI.",
+      "zh": "但放射学家都喜欢AI."
+    },
+    {
+      "start": 2354.88,
+      "end": 2357.44,
+      "en": "And now we are having a radiology shortage.",
+      "zh": "现在我们有 缺乏放射学。"
+    },
+    {
+      "start": 2357.44,
+      "end": 2360.72,
+      "en": "It's not, there's a lot of reasons it's complicated.",
+      "zh": "这不是,有很多原因 它的复杂。"
+    },
+    {
+      "start": 2360.72,
+      "end": 2364.6,
+      "en": "But it just shows that the innovation wasn't static.",
+      "zh": "但它只是表明创新不是静止的。"
+    },
+    {
+      "start": 2364.6,
+      "end": 2369.26,
+      "en": "And the demand wasn't static.",
+      "zh": "而需求并不是静止的。"
+    },
+    {
+      "start": 2369.26,
+      "end": 2371.66,
+      "en": "And so I think that a lot of what happens",
+      "zh": "所以我认为 发生了很多事情"
+    },
+    {
+      "start": 2371.66,
+      "end": 2374.34,
+      "en": "just in the micro at the enterprise level is",
+      "zh": "企业层面的微观层面"
+    },
+    {
+      "start": 2374.34,
+      "end": 2376.58,
+      "en": "the minute you automate the most mundane thing",
+      "zh": "当你把最普通的东西自动化的时候"
+    },
+    {
+      "start": 2376.58,
+      "end": 2378.7,
+      "en": "and think you have it all squared away,",
+      "zh": "以为一切都已经平了"
+    },
+    {
+      "start": 2378.7,
+      "end": 2380.18,
+      "en": "whole new things appear.",
+      "zh": "全新的东西出现了。"
+    },
+    {
+      "start": 2380.18,
+      "end": 2381.62,
+      "en": "Like actually like expense reporting",
+      "zh": "碞钩 expense厨"
+    },
+    {
+      "start": 2381.62,
+      "end": 2383.1,
+      "en": "is a really good example.",
+      "zh": "这是一个非常好的例子。"
+    },
+    {
+      "start": 2383.1,
+      "end": 2384.62,
+      "en": "You know, first there's nothing,",
+      "zh": "你知道,首先,没有什么,"
+    },
+    {
+      "start": 2384.62,
+      "end": 2386.82,
+      "en": "then people figure out how to like do spreadsheets",
+      "zh": "然后人们会想出如何做电子表格"
+    },
+    {
+      "start": 2386.82,
+      "end": 2388.46,
+      "en": "and then people figure out like,",
+      "zh": "然后人们会发现,"
+    },
+    {
+      "start": 2388.46,
+      "end": 2391.7,
+      "en": "Oh, now we have a whole system, we can analyze it.",
+      "zh": "现在我们有一个完整的系统,我们可以分析它。"
+    },
+    {
+      "start": 2391.7,
+      "end": 2394.84,
+      "en": "And now all of a sudden business travel,",
+      "zh": "而现在突然的出差"
+    },
+    {
+      "start": 2394.84,
+      "end": 2396.0,
+      "en": "you get ahead of the curve.",
+      "zh": "你走在曲线前"
+    },
+    {
+      "start": 2396.0,
+      "end": 2398.08,
+      "en": "And you're like, well, now let's just use miles",
+      "zh": "你就像,好了,现在让我们只是使用英里"
+    },
+    {
+      "start": 2398.08,
+      "end": 2399.08,
+      "en": "for business travel.",
+      "zh": "公务差旅费。"
+    },
+    {
+      "start": 2399.08,
+      "end": 2402.56,
+      "en": "Let's route our travel requests to the best prices",
+      "zh": "让我们把旅行申请送到最好的价格"
+    },
+    {
+      "start": 2402.56,
+      "end": 2404.16,
+      "en": "we could get at any given moment,",
+      "zh": "我们可以在任何特定的时刻,"
+    },
+    {
+      "start": 2404.16,
+      "end": 2406.72,
+      "en": "rather than just default to one carrier.",
+      "zh": "而不是仅仅默认一个载体。"
+    },
+    {
+      "start": 2406.72,
+      "end": 2409.12,
+      "en": "Let's use a specific credit card for business travel",
+      "zh": "我们用一张特别的信用卡进行商务旅行"
+    },
+    {
+      "start": 2409.12,
+      "end": 2411.88,
+      "en": "that buys us a bunch of different added benefits",
+      "zh": "这给我们带来很多不同的附加利益"
+    },
+    {
+      "start": 2411.88,
+      "end": 2415.18,
+      "en": "that we no matter to our patterns of travel.",
+      "zh": "无论我们的旅行模式如何"
+    },
+    {
+      "start": 2415.18,
+      "end": 2418.26,
+      "en": "And so suddenly, like there was a bigger job",
+      "zh": "突然间,好像有个更大的工作"
+    },
+    {
+      "start": 2418.26,
+      "end": 2423.26,
+      "en": "called business travel analysis that takes way more people than just booking the flights",
+      "zh": "更吸引更多的人 不只是预订航班"
+    },
+    {
+      "start": 2423.26,
+      "end": 2425.98,
+      "en": "which everybody can just do on their own.",
+      "zh": "每个人只能靠自己"
+    },
+    {
+      "start": 2425.98,
+      "end": 2430.27,
+      "en": "There's always another layer of analysis on top.",
+      "zh": "上面总有另一层分析."
+    },
+    {
+      "start": 2430.27,
+      "end": 2436.07,
+      "en": "But the analysis then drives new processes and new behaviors that themselves differentiate",
+      "zh": "但分析会推动新的过程 和新的行为 本身区别"
+    },
+    {
+      "start": 2436.07,
+      "end": 2437.07,
+      "en": "companies.",
+      "zh": "企业。"
+    },
+    {
+      "start": 2437.07,
+      "end": 2441.59,
+      "en": "Business travel, to stick with that example, is a huge sink in most companies.",
+      "zh": "商业旅行,用这个例子来说,是大多数公司的一个巨大的汇流。"
+    },
+    {
+      "start": 2441.59,
+      "end": 2446.48,
+      "en": "It's just a giant expense hole that they wish they could shrink.",
+      "zh": "这只是一个巨大的支出洞 他们希望可以缩小。"
+    },
+    {
+      "start": 2446.48,
+      "end": 2452.34,
+      "en": "Once they can tie it to how things perform in their company, then it's more than just expense",
+      "zh": "一旦他们能联系到 公司里的事情表现, 那么它就不仅仅是费用"
+    },
+    {
+      "start": 2452.34,
+      "end": 2453.5,
+      "en": "moderation.",
+      "zh": "温和。"
+    },
+    {
+      "start": 2453.5,
+      "end": 2458.54,
+      "en": "It's actually figuring out performance optimization and figuring that whole thing out becomes like",
+      "zh": "它实际上在计算性能的优化 并且发现整个事情变得像"
+    },
+    {
+      "start": 2458.54,
+      "end": 2463.98,
+      "en": "a different kind of job than just booking travel and analyzing expenses.",
+      "zh": "一种不同的工作 不只是预约旅行和分析开支。"
+    },
+    {
+      "start": 2463.98,
+      "end": 2467.98,
+      "en": "It just becomes this whole remote work optimization tool.",
+      "zh": "它只是成为了整个远程工作优化工具。"
+    },
+    {
+      "start": 2467.98,
+      "end": 2470.26,
+      "en": "And then it's a different thing.",
+      "zh": "然则异之."
+    },
+    {
+      "start": 2470.26,
+      "end": 2473.42,
+      "en": "I think the other thing interesting, not to double click and just spend too much time on",
+      "zh": "我觉得另一个有趣的事情, 不双击和花太多时间"
+    },
+    {
+      "start": 2473.42,
+      "end": 2474.42,
+      "en": "business travel.",
+      "zh": "商务旅行。"
+    },
+    {
+      "start": 2474.42,
+      "end": 2479.42,
+      "en": "It also ties the physical and digital worlds.",
+      "zh": "它还将物理世界和数字世界联系在一起。"
+    },
+    {
+      "start": 2479.42,
+      "end": 2483.94,
+      "en": "There are always things that there will be humans doing.",
+      "zh": "总会有人类在做的事情"
+    },
+    {
+      "start": 2483.94,
+      "end": 2486.78,
+      "en": "Maybe it's not back office TPS reports,",
+      "zh": "也许这不是后台的TPS报告"
+    },
+    {
+      "start": 2486.78,
+      "end": 2490.06,
+      "en": "but salespeople will be closing deal.",
+      "zh": "但推销员会结束交易"
+    },
+    {
+      "start": 2490.06,
+      "end": 2493.22,
+      "en": "There will be human interaction to close deals.",
+      "zh": "将进行人类互动以结束交易。"
+    },
+    {
+      "start": 2493.22,
+      "end": 2495.3,
+      "en": "People will be getting on planes as a result.",
+      "zh": "人们会因此上飞机"
+    },
+    {
+      "start": 2495.3,
+      "end": 2499.38,
+      "en": "And maybe they aren't spending as much time",
+      "zh": "也许他们没花那么多时间"
+    },
+    {
+      "start": 2499.38,
+      "end": 2501.02,
+      "en": "entering data into sales force",
+      "zh": "输入数据生效"
+    },
+    {
+      "start": 2501.02,
+      "end": 2502.14,
+      "en": "or doing things along the way,",
+      "zh": "或者在路上做一些事情,"
+    },
+    {
+      "start": 2502.14,
+      "end": 2504.84,
+      "en": "but there will be these humans doing",
+      "zh": "但会有这些人类在做"
+    },
+    {
+      "start": 2504.84,
+      "end": 2506.58,
+      "en": "online and offline work.",
+      "zh": "在线和离线工作。"
+    },
+    {
+      "start": 2506.58,
+      "end": 2509.32,
+      "en": "And I think that actually is something that,",
+      "zh": "我觉得这其实是..."
+    },
+    {
+      "start": 2509.32,
+      "end": 2511.94,
+      "en": "you know, there will always be a data exhaust",
+      "zh": "你知道,总是有 数据排气"
+    },
+    {
+      "start": 2511.94,
+      "end": 2515.56,
+      "en": "from things to capture, optimization that needs to happen,",
+      "zh": "从事物到捕捉,优化 需要发生,"
+    },
+    {
+      "start": 2515.56,
+      "end": 2517.72,
+      "en": "and that doesn't go away either.",
+      "zh": "而这也不会消失。"
+    },
+    {
+      "start": 2517.72,
+      "end": 2518.56,
+      "en": "Yeah.",
+      "zh": "对"
+    },
+    {
+      "start": 2518.56,
+      "end": 2520.48,
+      "en": "Well, I think open source software development",
+      "zh": "我觉得开源软件开发"
+    },
+    {
+      "start": 2520.48,
+      "end": 2522.56,
+      "en": "is actually a really good example of this,",
+      "zh": "其实是一个很好的例子"
+    },
+    {
+      "start": 2522.56,
+      "end": 2525.08,
+      "en": "because like the hardest thing in software development",
+      "zh": "因为像软件开发中最难的东西"
+    },
+    {
+      "start": 2525.08,
+      "end": 2528.92,
+      "en": "is, you know, you have to be finished at some point",
+      "zh": "是,你知道,你必须完成 在某个时候"
+    },
+    {
+      "start": 2528.92,
+      "end": 2531.16,
+      "en": "so that everybody knows this is a stable release",
+      "zh": "这样大家都知道 这是稳定的释放"
+    },
+    {
+      "start": 2531.16,
+      "end": 2532.76,
+      "en": "and can go build on it.",
+      "zh": "并可以继续发展。"
+    },
+    {
+      "start": 2532.76,
+      "end": 2536.0,
+      "en": "And the art of finishing is this long tail",
+      "zh": "完成的艺术就是长尾巴"
+    },
+    {
+      "start": 2536.0,
+      "end": 2539.13,
+      "en": "of like not changing the code.",
+      "zh": "就像没有改变代码。"
+    },
+    {
+      "start": 2539.13,
+      "end": 2542.0,
+      "en": "And there's no API for that.",
+      "zh": "而此亦无API."
+    },
+    {
+      "start": 2542.0,
+      "end": 2545.12,
+      "en": "Like developers think they, developers don't hesitate",
+      "zh": "就像开发者认为,开发者毫不犹豫"
+    },
+    {
+      "start": 2545.12,
+      "end": 2547.12,
+      "en": "to think there should be no API for that.",
+      "zh": "认为不应该有API 这一点。"
+    },
+    {
+      "start": 2547.12,
+      "end": 2550.84,
+      "en": "They can think of a way to automate it with voting",
+      "zh": "他们可以想出一个方法 自动投票"
+    },
+    {
+      "start": 2550.84,
+      "end": 2554.56,
+      "en": "and with a discussion that has sentiment analysis",
+      "zh": "和讨论 情绪分析"
+    },
+    {
+      "start": 2554.56,
+      "end": 2557.32,
+      "en": "or whatever, but you still need a bunch of people",
+      "zh": "或什么的,但你仍然需要一堆人"
+    },
+    {
+      "start": 2557.32,
+      "end": 2561.28,
+      "en": "to concur over a decision to fix or not fix something.",
+      "zh": "同意决定 修复或不修复的东西。"
+    },
+    {
+      "start": 2561.28,
+      "end": 2565.02,
+      "en": "And yet, they'll, those same people will just say,",
+      "zh": "然而,他们会, 那些人会只是说,"
+    },
+    {
+      "start": 2565.02,
+      "end": 2566.36,
+      "en": "some other business process,",
+      "zh": "其他一些业务流程,"
+    },
+    {
+      "start": 2566.36,
+      "end": 2568.08,
+      "en": "like closing the books for earnings,",
+      "zh": "譬如闭帐求利,"
+    },
+    {
+      "start": 2568.08,
+      "end": 2570.68,
+      "en": "that should just be an API.",
+      "zh": "这应该只是API。"
+    },
+    {
+      "start": 2570.68,
+      "end": 2574.32,
+      "en": "And it's actually the literally the same mental model.",
+      "zh": "实际上,这是 字面上相同的精神模型。"
+    },
+    {
+      "start": 2574.32,
+      "end": 2575.88,
+      "en": "Like there's a bunch of stuff,",
+      "zh": "就像有一堆东西,"
+    },
+    {
+      "start": 2575.88,
+      "end": 2577.88,
+      "en": "and we're deciding when to close the books,",
+      "zh": "我们决定何时结账"
+    },
+    {
+      "start": 2577.88,
+      "end": 2580.52,
+      "en": "and what sales to account for what and where,",
+      "zh": "和什么销售来解释什么和在哪里,"
+    },
+    {
+      "start": 2580.52,
+      "end": 2582.72,
+      "en": "it's fixing a bug.",
+      "zh": "它正在修复一个虫子。"
+    },
+    {
+      "start": 2582.72,
+      "end": 2585.04,
+      "en": "And there's a story around it, a narrative,",
+      "zh": "周围有一个故事,一个叙事,"
+    },
+    {
+      "start": 2585.04,
+      "end": 2586.6,
+      "en": "and we have to explain it to our boss.",
+      "zh": "我们必须向我们的老板解释"
+    },
+    {
+      "start": 2586.6,
+      "end": 2588.08,
+      "en": "And if something goes wrong,",
+      "zh": "如果出了问题"
+    },
+    {
+      "start": 2588.08,
+      "end": 2591.52,
+      "en": "we need a trail that explains who did what.",
+      "zh": "我们需要一条线索来解释是谁干的"
+    },
+    {
+      "start": 2591.52,
+      "end": 2595.32,
+      "en": "And so so much of what a business really is,",
+      "zh": "如此之多的生意其实,"
+    },
+    {
+      "start": 2595.32,
+      "end": 2598.2,
+      "en": "it are just the people deciding things.",
+      "zh": "只有人民决定一切"
+    },
+    {
+      "start": 2598.2,
+      "end": 2602.12,
+      "en": "And all that software does is it up levels, abstracts",
+      "zh": "而软件所做的只是提高水平,摘要"
+    },
+    {
+      "start": 2602.12,
+      "end": 2604.84,
+      "en": "and changes what they decide and how",
+      "zh": "改变他们的决定和方式"
+    },
+    {
+      "start": 2604.84,
+      "end": 2606.28,
+      "en": "and what tools they use.",
+      "zh": "他们用什么工具?"
+    },
+    {
+      "start": 2606.28,
+      "end": 2609.84,
+      "en": "The other sort of follow up to Seema's point is like,",
+      "zh": "另一种后续 Seema的观点是,"
+    },
+    {
+      "start": 2609.84,
+      "end": 2612.84,
+      "en": "it's the best case for just recording everything you do.",
+      "zh": "这是记录你所做的一切的最佳案例"
+    },
+    {
+      "start": 2612.84,
+      "end": 2615.76,
+      "en": "Like all like just voice recording everything you do",
+      "zh": "就像只是声音记录你所做的一切"
+    },
+    {
+      "start": 2615.76,
+      "end": 2616.68,
+      "en": "to like capture it.",
+      "zh": "喜欢抓住它。"
+    },
+    {
+      "start": 2616.68,
+      "end": 2619.0,
+      "en": "If people are, you know, going and flying",
+      "zh": "如果人们是,你知道, 去和飞行"
+    },
+    {
+      "start": 2619.0,
+      "end": 2625.44,
+      "en": "closing deals in person, make sure the software or the LLM can kind of capture everything that",
+      "zh": "亲自结束交易 确保软件或LLM能捕捉到所有的东西"
+    },
+    {
+      "start": 2625.44,
+      "end": 2634.2,
+      "en": "happens at all times. Obviously not advocating for full panopticon, but it's not just gathering.",
+      "zh": "随时都会发生 显然不是主张全泛光学, 但它不只是聚集。"
+    },
+    {
+      "start": 2634.2,
+      "end": 2642.56,
+      "en": "Exactly. And whether it's like recording in conversations or taking emails and written",
+      "zh": "没错 无论是在对话中录音 还是收发邮件和写作"
+    },
+    {
+      "start": 2642.56,
+      "end": 2646.62,
+      "en": "artifacts and ingesting them, that is the way the world is moving.",
+      "zh": "艺术品和摄入它们, 这就是世界的移动方式。"
+    },
+    {
+      "start": 2646.62,
+      "end": 2647.62,
+      "en": "Exactly.",
+      "zh": "没错"
+    },
+    {
+      "start": 2647.62,
+      "end": 2648.62,
+      "en": "Yeah.",
+      "zh": "对"
+    },
+    {
+      "start": 2648.62,
+      "end": 2651.52,
+      "en": "Well, it's also to your earlier point.",
+      "zh": "嗯,这也是你的早期观点。"
+    },
+    {
+      "start": 2651.52,
+      "end": 2655.28,
+      "en": "Expertise exists in this cloud in an organization.",
+      "zh": "在一个组织里,这个云层中存在专门知识。"
+    },
+    {
+      "start": 2655.28,
+      "end": 2660.52,
+      "en": "And it is the untapped resource of the modern era.",
+      "zh": "它是现代尚未开发的资源。"
+    },
+    {
+      "start": 2660.52,
+      "end": 2666.88,
+      "en": "And Aaron Levy at Box has done the most eloquent job of explaining repeatedly the assets that",
+      "zh": "Aaron Levy at Box 做了最有说服力的工作 反复解释资产"
+    },
+    {
+      "start": 2666.88,
+      "end": 2672.36,
+      "en": "exist in all of these Word and Excel documents streamed throughout a company.",
+      "zh": "在所有这些Word和Excel文档中都存在。"
+    },
+    {
+      "start": 2672.36,
+      "end": 2676.2,
+      "en": "And it's actually very, very hard to understand",
+      "zh": "这其实很难理解"
+    },
+    {
+      "start": 2676.2,
+      "end": 2679.08,
+      "en": "which documents are important, which ones to believe.",
+      "zh": "哪些文件很重要,哪些文件值得相信。"
+    },
+    {
+      "start": 2679.08,
+      "end": 2682.12,
+      "en": "And part of being in a company and having a culture",
+      "zh": "和在公司和有文化的一部分"
+    },
+    {
+      "start": 2682.12,
+      "end": 2684.88,
+      "en": "is really knowing the answer to that.",
+      "zh": "是真正知道 答案这一点。"
+    },
+    {
+      "start": 2684.88,
+      "end": 2689.86,
+      "en": "And it's super interesting to watch the customers at Box",
+      "zh": "看着Box的顾客也很有趣"
+    },
+    {
+      "start": 2689.86,
+      "end": 2694.26,
+      "en": "use Box to actually answer those questions.",
+      "zh": "用盒子来回答那些问题"
+    },
+    {
+      "start": 2694.26,
+      "end": 2696.78,
+      "en": "Which are the sales PowerPoint presentations",
+      "zh": "这些是销售 PowerPoint 演示"
+    },
+    {
+      "start": 2696.78,
+      "end": 2698.12,
+      "en": "that are actually working?",
+      "zh": "这真的有用吗?"
+    },
+    {
+      "start": 2698.12,
+      "end": 2700.06,
+      "en": "Which are the spreadsheets and the models",
+      "zh": "电子表格和模型"
+    },
+    {
+      "start": 2700.06,
+      "end": 2702.44,
+      "en": "that people actually rely on?",
+      "zh": "人们真正依赖的?"
+    },
+    {
+      "start": 2702.44,
+      "end": 2707.08,
+      "en": "And I think that AI is the first thing to come along",
+      "zh": "我觉得人工智能是第一个"
+    },
+    {
+      "start": 2707.08,
+      "end": 2711.0,
+      "en": "that really taps into that unstructured information",
+      "zh": "真正地挖掘出那些无结构化的信息"
+    },
+    {
+      "start": 2711.0,
+      "end": 2711.84,
+      "en": "in a company.",
+      "zh": "在一个公司。"
+    },
+    {
+      "start": 2711.84,
+      "end": 2712.76,
+      "en": "Yeah.",
+      "zh": "对"
+    },
+    {
+      "start": 2712.76,
+      "end": 2717.92,
+      "en": "I think before we wrap up, it might be good to visit",
+      "zh": "我想在我们结束之前,也许可以参观一下"
+    },
+    {
+      "start": 2717.92,
+      "end": 2720.64,
+      "en": "the sort of more immediate history",
+      "zh": "那种更直接的历史"
+    },
+    {
+      "start": 2720.64,
+      "end": 2725.32,
+      "en": "and then the more far away history of what headless software",
+      "zh": "然后是更远的历史 什么无头软件"
+    },
+    {
+      "start": 2725.32,
+      "end": 2726.56,
+      "en": "even is.",
+      "zh": "甚至是这样的。"
+    },
+    {
+      "start": 2726.56,
+      "end": 2730.8,
+      "en": "I know, Steven, you wrote last year a piece in reaction",
+      "zh": "我知道,史蒂文,你去年写了一篇反响"
+    },
+    {
+      "start": 2730.8,
+      "end": 2734.44,
+      "en": "to the rise of MCP servers.",
+      "zh": "到MCP服务器的崛起。"
+    },
+    {
+      "start": 2734.44,
+      "end": 2737.72,
+      "en": "And in that piece, you also related it actually",
+      "zh": "在这部作品中,你实际上也涉及到"
+    },
+    {
+      "start": 2737.72,
+      "end": 2744.72,
+      "en": "to early Microsoft litigation that the Justice Department",
+      "zh": "到早期微软的诉讼 司法部"
+    },
+    {
+      "start": 2744.72,
+      "end": 2745.92,
+      "en": "levied against them.",
+      "zh": "他们将受刑罚。"
+    },
+    {
+      "start": 2745.92,
+      "end": 2748.76,
+      "en": "And part of the argument was that Microsoft",
+      "zh": "部分争论是微软"
+    },
+    {
+      "start": 2748.76,
+      "end": 2752.68,
+      "en": "had a lot of products that could be categorized as middleware.",
+      "zh": "有很多产品可以归类为中间软件。"
+    },
+    {
+      "start": 2752.68,
+      "end": 2756.08,
+      "en": "And just curious, in all of these different software",
+      "zh": "好奇的是,所有这些不同的软件"
+    },
+    {
+      "start": 2756.08,
+      "end": 2761.92,
+      "en": "waves that you witnessed kind of in what we is history rhyming and repeating.",
+      "zh": "你亲眼目睹的波浪 是我们历史的韵律和重复"
+    },
+    {
+      "start": 2762.56,
+      "end": 2767.12,
+      "en": "Maybe not on the litigation side, but on the product level.",
+      "zh": "也许不是诉讼方面 而是产品方面"
+    },
+    {
+      "start": 2769.2,
+      "end": 2770.8,
+      "en": "Well, it's super interesting.",
+      "zh": "这很有趣"
+    },
+    {
+      "start": 2773.36,
+      "end": 2779.28,
+      "en": "I love Seaman O'Pine on where she sees things going with startups in this regard as well.",
+      "zh": "我喜欢海人O'Pine 关于她所看到的事情 与初创企业在这方面。"
+    },
+    {
+      "start": 2779.28,
+      "end": 2780.32,
+      "en": "So I'll go quick.",
+      "zh": "所以我会去快。"
+    },
+    {
+      "start": 2780.32,
+      "end": 2785.12,
+      "en": "But the real thing with MCP is it's very much like everything we're seeing now is that",
+      "zh": "但MCP的真面目是,它非常像 我们现在看到的一切是,"
+    },
+    {
+      "start": 2785.12,
+      "end": 2788.8,
+      "en": "that so much of it is driven by an engineering view",
+      "zh": "如此之多 是由工程视角驱动的"
+    },
+    {
+      "start": 2788.8,
+      "end": 2792.48,
+      "en": "of what would make for a good software architecture.",
+      "zh": "如何造就一个良好的软件架构。"
+    },
+    {
+      "start": 2792.48,
+      "end": 2796.04,
+      "en": "And very little of it is being driven by sort of the,",
+      "zh": "并且很少 被驱动的方式,"
+    },
+    {
+      "start": 2796.04,
+      "end": 2799.76,
+      "en": "using Siemens, the physical reality of the world.",
+      "zh": "使用西门子, 物理现实的世界。"
+    },
+    {
+      "start": 2799.76,
+      "end": 2801.8,
+      "en": "And so of course, if you're an engineer",
+      "zh": "当然,如果你是工程师"
+    },
+    {
+      "start": 2801.8,
+      "end": 2806.32,
+      "en": "and you would love to have like every tool you wanna use",
+      "zh": "你会喜欢所有工具"
+    },
+    {
+      "start": 2806.32,
+      "end": 2810.04,
+      "en": "to have a very clean API, preferably like a command light",
+      "zh": "拥有非常干净的API,最好像命令灯"
+    },
+    {
+      "start": 2810.04,
+      "end": 2813.06,
+      "en": "interface that pipes text in and out would be perfect.",
+      "zh": "接口, 管道文本进出将是完美的。"
+    },
+    {
+      "start": 2813.06,
+      "end": 2818.06,
+      "en": "But that turns out to not be how the world wants to work.",
+      "zh": "但事实证明,世界并不想这样工作。"
+    },
+    {
+      "start": 2818.06,
+      "end": 2821.4,
+      "en": "There are many, many reasons why it doesn't want to work that way.",
+      "zh": "有很多,很多原因 它不想那样工作。"
+    },
+    {
+      "start": 2821.4,
+      "end": 2824.86,
+      "en": "Seema touched on many security and compliance and things like that.",
+      "zh": "Seema触及许多安全和遵守以及类似的事情。"
+    },
+    {
+      "start": 2824.86,
+      "end": 2830.24,
+      "en": "But the reality is that no software wants to be disintermediated",
+      "zh": "但现实是没有任何软件想被干扰"
+    },
+    {
+      "start": 2830.24,
+      "end": 2833.4,
+      "en": "by some other layer above it.",
+      "zh": "上面还有一层"
+    },
+    {
+      "start": 2833.4,
+      "end": 2837.5,
+      "en": "Nobody wants to just be put in a corner and said,",
+      "zh": "没人想被关在角落里说"
+    },
+    {
+      "start": 2837.5,
+      "end": 2842.5,
+      "en": "your job is to just store this SQL format for expense reports",
+      "zh": "您的工作是只存储 SQL 格式用于开支报告"
+    },
+    {
+      "start": 2843.38,
+      "end": 2845.06,
+      "en": "and do nothing more.",
+      "zh": "别再做任何事了"
+    },
+    {
+      "start": 2845.06,
+      "end": 2847.02,
+      "en": "And then we're gonna use you only for that.",
+      "zh": "然后我们只利用你来做到这一点。"
+    },
+    {
+      "start": 2847.02,
+      "end": 2849.22,
+      "en": "And then by the way, we're piping you through",
+      "zh": "顺便说一句,我们正在帮助你"
+    },
+    {
+      "start": 2849.22,
+      "end": 2851.58,
+      "en": "to some other tool to analyze expense reports",
+      "zh": "用于分析支出报告的其他工具"
+    },
+    {
+      "start": 2851.58,
+      "end": 2853.74,
+      "en": "because that's not a growing business.",
+      "zh": "因为这不是一个增长的企业。"
+    },
+    {
+      "start": 2853.74,
+      "end": 2856.22,
+      "en": "That's a decaying business.",
+      "zh": "即堕业."
+    },
+    {
+      "start": 2856.22,
+      "end": 2861.14,
+      "en": "And so this whole notion of like everybody",
+      "zh": "所以这个概念就像大家一样"
+    },
+    {
+      "start": 2861.14,
+      "end": 2863.3,
+      "en": "is gonna be perfectly content to be abstracted",
+      "zh": "将完全满足 被抽象"
+    },
+    {
+      "start": 2863.3,
+      "end": 2866.78,
+      "en": "by some benign layer in the middle.",
+      "zh": "由中间一些良性地层。"
+    },
+    {
+      "start": 2866.78,
+      "end": 2869.86,
+      "en": "It just doesn't really work that way.",
+      "zh": "它只是不真正工作 这样。"
+    },
+    {
+      "start": 2869.86,
+      "end": 2872.82,
+      "en": "And it's because customers actually do not want",
+      "zh": "因为顾客其实不想"
+    },
+    {
+      "start": 2872.82,
+      "end": 2874.9,
+      "en": "to assemble their scenario from a bunch",
+      "zh": "组装他们的情景 从一堆"
+    },
+    {
+      "start": 2874.9,
+      "end": 2877.9,
+      "en": "of different providers because all it takes",
+      "zh": "不同的供应商,因为它需要的一切"
+    },
+    {
+      "start": 2877.9,
+      "end": 2880.22,
+      "en": "is your system will only be as stable",
+      "zh": "您的系统只会是稳定的"
+    },
+    {
+      "start": 2880.22,
+      "end": 2882.94,
+      "en": "as the most unstable part of that.",
+      "zh": "作为最不稳定的部分。"
+    },
+    {
+      "start": 2882.94,
+      "end": 2885.7,
+      "en": "So if expensive port company goes out of business,",
+      "zh": "所以,如果昂贵的港口公司 退出业务,"
+    },
+    {
+      "start": 2885.7,
+      "end": 2888.44,
+      "en": "you're completely out of luck.",
+      "zh": "你完全没有运气。"
+    },
+    {
+      "start": 2888.44,
+      "end": 2891.92,
+      "en": "So you want your expensive port company to be thriving",
+      "zh": "所以你希望贵重的港口公司兴旺发达"
+    },
+    {
+      "start": 2891.92,
+      "end": 2894.32,
+      "en": "and doing more stuff, even though you in your head,",
+      "zh": "做更多的事情, 尽管你在你的头脑,"
+    },
+    {
+      "start": 2894.32,
+      "end": 2895.84,
+      "en": "you're like, I wish they would just stop.",
+      "zh": "你就像,我希望他们只是停止。"
+    },
+    {
+      "start": 2895.84,
+      "end": 2897.8,
+      "en": "They don't want anymore from them.",
+      "zh": "他们不再想要他们。"
+    },
+    {
+      "start": 2897.8,
+      "end": 2898.64,
+      "en": "It's getting complicated.",
+      "zh": "事情越来越复杂了"
+    },
+    {
+      "start": 2898.64,
+      "end": 2900.24,
+      "en": "Oh, they just did a UI reworking.",
+      "zh": "哦,他们刚刚做了UI的重新工作。"
+    },
+    {
+      "start": 2900.24,
+      "end": 2902.24,
+      "en": "That's driving me crazy.",
+      "zh": "这让我发疯。"
+    },
+    {
+      "start": 2902.24,
+      "end": 2905.04,
+      "en": "And the flip side is those companies,",
+      "zh": "而反面是那些公司,"
+    },
+    {
+      "start": 2905.04,
+      "end": 2908.2,
+      "en": "they're not just gonna sit there and decay.",
+      "zh": "他们不会坐在那里腐烂"
+    },
+    {
+      "start": 2908.2,
+      "end": 2909.84,
+      "en": "And they're gonna look to the left",
+      "zh": "他们往左边看"
+    },
+    {
+      "start": 2909.84,
+      "end": 2911.0,
+      "en": "and they're gonna look to the right",
+      "zh": "并且他们会看右边"
+    },
+    {
+      "start": 2911.0,
+      "end": 2912.56,
+      "en": "and they're just gonna do the stuff",
+      "zh": "他们只是要去做的东西"
+    },
+    {
+      "start": 2912.56,
+      "end": 2916.2,
+      "en": "that they see people using with their product.",
+      "zh": "他们看见人们用他们的产品。"
+    },
+    {
+      "start": 2916.2,
+      "end": 2918.6,
+      "en": "And so SAP, the example of CMEUs,",
+      "zh": "所以SAP, CMEUs的例子,"
+    },
+    {
+      "start": 2918.6,
+      "end": 2921.12,
+      "en": "we're seeing this whole ecosystem grow up",
+      "zh": "整个生态系统都在成长"
+    },
+    {
+      "start": 2921.12,
+      "end": 2923.88,
+      "en": "and SAP is just gonna do those things.",
+      "zh": "SAP会做那些事的"
+    },
+    {
+      "start": 2923.88,
+      "end": 2926.04,
+      "en": "And that's the net.",
+      "zh": "则此网."
+    },
+    {
+      "start": 2926.04,
+      "end": 2928.28,
+      "en": "Now, not all of them, and most of them,",
+      "zh": "现在,不是所有的, 和大多数,"
+    },
+    {
+      "start": 2928.28,
+      "end": 2929.44,
+      "en": "they're not gonna do very well.",
+      "zh": "他们不会做的很好。"
+    },
+    {
+      "start": 2929.44,
+      "end": 2931.56,
+      "en": "In fact, just before this, I was talking to somebody,",
+      "zh": "事实上,在这之前,我和某人谈过"
+    },
+    {
+      "start": 2931.56,
+      "end": 2935.0,
+      "en": "and we reminded them that in most giant enterprise companies,",
+      "zh": "我们提醒他们,在大多数巨型企业,"
+    },
+    {
+      "start": 2935.0,
+      "end": 2939.2,
+      "en": "they view just a tie with some competitor as a win,",
+      "zh": "他们只把和竞争对手的领带视为胜利"
+    },
+    {
+      "start": 2939.2,
+      "end": 2941.96,
+      "en": "because they'll just bundle it in to their existing thing",
+      "zh": "因为他们只是把它捆在 他们现有的东西"
+    },
+    {
+      "start": 2941.96,
+      "end": 2944.04,
+      "en": "and give it away.",
+      "zh": "并给予它。"
+    },
+    {
+      "start": 2944.04,
+      "end": 2946.36,
+      "en": "And so it's, but this middleware layer,",
+      "zh": "所以,但是这个中间软件层,"
+    },
+    {
+      "start": 2946.36,
+      "end": 2948.68,
+      "en": "it's always, always very unstable.",
+      "zh": "总是很不稳定"
+    },
+    {
+      "start": 2948.68,
+      "end": 2952.08,
+      "en": "It looks great in a network hierarchy diagram",
+      "zh": "在网络结构图中看起来很棒"
+    },
+    {
+      "start": 2952.08,
+      "end": 2953.64,
+      "en": "of the OSI levels of networking,",
+      "zh": "OSI网络水平,"
+    },
+    {
+      "start": 2953.64,
+      "end": 2956.36,
+      "en": "but it's just never that stable.",
+      "zh": "但它只是从来没有那么稳定。"
+    },
+    {
+      "start": 2956.36,
+      "end": 2957.8,
+      "en": "Yeah, I think two things I'll add.",
+      "zh": "是的,我想我还要补充两件事"
+    },
+    {
+      "start": 2957.8,
+      "end": 2961.92,
+      "en": "So one is, yeah, the practical realities,",
+      "zh": "所以,一个是,是的, 现实,"
+    },
+    {
+      "start": 2961.92,
+      "end": 2964.24,
+      "en": "like even go back to the Salesforce example,",
+      "zh": "就像回到销售力量的例子,"
+    },
+    {
+      "start": 2964.24,
+      "end": 2967.2,
+      "en": "or like Workday, Workday has had APIs",
+      "zh": "或者像工作日,工作日有API"
+    },
+    {
+      "start": 2967.2,
+      "end": 2968.52,
+      "en": "that you could work with,",
+      "zh": "你可以与他共事,"
+    },
+    {
+      "start": 2968.52,
+      "end": 2970.8,
+      "en": "but can you really actually extract",
+      "zh": "但你真的能提取"
+    },
+    {
+      "start": 2970.8,
+      "end": 2973.52,
+      "en": "all of the data out of Workday in a like clean way",
+      "zh": "工作日的所有数据都一样干净"
+    },
+    {
+      "start": 2973.52,
+      "end": 2975.36,
+      "en": "and just operate without using Workday?",
+      "zh": "并且不用工作日就可以操作?"
+    },
+    {
+      "start": 2975.36,
+      "end": 2978.36,
+      "en": "No, Workday makes it extremely difficult",
+      "zh": "不,工作日很难过"
+    },
+    {
+      "start": 2978.36,
+      "end": 2982.24,
+      "en": "to actually like get access to the documentation",
+      "zh": "实际上喜欢访问文档"
+    },
+    {
+      "start": 2982.24,
+      "end": 2985.0,
+      "en": "and work with the work, and they don't expose all the info.",
+      "zh": "和工作, 他们不暴露所有的信息。"
+    },
+    {
+      "start": 2985.0,
+      "end": 2988.08,
+      "en": "Everything about the API, to use the API example,",
+      "zh": "关于API的一切,用API的例子,"
+    },
+    {
+      "start": 2988.08,
+      "end": 2990.6,
+      "en": "is this is analogous to what we're seeing now,",
+      "zh": "这和我们现在看到的类似"
+    },
+    {
+      "start": 2990.6,
+      "end": 2993.44,
+      "en": "which is that it makes it a dumb database, right?",
+      "zh": "也就是它使它成为一个愚蠢的数据库,对不对?"
+    },
+    {
+      "start": 2993.44,
+      "end": 2995.84,
+      "en": "And so they're not incentivized to do that.",
+      "zh": "因此,他们并没有被激励去做到这一点。"
+    },
+    {
+      "start": 2995.84,
+      "end": 2997.64,
+      "en": "So I think what we're seeing is,",
+      "zh": "所以,我认为我们看到的是,"
+    },
+    {
+      "start": 2997.64,
+      "end": 2999.6,
+      "en": "there's three paths in front of you.",
+      "zh": "前面有三条路"
+    },
+    {
+      "start": 2999.6,
+      "end": 3003.12,
+      "en": "One, if you were a consumer or a business",
+      "zh": "一,如果你是消费者或企业"
+    },
+    {
+      "start": 3003.12,
+      "end": 3004.28,
+      "en": "that's looking at buy software.",
+      "zh": "也就是买软件"
+    },
+    {
+      "start": 3004.28,
+      "end": 3006.84,
+      "en": "One is, okay, I take Salesforce,",
+      "zh": "首先,好吧,我拿销售部队,"
+    },
+    {
+      "start": 3006.84,
+      "end": 3011.04,
+      "en": "and I either turn on Agentforce or build all my agents",
+      "zh": "我要么找福尔摩斯探员 要么建立我所有的探员"
+    },
+    {
+      "start": 3011.04,
+      "end": 3016.04,
+      "en": "on top of it and then treat Salesforce as kind of the just the back end.",
+      "zh": "然后把萨斯福尔当做后端"
+    },
+    {
+      "start": 3016.16,
+      "end": 3019.32,
+      "en": "I think to what we just talked about, some of that will work,",
+      "zh": "我想到刚才我们谈论的, 有些会奏效,"
+    },
+    {
+      "start": 3019.32,
+      "end": 3023.36,
+      "en": "but some of that will also not work because Salesforce doesn't want you to want that to be,",
+      "zh": "但其中一些也行不通 因为塞勒斯福尔不希望你这样"
+    },
+    {
+      "start": 3024.0,
+      "end": 3025.92,
+      "en": "they don't want to be just the data in the background, right?",
+      "zh": "他们不想仅仅是背景数据,对不对?"
+    },
+    {
+      "start": 3027.28,
+      "end": 3031.32,
+      "en": "And so, I think that there will be mixed results around that.",
+      "zh": "因此,我认为这方面的结果会好坏参半。"
+    },
+    {
+      "start": 3031.32,
+      "end": 3036.0,
+      "en": "And I'm not bullish on the incumbent software building great agents on top.",
+      "zh": "我对在任的软件没意见 在顶部建立伟大的代理商"
+    },
+    {
+      "start": 3036.52,
+      "end": 3039.08,
+      "en": "There's option two, which is you just totally DIY it.",
+      "zh": "第二个选择 就是你完全设计好了"
+    },
+    {
+      "start": 3039.08,
+      "end": 3041.08,
+      "en": "You have the most control in that situation.",
+      "zh": "你最能控制这种情况"
+    },
+    {
+      "start": 3041.88,
+      "end": 3045.94,
+      "en": "However, I think to everything we just talked about, that's really hard, right?",
+      "zh": "然而,我想到我们刚刚谈论的一切, 这真的很难,对不对?"
+    },
+    {
+      "start": 3045.94,
+      "end": 3053.32,
+      "en": "Like you have to rebuilding true enterprise software, and I think for a startup building rebuilding a CRM much easier for rebuilding, you know,",
+      "zh": "就像你必须重建真正的企业软件, 我认为一个启动建筑 重建CRM 更容易重建,你知道,"
+    },
+    {
+      "start": 3053.32,
+      "end": 3055.32,
+      "en": "CRM for a Fortune 500 business.",
+      "zh": "财富500强企业的CRM."
+    },
+    {
+      "start": 3055.52,
+      "end": 3063.0,
+      "en": "It's a lot of business logic to capture, and you're also trying to like do open-heart surgery while like the patient is like alive, right?",
+      "zh": "捕捉到很多商业逻辑,你还试图喜欢做开心手术,而像病人一样活着,对不对?"
+    },
+    {
+      "start": 3063.0,
+      "end": 3064.6,
+      "en": "Or, you know, whatever you want to use, you know?",
+      "zh": "或者,你知道,任何你想使用,你知道吗?"
+    },
+    {
+      "start": 3064.6,
+      "end": 3065.6,
+      "en": "Well, hopefully they're alive.",
+      "zh": "希望他们还活着"
+    },
+    {
+      "start": 3065.6,
+      "end": 3066.1,
+      "en": "Yeah.",
+      "zh": "对"
+    },
+    {
+      "start": 3066.1,
+      "end": 3066.6,
+      "en": "Yeah.",
+      "zh": "对"
+    },
+    {
+      "start": 3066.6,
+      "end": 3067.1,
+      "en": "Yeah.",
+      "zh": "对"
+    },
+    {
+      "start": 3067.1,
+      "end": 3068.1,
+      "en": "Yes, yes, of course.",
+      "zh": "是的 是的 当然"
+    },
+    {
+      "start": 3068.1,
+      "end": 3071.1,
+      "en": "But I mean, you're like taking the engine out mid flight, whatever you want to say as",
+      "zh": "但是,我的意思是,你就像把引擎 出中途飞行,无论你想说什么"
+    },
+    {
+      "start": 3071.1,
+      "end": 3072.1,
+      "en": "the analogy.",
+      "zh": "类比。"
+    },
+    {
+      "start": 3072.1,
+      "end": 3073.1,
+      "en": "That's really hard.",
+      "zh": "这真的很难。"
+    },
+    {
+      "start": 3073.1,
+      "end": 3077.3,
+      "en": "You have to get the practical realities of permissioning and collaboration and all that",
+      "zh": "你必须得到 实际的允许和协作 这一切"
+    },
+    {
+      "start": 3077.3,
+      "end": 3078.3,
+      "en": "right.",
+      "zh": "对"
+    },
+    {
+      "start": 3078.3,
+      "end": 3079.3,
+      "en": "Then there's the third option.",
+      "zh": "后有第三义."
+    },
+    {
+      "start": 3079.3,
+      "end": 3082.74,
+      "en": "And I think this is why we are continuing to do what we do in investing in AI software",
+      "zh": "我想这就是为什么我们继续做 我们做的投资AI软件"
+    },
+    {
+      "start": 3082.74,
+      "end": 3088.54,
+      "en": "is because there is a reason that agents can continue to be built.",
+      "zh": "因为我们有理由继续建立代理商"
+    },
+    {
+      "start": 3088.54,
+      "end": 3091.06,
+      "en": "The data can be sucked in and built in the background.",
+      "zh": "数据可以吸入并建在背景中."
+    },
+    {
+      "start": 3091.06,
+      "end": 3096.46,
+      "en": "A lot of what we're seeing right now is things that are working alongside an SAP or a layer",
+      "zh": "我们现在看到的很多东西是 与SAP或一层工作"
+    },
+    {
+      "start": 3096.46,
+      "end": 3104.7,
+      "en": "visibility on top that is enhancing the experience and allowing the business user to then run agents",
+      "zh": "顶端的可见度,即增强经验,并允许业务用户然后运行代理"
+    },
+    {
+      "start": 3104.7,
+      "end": 3111.66,
+      "en": "on top of the existing data they have and not but also not like throw out all of the logic they've",
+      "zh": "在他们已有的数据之外, 而不是也不喜欢抛出他们所有的逻辑"
+    },
+    {
+      "start": 3111.66,
+      "end": 3116.73,
+      "en": "had in the background. And then I think also we create a new system of record like voice agents",
+      "zh": "在背景。 然后我想我们也创造了一个新的记录系统 像语音代理"
+    },
+    {
+      "start": 3116.73,
+      "end": 3122.25,
+      "en": "are collecting new data recordings are collecting collecting new data transcription, ingestion of",
+      "zh": "收集新的数据记录 收集新的数据转录、摄入"
+    },
+    {
+      "start": 3122.25,
+      "end": 3127.37,
+      "en": "documents, all of that documentation is pulling in. And maybe, you know, one day, these AI startups",
+      "zh": "文档,所有的文件 正在进入。 也许,你知道,有一天,这些AI启动"
+    },
+    {
+      "start": 3127.37,
+      "end": 3132.77,
+      "en": "will replace the systems and record in the back end, but they are doing so in like a systematic",
+      "zh": "将取代系统和记录在后端,但他们正在这样做,就像一个系统"
+    },
+    {
+      "start": 3132.77,
+      "end": 3137.73,
+      "en": "way of observing how the business is operating. I guess, I guess to close this out, those Sima,",
+      "zh": "观察企业运作的方式。 我想,我想结束这一切, 那些西玛,"
+    },
+    {
+      "start": 3137.73,
+      "end": 3142.69,
+      "en": "you, you sort of just touched on this, where, where are we really seeing the biggest opportunities",
+      "zh": "你,你刚刚碰了一下, 在那里,我们真正看到最大的机会"
+    },
+    {
+      "start": 3142.69,
+      "end": 3148.17,
+      "en": "for startups right now? I think, look, a lot of this, yeah, what I was just saying, it's,",
+      "zh": "刚开始的吗? 我想,你看,很多这样的, 是的,我只是说,这是,"
+    },
+    {
+      "start": 3148.17,
+      "end": 3152.29,
+      "en": "It's doing the things that the incumbents are not doing right now, which is",
+      "zh": "它在做现任者 现在不做的事,这就是"
+    },
+    {
+      "start": 3153.98,
+      "end": 3160.62,
+      "en": "which is going from a layer of collection of data and into how do we take action on top of it, right? And so",
+      "zh": "它正在从一个层次的数据收集 进入我们如何采取行动 在它之上,对不对? 这样"
+    },
+    {
+      "start": 3162.12,
+      "end": 3166.74,
+      "en": "Take the CRM example, right? It's like we're not just logging all the like call information",
+      "zh": "以CRM为例吧? 好像我们不只是在记录所有电话信息"
+    },
+    {
+      "start": 3166.84,
+      "end": 3170.7,
+      "en": "But then now I'm providing the intelligence back around okay. How do I prioritize leads?",
+      "zh": "但现在我提供情报了 我该如何优先处理线索?"
+    },
+    {
+      "start": 3171.16,
+      "end": 3177.36,
+      "en": "Which accounts should we work on what have what has a risk of churn flagging all of that and then like sending the outbound, right?",
+      "zh": "我们该用哪一种说法来解释 哪些东西有挥之不去的危险 然后把货运出去 对吧?"
+    },
+    {
+      "start": 3177.36,
+      "end": 3179.96,
+      "en": "And so, and, and, and, and part of that is creating this",
+      "zh": "所以,还有,还有,还有,其中的一部分 正在创造这个"
+    },
+    {
+      "start": 3179.96,
+      "end": 3183.36,
+      "en": "agent loop, which is you now, as the agent sends the",
+      "zh": "代理循环,即现在的你, 代理发送"
+    },
+    {
+      "start": 3183.36,
+      "end": 3187.08,
+      "en": "outbound, sees the response, you're understanding, okay, a,",
+      "zh": "外出,看到反应, 你明白,好吧,a,"
+    },
+    {
+      "start": 3187.2,
+      "end": 3190.8,
+      "en": "what works, what didn't, what, how did people respond?",
+      "zh": "什么有效,什么没有,什么, 人们的反应是什么?"
+    },
+    {
+      "start": 3191.0,
+      "end": 3193.56,
+      "en": "And then B, you're also collecting like benchmark data too.",
+      "zh": "然后B,你也像基准数据一样收集。"
+    },
+    {
+      "start": 3193.56,
+      "end": 3197.24,
+      "en": "I'm like, okay, this type of response is most effective in",
+      "zh": "我很喜欢,好吧, 这种类型的反应是最有效的"
+    },
+    {
+      "start": 3197.24,
+      "end": 3198.12,
+      "en": "these cases.",
+      "zh": "这些案件。"
+    },
+    {
+      "start": 3198.12,
+      "end": 3201.24,
+      "en": "And in Asia, we should be using this language, you know, type",
+      "zh": "在亚洲,我们应该使用这种语言, 你知道,类型"
+    },
+    {
+      "start": 3201.24,
+      "end": 3203.28,
+      "en": "of opening versus in Europe, etc.",
+      "zh": "欧洲的开放与开放等。"
+    },
+    {
+      "start": 3203.28,
+      "end": 3205.6,
+      "en": "That sort of stuff, you now are gentrically collecting all of",
+      "zh": "那种东西,你现在正在收集所有的东西"
+    },
+    {
+      "start": 3205.6,
+      "end": 3210.0,
+      "en": "that. And that's like an interesting data exhaust. So I think that's another area. And the third",
+      "zh": "那个 这就像一个有趣的数据排气。 我想这是另一个领域。 第三个"
+    },
+    {
+      "start": 3210.0,
+      "end": 3213.28,
+      "en": "area I just would flag too is we talked about this like physical realities. But the other part",
+      "zh": "我也想指出的是,我们谈论这就像物理现实。 但另一个部分"
+    },
+    {
+      "start": 3213.28,
+      "end": 3218.32,
+      "en": "of physical realities is a lot of the vertical software that builds for the, you know, the physical",
+      "zh": "物理现实是许多垂直的软件 用来构建物理"
+    },
+    {
+      "start": 3218.32,
+      "end": 3225.44,
+      "en": "world actually. And that is a really interesting set of data that's not it's like hard to capture,",
+      "zh": "其实是世界 这是一套非常有趣的数据 并不是很难捕捉到"
+    },
+    {
+      "start": 3225.44,
+      "end": 3230.8,
+      "en": "has been hard to capture historically. And you know, you will have to continue to",
+      "zh": "历史上很难捕捉到 而且你知道,你将不得不继续"
+    },
+    {
+      "start": 3230.8,
+      "end": 3237.8,
+      "en": "to pull together things that can be, you know, agents have been able to operate on software,",
+      "zh": "将那些可以,你知道, 代理已经能够运行在软件上,"
+    },
+    {
+      "start": 3237.8,
+      "end": 3241.18,
+      "en": "but then also what humans are doing out in the field, machines are doing out in the field,",
+      "zh": "还有人类在野外 机器在野外"
+    },
+    {
+      "start": 3241.18,
+      "end": 3244.38,
+      "en": "and pulling that back in. So, like, construction, manufacturing, all that.",
+      "zh": "并拉回来。 所以,像,建筑,制造,这一切。"
+    },
+    {
+      "start": 3244.38,
+      "end": 3251.94,
+      "en": "Well, the universal truth for enterprise software is the most difficult thing to do that happens",
+      "zh": "企业软件的普世真理 最难做到"
+    },
+    {
+      "start": 3251.94,
+      "end": 3258.82,
+      "en": "to be the dumbest, is to attempt to just compete head-on with an existing category.",
+      "zh": "成为最笨的,就是试图仅仅与现有的类别进行正面竞争."
+    },
+    {
+      "start": 3258.82,
+      "end": 3263.86,
+      "en": "And by head on, I mean not just the same category, but doing it the same way.",
+      "zh": "我指的不仅仅是同一个类别, 而是用同样的方式。"
+    },
+    {
+      "start": 3263.86,
+      "end": 3271.54,
+      "en": "The biggest opportunity right now is always, always to look at the existing sort of mental",
+      "zh": "现在最大的机会是永远,总是看 现有的精神类型"
+    },
+    {
+      "start": 3271.54,
+      "end": 3277.5,
+      "en": "map of enterprise categories and be in between to establish players.",
+      "zh": "绘制企业类别地图,并在两者之间确定参与者。"
+    },
+    {
+      "start": 3277.5,
+      "end": 3281.82,
+      "en": "Because the thing that you know right now during a massive technology shift is the one",
+      "zh": "因为你现在知道的事情 在大规模的技术转变 是一个"
+    },
+    {
+      "start": 3281.82,
+      "end": 3287.78,
+      "en": "thing that established players won't do is disturb their existing product line and go",
+      "zh": "固定的玩家不会做的 就是干扰他们现有的产品线 然后走"
+    },
+    {
+      "start": 3287.78,
+      "end": 3293.38,
+      "en": "to market. So they absolutely will just be bolting AI on top of their existing product.",
+      "zh": "到市场。 因此,他们绝对会只是螺栓AI 在他们现有的产品之上。"
+    },
+    {
+      "start": 3294.2,
+      "end": 3300.28,
+      "en": "They won't be getting rid of it, they won't stop working on it, they won't do anything to break it.",
+      "zh": "他们不会摆脱它,不会停止工作,也不会做任何事情来破坏它."
+    },
+    {
+      "start": 3300.28,
+      "end": 3305.72,
+      "en": "They're just going to try to weather this technology storm by sort of power throwing it,",
+      "zh": "他们正试图通过抛出能量来度过这个科技风暴,"
+    },
+    {
+      "start": 3305.72,
+      "end": 3311.16,
+      "en": "powering through it. And so your opportunity and a startup is to just look at two-league players",
+      "zh": "动力通过它。 所以,你的机会和启动 只是看两个同事的球员"
+    },
+    {
+      "start": 3311.96,
+      "end": 3317.72,
+      "en": "who are bolting AI onto the side and exposing some existing API as an agent or whatever.",
+      "zh": "他们把AI锁定在一边 并暴露一些现有的API作为代理人或任何东西。"
+    },
+    {
+      "start": 3317.72,
+      "end": 3324.17,
+      "en": "and just aim for the middle and do things in the new way, in the new way exclusively.",
+      "zh": "并且只是瞄准中间 并以新的方式做事情 完全以新的方式"
+    },
+    {
+      "start": 3324.17,
+      "end": 3328.97,
+      "en": "And by not attacking head on, you don't show up at every single customer and have them go,",
+      "zh": "而且通过不攻击头,你不出现 每一个客户,让他们去,"
+    },
+    {
+      "start": 3328.97,
+      "end": 3334.13,
+      "en": "you know, well, you need to do these 8,000 things before you even enter the door.",
+      "zh": "你知道,嗯,你需要做这8000件事 在你甚至进入大门之前。"
+    },
+    {
+      "start": 3334.13,
+      "end": 3338.45,
+      "en": "Instead, you have an equally difficult question, but when you're in control of it, which is",
+      "zh": "相反,你有一个同样困难的问题, 但当你控制它,这就是"
+    },
+    {
+      "start": 3338.45,
+      "end": 3341.66,
+      "en": "why do you even exist?",
+      "zh": "你为何存在?"
+    },
+    {
+      "start": 3341.66,
+      "end": 3344.78,
+      "en": "And that's your own question.",
+      "zh": "那是你自己的问题"
+    },
+    {
+      "start": 3344.78,
+      "end": 3351.26,
+      "en": "You don't have to answer to a series of 20 year frameworks that, for a 20 year old framework",
+      "zh": "你不必回答 一系列20年框架, 对于20年框架"
+    },
+    {
+      "start": 3351.26,
+      "end": 3355.7,
+      "en": "that got created to answer a bunch of questions that aren't even relevant anymore.",
+      "zh": "被创造来回答一堆 不再相关的问题"
+    },
+    {
+      "start": 3355.7,
+      "end": 3361.33,
+      "en": "And the best example of this is HTTP and HTML.",
+      "zh": "最好的例子是HTTP和HTML。"
+    },
+    {
+      "start": 3361.33,
+      "end": 3366.73,
+      "en": "Client server existed, but the reason that those took over was not because it did all",
+      "zh": "客户端服务器存在,但那些被接管的原因 并不是因为它都存在"
+    },
+    {
+      "start": 3366.73,
+      "end": 3368.29,
+      "en": "the things that client server did.",
+      "zh": "客户端服务器所做的一切。"
+    },
+    {
+      "start": 3368.29,
+      "end": 3374.41,
+      "en": "In fact, it did none of them, but it implemented that concept in an entirely new way.",
+      "zh": "事实上,它没有这样做,但它以全新的方式落实了这一概念。"
+    },
+    {
+      "start": 3374.41,
+      "end": 3379.81,
+      "en": "And so the web exists in spite of the fact that legacy vendors had a trillion dollars",
+      "zh": "因此,网络存在 尽管这个事实, 遗留的销售商 有一万亿美元"
+    },
+    {
+      "start": 3379.81,
+      "end": 3381.89,
+      "en": "invested on how client servers should work.",
+      "zh": "投资客户端服务器如何运作."
+    },
+    {
+      "start": 3381.89,
+      "end": 3385.97,
+      "en": "Well, and I would say the other piece too, it's not just two between two legacy vendors,",
+      "zh": "嗯,我也会说另一块, 它不只是两个 遗产销售商之间,"
+    },
+    {
+      "start": 3385.97,
+      "end": 3389.05,
+      "en": "but I think now there's like a layer of translation between two different functions within an",
+      "zh": "但我认为现在有一层 翻译在两个不同的功能之间"
+    },
+    {
+      "start": 3389.05,
+      "end": 3390.05,
+      "en": "organization too.",
+      "zh": "组织也是如此。"
+    },
+    {
+      "start": 3390.05,
+      "end": 3392.05,
+      "en": "Oh, yeah, yeah, for sure.",
+      "zh": "哦,是啊,是啊,当然。"
+    },
+    {
+      "start": 3392.05,
+      "end": 3395.17,
+      "en": "Software has always settled like, oh, I'm selling into just, you know, the sales team",
+      "zh": "软件已经稳定下来了 就像,哦,我卖到 仅仅是,你知道,销售团队"
+    },
+    {
+      "start": 3395.17,
+      "end": 3399.01,
+      "en": "or the finance team, but then there's like these handoffs and which is now the context,",
+      "zh": "或财务团队, 但有类似 这些交割 现在的背景,"
+    },
+    {
+      "start": 3399.01,
+      "end": 3400.01,
+      "en": "right?",
+      "zh": "对吧?"
+    },
+    {
+      "start": 3400.01,
+      "end": 3403.93,
+      "en": "But on bills and deals and like that actually also presents an interesting opportunity.",
+      "zh": "但关于账单和交易, 像这样,实际上也提供了一个有趣的机会。"
+    },
+    {
+      "start": 3403.93,
+      "end": 3411.01,
+      "en": "So the last question I have, which is for Steven, is, so network effects is this thing we always",
+      "zh": "因此,我最后一个问题,这是 史蒂文,是,所以网络效应 是这个东西,我们总是"
+    },
+    {
+      "start": 3411.01,
+      "end": 3412.53,
+      "en": "talk about on the consumer side.",
+      "zh": "说到消费方面。"
+    },
+    {
+      "start": 3412.53,
+      "end": 3416.89,
+      "en": "And it's a great, you know, source of defensibility, no enterprise software business as far as I",
+      "zh": "和它是一个伟大的,你知道的, 防伪的来源, 没有企业软件业务 就我而言"
+    },
+    {
+      "start": 3416.89,
+      "end": 3420.49,
+      "en": "can tell is successfully, you know, implemented network effects.",
+      "zh": "可以分辨是成功的,你知道的,已执行的网络效果。"
+    },
+    {
+      "start": 3420.49,
+      "end": 3426.33,
+      "en": "But you could argue that is a good source of durability over time, right?",
+      "zh": "但是,你可以争论 这是一个很好的耐久来源 一段时间,对不对?"
+    },
+    {
+      "start": 3426.33,
+      "end": 3429.65,
+      "en": "And I think sales forces tried this in a couple of ways in the past.",
+      "zh": "我认为销售力量在过去尝试过一些方法。"
+    },
+    {
+      "start": 3429.65,
+      "end": 3437.17,
+      "en": "But do you think that enterprise software will start entering the field of network effects",
+      "zh": "但你觉得企业软件会进入网络效应领域吗?"
+    },
+    {
+      "start": 3437.17,
+      "end": 3440.97,
+      "en": "in terms of like, okay, we're going to have both buyers and sellers on our CRM and therefore",
+      "zh": "我们的客户关系管理 将会有买卖双方"
+    },
+    {
+      "start": 3440.97,
+      "end": 3445.05,
+      "en": "be able to like mediate these transactions or like, yeah, I'm curious to get your take",
+      "zh": "喜欢调解这些交易 或者喜欢,是的,我很好奇 得到你的收受"
+    },
+    {
+      "start": 3445.05,
+      "end": 3446.24,
+      "en": "on that?",
+      "zh": "在那个?"
+    },
+    {
+      "start": 3446.24,
+      "end": 3451.68,
+      "en": "Well, certainly network effects outside of a company are extremely difficult for a bunch",
+      "zh": "公司外的网络效应对一群人来说是极其困难的"
+    },
+    {
+      "start": 3451.68,
+      "end": 3455.4,
+      "en": "of coal appliance and security reasons.",
+      "zh": "煤电器和安全原因。"
+    },
+    {
+      "start": 3455.4,
+      "end": 3459.4,
+      "en": "But the biggest network effect in enterprise software is inside of a company.",
+      "zh": "但企业软件中最大的网络效应是在公司内部."
+    },
+    {
+      "start": 3459.4,
+      "end": 3463.69,
+      "en": "And we're seeing that happen now with just chat.",
+      "zh": "而我们现在看到的只是聊天而已。"
+    },
+    {
+      "start": 3463.69,
+      "end": 3469.73,
+      "en": "Like all of a sudden you're seeing that it's so incredible to be at this dynamic that almost",
+      "zh": "突然间,你看到, 在这种动态中,它是如此不可思议 几乎"
+    },
+    {
+      "start": 3469.73,
+      "end": 3474.65,
+      "en": "felt like the good old days when some very motivated person, like most people who work",
+      "zh": "感觉就像一个好时光 一些非常有动机的人, 像大多数工作的人"
+    },
+    {
+      "start": 3474.65,
+      "end": 3479.69,
+      "en": "in enterprises, it turns out, are not like super interested in making their job better.",
+      "zh": "事实证明,在企业中, 并不像超级有兴趣 改善他们的工作。"
+    },
+    {
+      "start": 3479.69,
+      "end": 3483.33,
+      "en": "They actually just want to go to work, get paid, and go home.",
+      "zh": "他们实际上只是想去工作,得到报酬,然后回家。"
+    },
+    {
+      "start": 3483.33,
+      "end": 3488.25,
+      "en": "And they don't come to work every day going, ooh, how can I streamline my tasks?",
+      "zh": "他们不是每天都来上班 我怎么能精简工作?"
+    },
+    {
+      "start": 3488.25,
+      "end": 3490.05,
+      "en": "I just want to not mess it up.",
+      "zh": "我只是不想弄乱它。"
+    },
+    {
+      "start": 3490.05,
+      "end": 3492.65,
+      "en": "That is a lot of the world.",
+      "zh": "这是很多的世界。"
+    },
+    {
+      "start": 3492.65,
+      "end": 3494.69,
+      "en": "But there's a small set of people",
+      "zh": "但还有一群人"
+    },
+    {
+      "start": 3494.69,
+      "end": 3496.25,
+      "en": "like those bankers at Goldman Sachs",
+      "zh": "就像高盛银行的银行家"
+    },
+    {
+      "start": 3496.25,
+      "end": 3498.01,
+      "en": "that were like, how do I do more deals,",
+      "zh": "那就像, 我如何做更多的交易,"
+    },
+    {
+      "start": 3498.01,
+      "end": 3500.57,
+      "en": "faster, better, more clever models?",
+      "zh": "更快,更好,更聪明的模型?"
+    },
+    {
+      "start": 3500.57,
+      "end": 3502.17,
+      "en": "And so they were using Excel",
+      "zh": "所以他们使用Excel"
+    },
+    {
+      "start": 3502.17,
+      "end": 3504.93,
+      "en": "when the other bankers were using 123.",
+      "zh": "当其他银行家使用123。"
+    },
+    {
+      "start": 3504.93,
+      "end": 3505.81,
+      "en": "There's actually,",
+      "zh": "事实上,"
+    },
+    {
+      "start": 3505.81,
+      "end": 3507.01,
+      "en": "flirting around on the internet",
+      "zh": "在互联网上调情"
+    },
+    {
+      "start": 3507.01,
+      "end": 3509.49,
+      "en": "is this old commercial for Excel.",
+      "zh": "Excel的旧广告"
+    },
+    {
+      "start": 3509.49,
+      "end": 3513.77,
+      "en": "The launch, this launch TV ad from the late 1990s,",
+      "zh": "发布会 90年代后期的电视广告"
+    },
+    {
+      "start": 3513.77,
+      "end": 3516.21,
+      "en": "where, sorry, the late 1980s,",
+      "zh": "对不起,1980年代后期"
+    },
+    {
+      "start": 3516.21,
+      "end": 3518.61,
+      "en": "where the first Excel spreadsheets were being used.",
+      "zh": "其中使用了第一个Excel电子表格。"
+    },
+    {
+      "start": 3518.61,
+      "end": 3521.37,
+      "en": "And it's a person sitting there with this monstrous laptop",
+      "zh": "这个人坐在那里 与这个可怕的笔记本电脑"
+    },
+    {
+      "start": 3521.37,
+      "end": 3524.85,
+      "en": "that weighed like 12 pounds in an elevator trying to use it.",
+      "zh": "在电梯里重达12磅"
+    },
+    {
+      "start": 3524.85,
+      "end": 3526.57,
+      "en": "I'm laughing because of course they were trying",
+      "zh": "我在笑,因为他们当然在努力"
+    },
+    {
+      "start": 3526.57,
+      "end": 3529.81,
+      "en": "to not run a battery life in the elevator ride,",
+      "zh": "不运行一个电池生活 在电梯骑,"
+    },
+    {
+      "start": 3529.81,
+      "end": 3531.37,
+      "en": "which was invariably the case.",
+      "zh": "情况总是如此。"
+    },
+    {
+      "start": 3531.37,
+      "end": 3534.01,
+      "en": "But all of a sudden this crowded elevator",
+      "zh": "但突然间,这个拥挤的电梯"
+    },
+    {
+      "start": 3534.01,
+      "end": 3536.53,
+      "en": "or a bunch of people in these 1980s ties",
+      "zh": "或一群人在1980年代的关系"
+    },
+    {
+      "start": 3536.53,
+      "end": 3538.33,
+      "en": "and 1980s wearing glasses,",
+      "zh": "和1980年代戴眼镜,"
+    },
+    {
+      "start": 3538.33,
+      "end": 3541.05,
+      "en": "looking at the spreadsheet going, what are you doing?",
+      "zh": "看着电子表格,你在做什么?"
+    },
+    {
+      "start": 3541.05,
+      "end": 3542.05,
+      "en": "How are you doing that?",
+      "zh": "你怎么样?"
+    },
+    {
+      "start": 3542.05,
+      "end": 3543.83,
+      "en": "And you're all excited.",
+      "zh": "你们都很兴奋"
+    },
+    {
+      "start": 3543.83,
+      "end": 3548.49,
+      "en": "and fast forward to 2025, and that's exactly what happened",
+      "zh": "并快速前进到2025年, 这正是发生了什么"
+    },
+    {
+      "start": 3548.49,
+      "end": 3549.69,
+      "en": "with chat.",
+      "zh": "与聊天。"
+    },
+    {
+      "start": 3549.69,
+      "end": 3552.33,
+      "en": "Like in fact, I had a friend at SAP",
+      "zh": "事实上,我在SAP有个朋友"
+    },
+    {
+      "start": 3552.33,
+      "end": 3557.23,
+      "en": "that was writing like a SAP white paper about something.",
+      "zh": "就像SAP的白皮书一样"
+    },
+    {
+      "start": 3557.23,
+      "end": 3560.61,
+      "en": "And I just asked them, tell me what questions",
+      "zh": "我只是问他们, 告诉我什么问题"
+    },
+    {
+      "start": 3560.61,
+      "end": 3561.53,
+      "en": "you're trying to answer.",
+      "zh": "你试图回答。"
+    },
+    {
+      "start": 3561.53,
+      "end": 3566.42,
+      "en": "And I did the prompts and sent them back a white paper.",
+      "zh": "我做了提示 并发回了一份白皮书。"
+    },
+    {
+      "start": 3566.42,
+      "end": 3570.42,
+      "en": "And I'm positive I kicked off some sort of viral loop,",
+      "zh": "我肯定我摆脱了某种病毒循环"
+    },
+    {
+      "start": 3570.42,
+      "end": 3571.7,
+      "en": "not technically a viral loop,",
+      "zh": "技术上说不是病毒循环"
+    },
+    {
+      "start": 3571.7,
+      "end": 3575.5,
+      "en": "it, some sort of network effect viral loop inside of her team.",
+      "zh": "她团队内部的某种网络效应病毒循环"
+    },
+    {
+      "start": 3576.4,
+      "end": 3580.2,
+      "en": "Because like all of a sudden people are seeing how to make their job better.",
+      "zh": "因为像所有突然 人们看到 如何改善他们的工作。"
+    },
+    {
+      "start": 3580.44,
+      "end": 3582.76,
+      "en": "And it's accessible to them and they're doing it.",
+      "zh": "而能通达于他们,而他们为之."
+    },
+    {
+      "start": 3582.96,
+      "end": 3588.04,
+      "en": "So I think, and to your point, Tima, like this idea of a tool that",
+      "zh": "所以我想,你的观点,蒂玛 就像这个工具的想法,"
+    },
+    {
+      "start": 3588.04,
+      "end": 3592.96,
+      "en": "enables two functions to talk together that couldn't before it is golden.",
+      "zh": "使两种功能能够一起交谈,在金色之前无法进行."
+    },
+    {
+      "start": 3593.0,
+      "end": 3597.8,
+      "en": "Like that's exactly like that's literally what enterprise software integration is,",
+      "zh": "就像这就是企业软件的整合"
+    },
+    {
+      "start": 3598.0,
+      "end": 3601.88,
+      "en": "except that's all manual brute floors, higher extensor kind of stuff.",
+      "zh": "除了那些都是手动野蛮的地板 高级扩展器之类的东西"
+    },
+    {
+      "start": 3601.92,
+      "end": 3604.36,
+      "en": "And so if you have products that bridge this,",
+      "zh": "所以,如果你有产品 桥梁这一点,"
+    },
+    {
+      "start": 3604.36,
+      "end": 3605.8,
+      "en": "then Figma did a bunch of this",
+      "zh": "然后费格玛做了一堆"
+    },
+    {
+      "start": 3605.8,
+      "end": 3608.4,
+      "en": "with design and product development.",
+      "zh": "包括设计和产品开发。"
+    },
+    {
+      "start": 3608.4,
+      "end": 3613.4,
+      "en": "And so if you can develop software that leverages AI",
+      "zh": "所以如果你能开发利用AI的软件"
+    },
+    {
+      "start": 3613.44,
+      "end": 3615.64,
+      "en": "in order to bring together parts of an organization",
+      "zh": "将组织的各个部分汇集在一起"
+    },
+    {
+      "start": 3615.64,
+      "end": 3617.91,
+      "en": "that don't normally communicate,",
+      "zh": "通常不沟通,"
+    },
+    {
+      "start": 3617.91,
+      "end": 3621.46,
+      "en": "that's a new category.",
+      "zh": "这是一个新的类别。"
+    },
+    {
+      "start": 3621.46,
+      "end": 3624.14,
+      "en": "And we've seen that with things like IT budgeting,",
+      "zh": "而我们已经看到 与IT预算,"
+    },
+    {
+      "start": 3624.14,
+      "end": 3626.86,
+      "en": "where IT and finance would end up with tools",
+      "zh": "信息技术和资金最终将产生工具"
+    },
+    {
+      "start": 3626.86,
+      "end": 3629.98,
+      "en": "that ended up helping them both do forecasting.",
+      "zh": "结果他们都做了预测"
+    },
+    {
+      "start": 3629.98,
+      "end": 3631.5,
+      "en": "And the cloud enabled that.",
+      "zh": "云层使这。"
+    },
+    {
+      "start": 3631.5,
+      "end": 3635.5,
+      "en": "So I think that's a huge opportunity.",
+      "zh": "所以,我认为这是一个巨大的机会。"
+    },
+    {
+      "start": 3635.5,
+      "end": 3636.34,
+      "en": "Nice.",
+      "zh": "不错"
+    },
+    {
+      "start": 3636.34,
+      "end": 3640.54,
+      "en": "Well, I think that's also an amazing note to end on.",
+      "zh": "嗯,我认为这也是 一个惊人的音符结束。"
+    },
+    {
+      "start": 3640.54,
+      "end": 3643.54,
+      "en": "Thank you so much, Steven, for joining us here.",
+      "zh": "非常感谢你 史蒂芬 加入我们"
+    },
+    {
+      "start": 3643.54,
+      "end": 3644.22,
+      "en": "Well, thank you.",
+      "zh": "谢谢"
+    },
+    {
+      "start": 3644.22,
+      "end": 3645.22,
+      "en": "Yeah, and thank you.",
+      "zh": "是的,谢谢你。"
+    },
+    {
+      "start": 3645.22,
+      "end": 3646.38,
+      "en": "And thank you, SEMA.",
+      "zh": "谢谢你,SEMA。"
+    }
+  ],
+  "translation": "Google machine translation (batch generated, 2026-07-15)"
+}

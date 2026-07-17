@@ -1,0 +1,5 @@
+window.APP_CONFIG = {
+  SUPABASE_URL: "",
+  SUPABASE_ANON_KEY: "",
+  PUBLIC_MEDIA_MODE: "youtube"
+};

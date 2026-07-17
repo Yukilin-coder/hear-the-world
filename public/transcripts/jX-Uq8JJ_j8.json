@@ -1,0 +1,5475 @@
+{
+  "id": "jX-Uq8JJ_j8",
+  "model": "faster-whisper base.en (independent ASR)",
+  "language": "en",
+  "complete": true,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.92,
+      "en": "90% or greater of use cases can not be fully handled by many, many different models, including",
+      "zh": "90%或更多的使用案例无法由许多不同的模型充分处理,包括:"
+    },
+    {
+      "start": 5.92,
+      "end": 9.68,
+      "en": "open source models. Arbin joined the incredible founder of Glean,",
+      "zh": "开源模型. 阿尔宾加入了伟大的Glean创始人"
+    },
+    {
+      "start": 9.68,
+      "end": 15.2,
+      "en": "is one of the technology illuminaries of the last decade he founded Rubric before,",
+      "zh": "是过去10年他创立鲁布里克的技术灯塔之一"
+    },
+    {
+      "start": 15.2,
+      "end": 19.28,
+      "en": "which obviously IPOed very successfully and is a brilliant public company. Now he's gone",
+      "zh": "很明显IPO很成功 是个出色的公营公司 现在他走了"
+    },
+    {
+      "start": 19.28,
+      "end": 24.64,
+      "en": "to found Glean, an incredible business today that's raised money from client Perkins and many other",
+      "zh": "找到Glean, 一个不可思议的生意 今天从客户Perkins和许多其他"
+    },
+    {
+      "start": 24.64,
+      "end": 28.64,
+      "en": "great investors. For almost all other AI companies that are not doing frontier model",
+      "zh": "伟大的投资者。 几乎所有没有做前沿模型的AI公司"
+    },
+    {
+      "start": 28.64,
+      "end": 33.44,
+      "en": "training. They should see the model companies as a huge asset. Once you move towards consumption,",
+      "zh": "培训。 他们应该把模范公司视为巨大的资产. 一旦你转向消费,"
+    },
+    {
+      "start": 33.44,
+      "end": 37.2,
+      "en": "there's no inherent bundling advantage. You have to do 10 times the work to get the same",
+      "zh": "没有固有的捆绑优势。 你必须要做10倍的工作才能得到同样的"
+    },
+    {
+      "start": 37.2,
+      "end": 54.5,
+      "en": "order revenue from your customers. Ready to go. Arvind, I'm so excited for this. We have a mutual",
+      "zh": "向客户订购收入。 准备出发 阿文德,我很兴奋 我们有一个共同的"
+    },
+    {
+      "start": 54.5,
+      "end": 58.9,
+      "en": "friend in MAMoon who says many, many wonderful things about you and I think he's one of the",
+      "zh": "在MAMoon的朋友, 谁说了很多,很多美妙的事情 关于你,我认为他是其中之一"
+    },
+    {
+      "start": 58.9,
+      "end": 63.54,
+      "en": "greatest ambassadors of our time. And so I'm really excited for this. So thank you for joining me.",
+      "zh": "我们时代最伟大的大使们 所以我非常兴奋 所以,谢谢你加入我。"
+    },
+    {
+      "start": 63.54,
+      "end": 64.9,
+      "en": "Thank you for having me.",
+      "zh": "谢谢你邀请我"
+    },
+    {
+      "start": 64.9,
+      "end": 72.5,
+      "en": "Now, I think with entrepreneurs, you're either thrilled by winning and it's that chase to win,",
+      "zh": "现在,我想,与企业家, 你要么激动 通过胜利,这是追逐获胜,"
+    },
+    {
+      "start": 72.5,
+      "end": 78.26,
+      "en": "or you're terrified of losing, and it's that fear of losing that inspires you. Which one are you?",
+      "zh": "或者你害怕失败, 而正是这种害怕失去, 激励你。 你是谁?"
+    },
+    {
+      "start": 79.3,
+      "end": 84.82,
+      "en": "Well, that's a good question. I think I would probably say the latter. I'm always worried about",
+      "zh": "嗯,这是一个很好的问题。 我想我可能会说后者。 我总是担心"
+    },
+    {
+      "start": 84.82,
+      "end": 87.78,
+      "en": "what can go wrong, and that gives me up at night.",
+      "zh": "哪里会出错 晚上就会放弃"
+    },
+    {
+      "start": 88.82,
+      "end": 92.5,
+      "en": "I love that. It's only the paranoid survive. Has it always been that way?",
+      "zh": "我喜欢 只有偏执者能生存 总是这样吗?"
+    },
+    {
+      "start": 92.5,
+      "end": 98.15,
+      "en": "Yeah, mostly. Even with the success you've had, I'm sorry, it's so interesting, like,",
+      "zh": "是啊,大多数。 尽管你已经取得了成功,我很抱歉, 它是如此有趣,喜欢,"
+    },
+    {
+      "start": 98.15,
+      "end": 102.11,
+      "en": "you know, rubric. It was a phenomenal success. Public companies stay and you're one of the",
+      "zh": "你知道,卢博克。 这是一个惊人的成功。 公共公司留下来,你是其中之一"
+    },
+    {
+      "start": 102.11,
+      "end": 107.63,
+      "en": "co-founders. It doesn't change with time. No, because actually number one, like every time",
+      "zh": "联合创始人。 不随时变化. 不,因为实际上第一, 像每次"
+    },
+    {
+      "start": 107.63,
+      "end": 113.55,
+      "en": "you do a new company or start a new project, it's sort of like starting from scratch, in",
+      "zh": "你做一个新的公司或启动一个新的项目, 这有点像从零开始,在"
+    },
+    {
+      "start": 113.55,
+      "end": 119.83,
+      "en": "my opinion. Like, you have some good lessons from before, but it's a new world, it's a",
+      "zh": "我的意见 喜欢,你有一些好的教训 从以前,但 这是一个新的世界,这是一个"
+    },
+    {
+      "start": 119.83,
+      "end": 122.79,
+      "en": "new environment, like think about gleaned, like, you know, it's fundamentally different",
+      "zh": "新的环境,像思考 收集,喜欢,你知道, 它根本不同"
+    },
+    {
+      "start": 122.79,
+      "end": 125.75,
+      "en": "from rubric and all ways possible.",
+      "zh": "从标题和所有可能的方式。"
+    },
+    {
+      "start": 125.75,
+      "end": 130.55,
+      "en": "And especially in the world of AI, you have to be, you have to, I think you have to think",
+      "zh": "尤其是在AI的世界里 你必须,你必须,我认为你必须思考"
+    },
+    {
+      "start": 130.55,
+      "end": 134.47,
+      "en": "that way because like there is a disruption every single day.",
+      "zh": "因为每天都有混乱"
+    },
+    {
+      "start": 134.47,
+      "end": 139.15,
+      "en": "And if you start to focus more on sort of keep building on what you've already built, like",
+      "zh": "如果你开始更专注于 那种继续发展 你已经建设,喜欢"
+    },
+    {
+      "start": 139.15,
+      "end": 142.39,
+      "en": "the investor meeting mindset that, you know, you're, you're waiting with something, you",
+      "zh": "投资者的心态,你知道, 你,你在等待的东西,你"
+    },
+    {
+      "start": 142.39,
+      "end": 143.99,
+      "en": "want to sort of double down on it.",
+      "zh": "想要多加一点"
+    },
+    {
+      "start": 143.99,
+      "end": 146.55,
+      "en": "I think that's not sufficient in this new AI world.",
+      "zh": "我认为这还不够 在这个新的AI世界。"
+    },
+    {
+      "start": 146.55,
+      "end": 152.57,
+      "en": "Can I ask for those that don't know, can you provide a 60 second summary on what Glean is and how you work?",
+      "zh": "我能问那些不知道的人吗, 你能提供60秒的总结 关于什么是Glean和如何工作?"
+    },
+    {
+      "start": 152.91,
+      "end": 159.25,
+      "en": "So Glean is an enterprise AI company. We started as a search company for businesses. So help an employee",
+      "zh": "因此Glean是一家企业AI公司. 我们一开始是一家企业搜索公司 帮个忙"
+    },
+    {
+      "start": 160.01,
+      "end": 163.77,
+      "en": "Quickly find information that they need, you know, that sort of build across",
+      "zh": "尽快找到他们需要的信息,你知道的, 那种构建跨越"
+    },
+    {
+      "start": 164.07,
+      "end": 169.07,
+      "en": "One of hundred or thousand different systems inside their company. So that was sort of like how we started the Google",
+      "zh": "公司内部有十万个不同的系统 所以,这有点像 我们如何启动谷歌"
+    },
+    {
+      "start": 169.07,
+      "end": 175.31,
+      "en": "It's a Google for your work life, but then all-time as AI models got better. So it evolved into an AI platform. So today",
+      "zh": "它是一个谷歌 对于你的工作生活, 但作为AI模型 得到了所有的时间。 于是演变为AI平台. 所以说今天"
+    },
+    {
+      "start": 175.31,
+      "end": 183.39,
+      "en": "The way to think about Glean is that first, it's a superset of GPT, Glaude, Gemini, all",
+      "zh": "考虑Glean的方式是首先, 它是一个超级集GPT,Glaude,双子座,所有"
+    },
+    {
+      "start": 183.39,
+      "end": 185.63,
+      "en": "of those combined into one product experience.",
+      "zh": "综合到一种产品经验。"
+    },
+    {
+      "start": 185.63,
+      "end": 191.31,
+      "en": "It's a co-worker for your employees and is connected to all of your company's context,",
+      "zh": "这是你员工的同工 和你公司的所有背景有关"
+    },
+    {
+      "start": 191.31,
+      "end": 193.23,
+      "en": "how work happens inside your company.",
+      "zh": "你公司里的工作是怎么发生的"
+    },
+    {
+      "start": 193.23,
+      "end": 200.59,
+      "en": "So Mr. Alex Karp from Palantir went on CNBC last week and he said that the large enterprise",
+      "zh": "所以Palantir的Alex Karp先生上周去了CNBC 他说这个大型企业"
+    },
+    {
+      "start": 200.59,
+      "end": 204.83,
+      "en": "in the world were more skeptical than ever of frontier model providers.",
+      "zh": "全世界对前沿模式供应商的怀疑程度比任何时候都高。"
+    },
+    {
+      "start": 204.83,
+      "end": 206.19,
+      "en": "You work with some of the largest.",
+      "zh": "你与一些最大的。"
+    },
+    {
+      "start": 206.19,
+      "end": 208.23,
+      "en": "You have incredible customers.",
+      "zh": "你有不可思议的顾客。"
+    },
+    {
+      "start": 208.23,
+      "end": 209.59,
+      "en": "Do you agree with him?",
+      "zh": "你同意他的意见吗?"
+    },
+    {
+      "start": 209.59,
+      "end": 211.55,
+      "en": "Are they more skeptical than ever?",
+      "zh": "他们比以前更怀疑吗?"
+    },
+    {
+      "start": 211.55,
+      "end": 212.55,
+      "en": "Two things.",
+      "zh": "两件事"
+    },
+    {
+      "start": 212.55,
+      "end": 217.03,
+      "en": "You know, one that terrified of them, like in the sense that, I mean, just like every",
+      "zh": "你知道,一个害怕他们, 像从这个意义上,我的意思是,就像每一个"
+    },
+    {
+      "start": 217.03,
+      "end": 221.15,
+      "en": "software company is worried about that, hey, will be in business?",
+      "zh": "软件公司担心,嘿, 将会在生意上?"
+    },
+    {
+      "start": 221.15,
+      "end": 222.99,
+      "en": "Will the models eat at all?",
+      "zh": "模特儿会吃吗?"
+    },
+    {
+      "start": 222.99,
+      "end": 229.27,
+      "en": "Similarly, enterprises leaders also worried that, you know, is there sort of core IP,",
+      "zh": "同样,企业领导人也担心,你知道, 有没有某种核心IP,"
+    },
+    {
+      "start": 229.27,
+      "end": 234.75,
+      "en": "their data, their information as well as their way of learning the way of doing things?",
+      "zh": "他们的数据,他们的信息,以及他们学习做事方式的方式?"
+    },
+    {
+      "start": 234.75,
+      "end": 239.55,
+      "en": "Would it all be, will they be subject to too much of technology dependence on these model",
+      "zh": "如果一切都是,他们会 受到太多的技术依赖 这些模型"
+    },
+    {
+      "start": 239.55,
+      "end": 240.87,
+      "en": "providers?",
+      "zh": "供应商?"
+    },
+    {
+      "start": 240.87,
+      "end": 245.01,
+      "en": "So that's feeling is there for sure.",
+      "zh": "所以,这就是感觉是肯定的。"
+    },
+    {
+      "start": 245.01,
+      "end": 249.88,
+      "en": "But I think what he said was that AI is not working in the enterprises, then everybody's",
+      "zh": "但我想他说的是AI不在企业工作 然后每个人的"
+    },
+    {
+      "start": 249.88,
+      "end": 252.69,
+      "en": "afraid to actually say so.",
+      "zh": "害怕说真的"
+    },
+    {
+      "start": 252.69,
+      "end": 255.37,
+      "en": "Because it's not supposed to be a cool thing to do.",
+      "zh": "因为它不应该是一个很酷的事情。"
+    },
+    {
+      "start": 255.37,
+      "end": 258.85,
+      "en": "Before we get to AI not working, because I think it's probably one of the most important",
+      "zh": "在进入AI之前,因为我认为它可能是最重要的之一"
+    },
+    {
+      "start": 258.85,
+      "end": 260.77,
+      "en": "questions, but it's a whole separate segment.",
+      "zh": "问题,但它是一个完整的单独的部分。"
+    },
+    {
+      "start": 260.77,
+      "end": 265.97,
+      "en": "Do you think they're right to be afraid of the frontier model provider eating their lunch or not?",
+      "zh": "你觉得他们害怕边疆模范供货商吃他们的午餐 是对的吗?"
+    },
+    {
+      "start": 266.94,
+      "end": 273.5,
+      "en": "Well, depending on the enterprise, yes. I think the, well, look like, if we are talking about",
+      "zh": "嗯,取决于企业,是的。 我想,嗯,看起来像, 如果我们在谈论"
+    },
+    {
+      "start": 273.5,
+      "end": 279.18,
+      "en": "fundamentally changing how people work, and if we are saying that majority of the work that we do",
+      "zh": "根本改变人们的工作方式,如果我们说,我们所做的大多数工作"
+    },
+    {
+      "start": 279.18,
+      "end": 286.22,
+      "en": "today is going to be done by an agent, which is fully powered by one of these frontier model",
+      "zh": "今天要由一个特工来完成 由这些前沿模型之一提供全部动力"
+    },
+    {
+      "start": 286.22,
+      "end": 294.32,
+      "en": "companies. Then in some sense, like you've now transferred a lot of your operations to",
+      "zh": "企业。 从某种意义上说 就像你现在把很多行动转移到了"
+    },
+    {
+      "start": 294.32,
+      "end": 301.26,
+      "en": "these technology providers. This is more than technology dependence. This is actually a real",
+      "zh": "这些技术供应商。 这不仅仅是技术依赖。 这其实是真的"
+    },
+    {
+      "start": 301.26,
+      "end": 307.62,
+      "en": "sort of operational dependence on the companies that are actually running those agents for",
+      "zh": "业务上对实际运营这些代理的公司依赖程度"
+    },
+    {
+      "start": 307.62,
+      "end": 316.11,
+      "en": "you. It's actually interesting. If you think about how work happens, over time, there is",
+      "zh": "你们 这其实很有趣。 如果你想到工作会发生什么, 随着时间的推移,有"
+    },
+    {
+      "start": 316.11,
+      "end": 320.19,
+      "en": "you know, like when you initially like do it, you know, do it fast for the first time, maybe",
+      "zh": "你知道,就像当你一开始喜欢这样做, 你知道,做它第一次,也许"
+    },
+    {
+      "start": 320.19,
+      "end": 324.11,
+      "en": "you'll document a process like, you know, how like what are the 10 steps you need to take to",
+      "zh": "你会记录一个过程 比如,你知道, 如何像什么 你需要采取的十步"
+    },
+    {
+      "start": 324.11,
+      "end": 330.03,
+      "en": "actually complete some piece of work. And then over time, you know, people start to sort of optimize",
+      "zh": "实际完成一些工作。 然后随着时间推移 人们开始优化"
+    },
+    {
+      "start": 330.03,
+      "end": 335.47,
+      "en": "and tweak that process. A lot of it never gets documented and you just you sort of based on doing",
+      "zh": "并调整这一过程。 有很多东西是没有记录的 你只是根据做"
+    },
+    {
+      "start": 335.47,
+      "end": 342.19,
+      "en": "this work going over again, you now build all these learnings that you apply in real time to do this",
+      "zh": "现在你们要创造出这些 实时应用的学习成果"
+    },
+    {
+      "start": 342.19,
+      "end": 348.71,
+      "en": "work. In the future, all of that institutional learning is actually going to accumulate in",
+      "zh": "工作时 今后,所有的机构学习实际上都将在"
+    },
+    {
+      "start": 348.71,
+      "end": 353.67,
+      "en": "that agent that is doing that work. So if you don't have any control on running that agent",
+      "zh": "做这项工作的特工 所以如果你不能控制那个特工的运行"
+    },
+    {
+      "start": 353.67,
+      "end": 359.91,
+      "en": "yourself, if you don't own the learning that it actually, that it actually like gains over",
+      "zh": "自己,如果你不拥有 学习它实际上, 它实际上喜欢收益"
+    },
+    {
+      "start": 359.91,
+      "end": 365.63,
+      "en": "the years, then you're basically fully dependent on these AI companies, you don't have to get",
+      "zh": "这些年,那么你基本上完全依赖这些AI公司, 你不必得到"
+    },
+    {
+      "start": 365.63,
+      "end": 369.95,
+      "en": "your work done. So, so like it's absolutely, I think there's a fundamental question in front",
+      "zh": "你的工作已经完成。 所以,就像它是绝对的, 我认为有一个根本性的问题 在前面"
+    },
+    {
+      "start": 369.95,
+      "end": 376.11,
+      "en": "of enterprises today. How do they actually use these AI technologies but still retain control",
+      "zh": "今天的企业。 他们如何实际使用这些AI技术,但仍保持控制"
+    },
+    {
+      "start": 377.23,
+      "end": 381.63,
+      "en": "and all the compounding learnings that happen with AI, they belong to the enterprises.",
+      "zh": "和所有复合学习 发生在AI, 它们属于企业。"
+    },
+    {
+      "start": 381.63,
+      "end": 386.91,
+      "en": "Are you seeing enterprise customers root away from frontier model providers towards open source?",
+      "zh": "你是否看到企业客户 远离前沿模式供应商 转向开放源码?"
+    },
+    {
+      "start": 388.06,
+      "end": 393.18,
+      "en": "That's something that's happening now. So I think we are at a real inflection point with open source.",
+      "zh": "即今所现. 所以,我认为我们正处在一个真正的开源点。"
+    },
+    {
+      "start": 393.18,
+      "end": 397.18,
+      "en": "Part of it, you're waiting on the open source models actually get better.",
+      "zh": "一部分,你正在等待开放源代码模型 实际上会变得更好。"
+    },
+    {
+      "start": 397.18,
+      "end": 402.18,
+      "en": "The desire has been there for many, many years.",
+      "zh": "渴望已经存在很多年了"
+    },
+    {
+      "start": 402.18,
+      "end": 407.66,
+      "en": "There's no enterprise that we talk to, which is okay with saying that, hey, look, I can",
+      "zh": "没有什么企业,我们谈, 这没关系说,嘿,看,我可以"
+    },
+    {
+      "start": 407.66,
+      "end": 411.42,
+      "en": "get my work done with OpenAI or within Tropic and I'm good.",
+      "zh": "完成我的工作 与OpenAI 或者在热带,我很好。"
+    },
+    {
+      "start": 411.42,
+      "end": 415.34,
+      "en": "Everybody wants to make sure that they are in control of their destiny, that they get to",
+      "zh": "每个人都想确保自己掌握自己的命运,让他们去"
+    },
+    {
+      "start": 415.34,
+      "end": 417.98,
+      "en": "use many of these models.",
+      "zh": "使用许多这些模型。"
+    },
+    {
+      "start": 417.98,
+      "end": 422.98,
+      "en": "And now, given that AI has become so expensive, if you look at, if you're here stories all",
+      "zh": "现在,鉴于AI已经变得如此昂贵, 如果你看,如果你在这里,所有的故事"
+    },
+    {
+      "start": 422.98,
+      "end": 430.1,
+      "en": "the time about companies coming up with an annual budget for AI and they run past that",
+      "zh": "公司有时间为AI准备年度预算 并且他们通过"
+    },
+    {
+      "start": 430.1,
+      "end": 431.98,
+      "en": "like within a month or two.",
+      "zh": "就像一两个月之内"
+    },
+    {
+      "start": 431.98,
+      "end": 432.98,
+      "en": "So in this way.",
+      "zh": "故依此义."
+    },
+    {
+      "start": 432.98,
+      "end": 433.98,
+      "en": "Or CFOs.",
+      "zh": "或者说CFOs."
+    },
+    {
+      "start": 433.98,
+      "end": 442.18,
+      "en": "So that is really accelerated that desire for open source.",
+      "zh": "所以这真的加速了对开放源代码的渴望。"
+    },
+    {
+      "start": 442.18,
+      "end": 445.5,
+      "en": "And that coupled with the fact that we now have really good models in open source.",
+      "zh": "而与此同时,我们现在在开放源代码中 有了非常好的模型。"
+    },
+    {
+      "start": 445.5,
+      "end": 446.82,
+      "en": "What do they care about?",
+      "zh": "他们关心什么?"
+    },
+    {
+      "start": 446.82,
+      "end": 448.74,
+      "en": "Do they care about cost?",
+      "zh": "他们在乎成本吗?"
+    },
+    {
+      "start": 448.74,
+      "end": 453.84,
+      "en": "do they care about ownership in terms of their data staying on-prem in models that they",
+      "zh": "他们是否关心他们的数据在预告模型中的所有权?"
+    },
+    {
+      "start": 453.84,
+      "end": 456.9,
+      "en": "actually can have visibility on? What is it?",
+      "zh": "实际上,可以有可见度? 这是什么?"
+    },
+    {
+      "start": 456.9,
+      "end": 462.2,
+      "en": "I think right now the open source drive is coming from the cost point of view. There are",
+      "zh": "我认为现在的开源驱动器 是从成本的角度出发的。 有一个"
+    },
+    {
+      "start": 462.2,
+      "end": 468.04,
+      "en": "certain businesses of course that have the requirements to actually keep all the inferencing",
+      "zh": "某些企业当然有 要求实际上保持所有受孕"
+    },
+    {
+      "start": 468.04,
+      "end": 473.36,
+      "en": "workload within their own private data centers. When I just came, those companies were a lot",
+      "zh": "私人数据中心内的工作量。 我刚来的时候 那些公司很多"
+    },
+    {
+      "start": 473.36,
+      "end": 480.88,
+      "en": "more afraid of getting the data outside of their own control and model companies training",
+      "zh": "更害怕让数据失控 和模范公司培训"
+    },
+    {
+      "start": 480.88,
+      "end": 486.64,
+      "en": "with their data. But that sort of is a fear that it's no longer there. People believe",
+      "zh": "他们的数据。 但这种恐惧是因为它已经不存在了。 人们相信"
+    },
+    {
+      "start": 486.64,
+      "end": 492.4,
+      "en": "that the model companies are going to be responsible and not train their models on enterprise data",
+      "zh": "模型公司将对此负责,而不对其模型进行企业数据培训"
+    },
+    {
+      "start": 492.4,
+      "end": 498.32,
+      "en": "as long as I've signed up for the right kind of contract. So right now the drive is coming from cost.",
+      "zh": "只要我签了合适的合同 所以,现在的驱动器来自成本。"
+    },
+    {
+      "start": 498.32,
+      "end": 505.56,
+      "en": "In terms of where you sit in the landscape, every one of your investors that I spoke to",
+      "zh": "从你坐在哪里的风景, 你的每一个投资者,我说话"
+    },
+    {
+      "start": 505.56,
+      "end": 512.02,
+      "en": "said that I had to ask this question, which is the obvious question, which is, do you worry",
+      "zh": "说,我不得不问这个问题, 这是一个明显的问题, 即,你担心"
+    },
+    {
+      "start": 512.02,
+      "end": 517.02,
+      "en": "that anthropic will do what they did to Figma or what they've done with legal or what they're",
+      "zh": "人类会像他们那样对待菲格玛 或者他们用法律或者他们是什么"
+    },
+    {
+      "start": 517.02,
+      "end": 521.46,
+      "en": "doing with health and move into your space and cannibalise your business?",
+      "zh": "用健康做 移动到你的空间 食用你的生意?"
+    },
+    {
+      "start": 521.46,
+      "end": 524.74,
+      "en": "First of all, I think we should be careful in terms of what they've actually done for",
+      "zh": "首先,我认为我们应该小心 他们到底做了什么"
+    },
+    {
+      "start": 524.74,
+      "end": 531.7,
+      "en": "Figma or legal space or finance space. They are launching these vertical backs, but I think they're",
+      "zh": "图片或法律空间或金融空间。 他们正在发射这些垂直的背, 但我认为他们是"
+    },
+    {
+      "start": 531.7,
+      "end": 541.94,
+      "en": "quite shallow in my opinion. And I don't actually know of people who are moving their workload entirely",
+      "zh": "我觉得很浅 我其实并不知道 哪些人在完全转移他们的工作量"
+    },
+    {
+      "start": 541.94,
+      "end": 548.1,
+      "en": "from Figma or for that matter from any other tool to anthropic a section of net new always.",
+      "zh": "从法格玛 或者说从其他任何工具 到人类化 一部分净新东西总是。"
+    },
+    {
+      "start": 548.1,
+      "end": 553.7,
+      "en": "like, you know, or like, I think is expanding the market like, for example, now in design,",
+      "zh": "比如说,你知道的,或者说,我想正在扩大市场 比如,现在在设计,"
+    },
+    {
+      "start": 553.7,
+      "end": 560.66,
+      "en": "the designers still use Figma. But the non-designers actually, you know, are using, you know, cloud",
+      "zh": "设计师仍然使用法格玛。 但非设计者实际上,你知道, 正在使用,你知道,云"
+    },
+    {
+      "start": 560.66,
+      "end": 565.38,
+      "en": "design. Right. I mean, so that's what we're seeing is that AI is making things simpler.",
+      "zh": "设计。 对 我的意思是,这就是我们所看到的 AI正在使事情变得简单。"
+    },
+    {
+      "start": 566.26,
+      "end": 570.82,
+      "en": "So if people are not experts, you know, on the primary users of that particular tool,",
+      "zh": "所以,如果人们不是专家,你知道, 在那个特定工具的主要用户,"
+    },
+    {
+      "start": 570.82,
+      "end": 574.98,
+      "en": "they can actually, they can actually start to do some of that work with cloud.",
+      "zh": "实际上,他们可以开始 做一些工作与云。"
+    },
+    {
+      "start": 574.98,
+      "end": 578.98,
+      "en": "So you don't worry that they all put emphasis on moving into enterprise and being that",
+      "zh": "所以,你不用担心,他们都强调 进入企业和成为"
+    },
+    {
+      "start": 578.98,
+      "end": 579.98,
+      "en": "context.",
+      "zh": "上下文。"
+    },
+    {
+      "start": 579.98,
+      "end": 585.78,
+      "en": "Or whether they're doing it or not, we actually face that competition every day with enterprise",
+      "zh": "或者不管他们是否这么做 我们每天都面对企业的竞争"
+    },
+    {
+      "start": 585.78,
+      "end": 587.18,
+      "en": "customers.",
+      "zh": "顾客"
+    },
+    {
+      "start": 587.18,
+      "end": 591.26,
+      "en": "People often ask us, well, I mean, a lot of can also connect with enterprise systems through",
+      "zh": "人们常常问我们,嗯,我的意思是, 很多也可以与企业系统连接 通过"
+    },
+    {
+      "start": 591.26,
+      "end": 593.98,
+      "en": "MCP, so it's different.",
+      "zh": "MCP,所以不同."
+    },
+    {
+      "start": 593.98,
+      "end": 596.74,
+      "en": "Like what can clean the do which, you know, cloud cannot.",
+      "zh": "像什么可以清理 做什么,你知道,云不能。"
+    },
+    {
+      "start": 596.74,
+      "end": 602.1,
+      "en": "So we have to go and explain like what, like what, you know, context really is and why it",
+      "zh": "所以,我们必须去解释 像什么,比如,你知道, 环境真的是什么,为什么"
+    },
+    {
+      "start": 602.1,
+      "end": 604.54,
+      "en": "is actually complicated to actually build it.",
+      "zh": "其实是复杂的 实际建造它。"
+    },
+    {
+      "start": 604.54,
+      "end": 606.42,
+      "en": "So we are competing.",
+      "zh": "所以我们是在竞争。"
+    },
+    {
+      "start": 606.42,
+      "end": 612.22,
+      "en": "In fact, actually, I would say that they probably started to compete with us before others.",
+      "zh": "事实上,实际上,我要说,他们可能开始与我们比起其他人来竞争。"
+    },
+    {
+      "start": 612.22,
+      "end": 621.75,
+      "en": "Because if you think about cloud, co-work as an application or cloud desktop, the primary",
+      "zh": "因为如果你想到云, 合作作为一个应用程序或云桌面, 初级"
+    },
+    {
+      "start": 621.75,
+      "end": 624.95,
+      "en": "use case for that has always been question answering.",
+      "zh": "用于此的大小写一直是回答问题。"
+    },
+    {
+      "start": 624.95,
+      "end": 630.11,
+      "en": "That's the largest application or use case for AI in the world today is, in fact, information",
+      "zh": "这是AI在当今世界上最大的应用或使用案例,其实是信息"
+    },
+    {
+      "start": 630.11,
+      "end": 631.55,
+      "en": "seeking and question answering.",
+      "zh": "寻找和询问答案。"
+    },
+    {
+      "start": 631.55,
+      "end": 634.43,
+      "en": "How important do you think being first to market is?",
+      "zh": "你觉得先上市有多重要?"
+    },
+    {
+      "start": 634.43,
+      "end": 639.43,
+      "en": "It's actually very advantageous, but it's actually only,",
+      "zh": "这实际上非常有利,但实际上,"
+    },
+    {
+      "start": 639.87,
+      "end": 642.83,
+      "en": "it's a thing that helps you,",
+      "zh": "这是帮助你的事情,"
+    },
+    {
+      "start": 642.83,
+      "end": 645.11,
+      "en": "but it's a thing that's not gonna carry you.",
+      "zh": "但它是一件不会背着你的东西。"
+    },
+    {
+      "start": 645.11,
+      "end": 647.59,
+      "en": "So for us, we actually get a lot of credit",
+      "zh": "因此,对于我们来说, 我们得到了很多的功劳"
+    },
+    {
+      "start": 647.59,
+      "end": 651.55,
+      "en": "for being the first enterprise AI company in the world.",
+      "zh": "作为世界上第一个企业AI公司。"
+    },
+    {
+      "start": 651.55,
+      "end": 655.39,
+      "en": "The first ones to actually bring RAG into the enterprise.",
+      "zh": "第一批真正将RAG带入企业的."
+    },
+    {
+      "start": 655.39,
+      "end": 658.67,
+      "en": "The first ones to build conceptual semantic search.",
+      "zh": "最早建立概念语义搜索."
+    },
+    {
+      "start": 658.67,
+      "end": 661.15,
+      "en": "And so that actually gives us that brand",
+      "zh": "所以这实际上给我们的品牌"
+    },
+    {
+      "start": 661.15,
+      "end": 664.23,
+      "en": "and the right to compete in this market.",
+      "zh": "以及在这个市场上竞争的权利。"
+    },
+    {
+      "start": 664.23,
+      "end": 669.97,
+      "en": "even though now, like, you know, be much smaller compared to the giants that open AI and Tropic",
+      "zh": "即使现在,像,你知道, 要小得多 比巨人打开AI和热带"
+    },
+    {
+      "start": 669.97,
+      "end": 677.07,
+      "en": "have become. So it's a huge sort of asset, but neither is it a requirement nor is it a",
+      "zh": "已经变了 因此,它是一种巨大的资产,但它既不是要求也不是要求"
+    },
+    {
+      "start": 677.07,
+      "end": 678.07,
+      "en": "savior.",
+      "zh": "救赎"
+    },
+    {
+      "start": 678.07,
+      "end": 682.99,
+      "en": "How do you advise founders who are losing sleep at night? Why the frontier model providers",
+      "zh": "你怎么建议那些晚上失眠的创始人? 为什么边疆模式提供者"
+    },
+    {
+      "start": 682.99,
+      "end": 684.99,
+      "en": "will come into their space?",
+      "zh": "将进入他们的空间?"
+    },
+    {
+      "start": 684.99,
+      "end": 689.07,
+      "en": "Oh, right. I would say like, I absolutely don't worry about that. I mean, like, I think as",
+      "zh": "对 我会说,我绝对不担心这一点。 我的意思是,喜欢,我认为"
+    },
+    {
+      "start": 689.07,
+      "end": 692.95,
+      "en": "As a founder, you have to actually solve problems,",
+      "zh": "作为一个创始人,你必须真正解决问题,"
+    },
+    {
+      "start": 692.95,
+      "end": 694.63,
+      "en": "not worry, number one.",
+      "zh": "不用担心,第一。"
+    },
+    {
+      "start": 694.63,
+      "end": 697.27,
+      "en": "So you have, yes, you know, like you have to always",
+      "zh": "所以你有,是的,你知道, 就像你必须永远"
+    },
+    {
+      "start": 697.27,
+      "end": 699.27,
+      "en": "anticipate what they're gonna do.",
+      "zh": "预料到他们会怎么做"
+    },
+    {
+      "start": 699.27,
+      "end": 701.71,
+      "en": "You have to see their current capabilities.",
+      "zh": "你必须看到他们现在的能力。"
+    },
+    {
+      "start": 701.71,
+      "end": 704.63,
+      "en": "But I think like for almost all other AI companies",
+      "zh": "但我觉得就像几乎所有的AI公司"
+    },
+    {
+      "start": 704.63,
+      "end": 707.47,
+      "en": "that are not doing frontier model training,",
+      "zh": "没有进行前沿模式培训,"
+    },
+    {
+      "start": 708.56,
+      "end": 712.24,
+      "en": "they should see the model companies as a huge asset,",
+      "zh": "他们应该把模范公司视为一个巨大的资产,"
+    },
+    {
+      "start": 713.32,
+      "end": 715.08,
+      "en": "not a competition in my opinion.",
+      "zh": "我认为这不是竞争"
+    },
+    {
+      "start": 715.08,
+      "end": 718.84,
+      "en": "Like, we actually believe that everything",
+      "zh": "喜欢,我们实际上相信 一切"
+    },
+    {
+      "start": 718.84,
+      "end": 722.72,
+      "en": "that entropic is doing, everything that OpenAI and Google is doing, as well as all the innovation",
+      "zh": "OpenAI和Google所做的一切 以及所有的创新"
+    },
+    {
+      "start": 722.72,
+      "end": 726.32,
+      "en": "that's happening in open source. There's great news for us. We don't worry about that",
+      "zh": "这是发生在开源。 我们有个好消息 我们不用担心这个"
+    },
+    {
+      "start": 726.32,
+      "end": 731.44,
+      "en": "as, and we don't think of that as compression. In fact, they've allowed us to actually deliver",
+      "zh": "我们不认为这是压缩。 事实上,他们允许我们 真正交付"
+    },
+    {
+      "start": 731.44,
+      "end": 734.56,
+      "en": "a product that we could never without that help.",
+      "zh": "产品,我们永远无法 没有这种帮助。"
+    },
+    {
+      "start": 734.56,
+      "end": 738.64,
+      "en": "Do you not think we're seeing the ultimate commoditization of the model layer? When you",
+      "zh": "你不觉得我们看到了模型层的最终商品化吗? 当你"
+    },
+    {
+      "start": 738.64,
+      "end": 742.6,
+      "en": "speak about anthropic open air and the rise of the model layer and the speed with which",
+      "zh": "讲述人类的开放空气 模型层的上升和速度"
+    },
+    {
+      "start": 742.6,
+      "end": 746.64,
+      "en": "new models are coming out, especially burning from open source Chinese providers, are we",
+      "zh": "特别是来自中国开源供应商的燃烧 是我们"
+    },
+    {
+      "start": 746.64,
+      "end": 747.88,
+      "en": "You're not seeing the ultimate",
+      "zh": "你没有看到终极"
+    },
+    {
+      "start": 747.88,
+      "end": 749.2,
+      "en": "componentization of the model layer.",
+      "zh": "模型层组件化。"
+    },
+    {
+      "start": 749.2,
+      "end": 752.54,
+      "en": "So one thing is clear that,",
+      "zh": "所以有一件事是明确的,"
+    },
+    {
+      "start": 752.54,
+      "end": 754.74,
+      "en": "let's talk about enterprise use cases.",
+      "zh": "让我们来谈谈企业使用案例。"
+    },
+    {
+      "start": 755.95,
+      "end": 760.59,
+      "en": "90% or greater of use cases",
+      "zh": "90%以上的使用案例"
+    },
+    {
+      "start": 760.59,
+      "end": 765.83,
+      "en": "can not be fully handled by many, many different models,",
+      "zh": "许多不同的模型都无法完全处理"
+    },
+    {
+      "start": 765.83,
+      "end": 767.79,
+      "en": "including open source models.",
+      "zh": "包括开源模型。"
+    },
+    {
+      "start": 767.79,
+      "end": 768.99,
+      "en": "So there's definitely,",
+      "zh": "所以绝对有"
+    },
+    {
+      "start": 770.55,
+      "end": 773.99,
+      "en": "there's definitely commoditization from that perspective.",
+      "zh": "从这个角度看 肯定有商品化"
+    },
+    {
+      "start": 773.99,
+      "end": 776.27,
+      "en": "In fact, like, you know, we are clean.",
+      "zh": "事实上,就像,你知道,我们是干净的。"
+    },
+    {
+      "start": 776.27,
+      "end": 779.75,
+      "en": "That's actually one of our core value ads to our customers,",
+      "zh": "这其实是我们对客户的核心价值广告之一,"
+    },
+    {
+      "start": 779.75,
+      "end": 781.11,
+      "en": "which is cost control.",
+      "zh": "这是成本控制。"
+    },
+    {
+      "start": 781.11,
+      "end": 783.27,
+      "en": "We will actually tell them that, hey, look,",
+      "zh": "我们会告诉他们,嘿,你看,"
+    },
+    {
+      "start": 783.27,
+      "end": 786.99,
+      "en": "as people actually complete their tasks on our platform,",
+      "zh": "当人们真正完成他们的任务 在我们的平台,"
+    },
+    {
+      "start": 786.99,
+      "end": 788.91,
+      "en": "we actually pick the right model for you.",
+      "zh": "我们为你选了合适的模特儿"
+    },
+    {
+      "start": 788.91,
+      "end": 791.83,
+      "en": "And if you're okay with using open source models,",
+      "zh": "如果你不介意使用开源模型"
+    },
+    {
+      "start": 791.83,
+      "end": 793.71,
+      "en": "we'll use them when we think it's appropriate,",
+      "zh": "等我们觉得合适的时候再用"
+    },
+    {
+      "start": 793.71,
+      "end": 796.19,
+      "en": "for instance, generate a high quality answer.",
+      "zh": "例如,生成一个高质量的答案。"
+    },
+    {
+      "start": 796.19,
+      "end": 797.75,
+      "en": "What percentage of customers are not okay",
+      "zh": "顾客比例不好"
+    },
+    {
+      "start": 797.75,
+      "end": 799.15,
+      "en": "with open source models?",
+      "zh": "开源模型?"
+    },
+    {
+      "start": 799.15,
+      "end": 800.55,
+      "en": "This is actually so new.",
+      "zh": "这实际上是如此新。"
+    },
+    {
+      "start": 800.55,
+      "end": 802.03,
+      "en": "So we actually only have,",
+      "zh": "所以,我们实际上只有,"
+    },
+    {
+      "start": 802.03,
+      "end": 813.66,
+      "en": "I would say that open source truly coming to that within three months of frontier capabilities,",
+      "zh": "我要说,开放源代码 真正到这一点 在三个月的边境能力,"
+    },
+    {
+      "start": 813.66,
+      "end": 817.62,
+      "en": "that has just happened literally like a month back or not even a month.",
+      "zh": "刚刚发生的其实就像一个月前,甚至一个月前。"
+    },
+    {
+      "start": 817.62,
+      "end": 823.7,
+      "en": "I would say GLM 5.2 is the very first time where our own team, for example, feels comfortable",
+      "zh": "我想说GLM 5.2 是我们团队第一次感到舒适"
+    },
+    {
+      "start": 823.7,
+      "end": 828.5,
+      "en": "that now we can run majority of our workloads on that model.",
+      "zh": "现在,我们可以运行 我们的大部分工作量在这个模式。"
+    },
+    {
+      "start": 828.5,
+      "end": 833.08,
+      "en": "So we are yet to find what people are going to tell us.",
+      "zh": "所以我们还没有找到人们会告诉我们什么。"
+    },
+    {
+      "start": 833.08,
+      "end": 838.58,
+      "en": "And I don't like from a point of view of open source and using the model, everybody's",
+      "zh": "我不喜欢从开源的角度 利用模型,每个人的"
+    },
+    {
+      "start": 838.58,
+      "end": 839.58,
+      "en": "going to be fine.",
+      "zh": "会没事的。"
+    },
+    {
+      "start": 839.58,
+      "end": 843.14,
+      "en": "The question is going to be, are they okay with the Chinese model or not?",
+      "zh": "问题是,他们是否同意中国模式?"
+    },
+    {
+      "start": 843.14,
+      "end": 846.42,
+      "en": "That's the only question is not open source versus closed source.",
+      "zh": "这是唯一的问题 不是开源对闭源。"
+    },
+    {
+      "start": 846.42,
+      "end": 850.34,
+      "en": "Why would they not be okay with the Chinese model when you look at the ownership that",
+      "zh": "他们为什么不接受中国模式呢?"
+    },
+    {
+      "start": 850.34,
+      "end": 853.06,
+      "en": "you have, the ability to have it on-prem?",
+      "zh": "你有,有能力 把它在预科?"
+    },
+    {
+      "start": 853.06,
+      "end": 855.26,
+      "en": "You're not sharing anything back to China.",
+      "zh": "你不会把任何东西都分给中国的"
+    },
+    {
+      "start": 855.26,
+      "end": 856.58,
+      "en": "Why would you not be?",
+      "zh": "为什么你不会呢?"
+    },
+    {
+      "start": 856.58,
+      "end": 858.56,
+      "en": "I think it's just, it's just comfort.",
+      "zh": "我认为这只是,这只是安慰。"
+    },
+    {
+      "start": 858.56,
+      "end": 860.18,
+      "en": "It's just what if something goes wrong,",
+      "zh": "只是如果出了问题"
+    },
+    {
+      "start": 860.18,
+      "end": 862.42,
+      "en": "there's always paranoia and fear.",
+      "zh": "总是有妄想和恐惧"
+    },
+    {
+      "start": 862.42,
+      "end": 865.26,
+      "en": "What if there's a backdoor, some backdoor",
+      "zh": "如果有一个后门,一些后门"
+    },
+    {
+      "start": 865.26,
+      "end": 866.26,
+      "en": "that we don't even understand,",
+      "zh": "我们甚至不明白,"
+    },
+    {
+      "start": 866.26,
+      "end": 869.06,
+      "en": "like, you know, then that could be a backdoor.",
+      "zh": "就像,你知道,那可能是后门。"
+    },
+    {
+      "start": 870.14,
+      "end": 873.46,
+      "en": "So there are some concerns.",
+      "zh": "因此,有一些关切。"
+    },
+    {
+      "start": 873.46,
+      "end": 878.02,
+      "en": "There's also, if you use these models,",
+      "zh": "还有 如果你用这些模型"
+    },
+    {
+      "start": 878.02,
+      "end": 880.1,
+      "en": "and if it becomes a known thing,",
+      "zh": "如果它变成一件已知的事,"
+    },
+    {
+      "start": 880.1,
+      "end": 883.66,
+      "en": "then, you know, it could be used against you in some ways,",
+      "zh": "然后,你知道,它可能 用来对付你在某些方面,"
+    },
+    {
+      "start": 883.66,
+      "end": 885.58,
+      "en": "you know, by your competitors and things like that.",
+      "zh": "你知道,通过你的竞争对手之类的事情。"
+    },
+    {
+      "start": 885.58,
+      "end": 888.58,
+      "en": "So there are like a variety of factors that is,",
+      "zh": "所以有很多种因素"
+    },
+    {
+      "start": 888.58,
+      "end": 891.7,
+      "en": "but ultimately it's again boils down to",
+      "zh": "但归根结底,它再次沸腾到"
+    },
+    {
+      "start": 891.7,
+      "end": 893.26,
+      "en": "who's willing to be bold,",
+      "zh": "谁愿意大胆,"
+    },
+    {
+      "start": 893.26,
+      "end": 894.3,
+      "en": "because this is a new thing.",
+      "zh": "因为这是一件新事情。"
+    },
+    {
+      "start": 894.3,
+      "end": 895.58,
+      "en": "Like, you know, at large enterprises,",
+      "zh": "像,你知道,在大型企业,"
+    },
+    {
+      "start": 895.58,
+      "end": 897.78,
+      "en": "I have to make this move,",
+      "zh": "我必须做这个动作,"
+    },
+    {
+      "start": 897.78,
+      "end": 899.78,
+      "en": "and the early movers will make the move first,",
+      "zh": "早期的迁居者,"
+    },
+    {
+      "start": 899.78,
+      "end": 901.9,
+      "en": "and then it'll become a more normal thing.",
+      "zh": "然后它会成为一个更正常的事情。"
+    },
+    {
+      "start": 901.9,
+      "end": 904.82,
+      "en": "I'm always doing this show to learn.",
+      "zh": "我总是做这个节目 学习。"
+    },
+    {
+      "start": 904.82,
+      "end": 909.46,
+      "en": "If 90% of enterprise workflows can be done with open models,",
+      "zh": "如果90%的企业工作流程可以使用开放模式完成,"
+    },
+    {
+      "start": 909.46,
+      "end": 911.06,
+      "en": "have we completely missed price",
+      "zh": "我们完全错过了价格"
+    },
+    {
+      "start": 911.06,
+      "end": 913.34,
+      "en": "to frontier model landscape?",
+      "zh": "到边疆模范景观?"
+    },
+    {
+      "start": 913.34,
+      "end": 914.86,
+      "en": "It's a very different town.",
+      "zh": "这是一个非常不同的城镇。"
+    },
+    {
+      "start": 914.86,
+      "end": 922.34,
+      "en": "I do feel like the model business on its own, regardless of, like, for an open-source",
+      "zh": "我确实觉得模特儿的生意是靠自己,不管什么开源"
+    },
+    {
+      "start": 922.34,
+      "end": 929.5,
+      "en": "moment, there's plenty of competition even within the labs.",
+      "zh": "实验室内部也有很多竞争"
+    },
+    {
+      "start": 929.5,
+      "end": 933.48,
+      "en": "And more and more companies are coming into that space.",
+      "zh": "越来越多的公司进入这个空间。"
+    },
+    {
+      "start": 933.48,
+      "end": 942.48,
+      "en": "So in that fierce competition, even in a three-way race, I think you can actually get a good amount",
+      "zh": "所以,在激烈的竞争中, 即使是在三程赛中, 我认为你实际上可以得到一个很好的金额"
+    },
+    {
+      "start": 942.48,
+      "end": 944.28,
+      "en": "of pricing pressure.",
+      "zh": "价格压力。"
+    },
+    {
+      "start": 944.28,
+      "end": 945.88,
+      "en": "And now, of course, with open source,",
+      "zh": "现在,当然,开源,"
+    },
+    {
+      "start": 945.88,
+      "end": 949.92,
+      "en": "like, actually, is an order of magnitude cheaper prices.",
+      "zh": "就像,实际上,是一个数量顺序 便宜的价格。"
+    },
+    {
+      "start": 949.92,
+      "end": 953.46,
+      "en": "So I actually heard rumors that that opening,",
+      "zh": "所以我实际上听到谣言说 开场白,"
+    },
+    {
+      "start": 953.46,
+      "end": 958.16,
+      "en": "I was going to drastically reduce their model prices",
+      "zh": "我要大幅降低他们的模型价格"
+    },
+    {
+      "start": 958.16,
+      "end": 960.8,
+      "en": "in response to these developments,",
+      "zh": "针对这些事态发展,"
+    },
+    {
+      "start": 960.8,
+      "end": 963.64,
+      "en": "like competition as an open source.",
+      "zh": "喜欢竞争作为一个开源。"
+    },
+    {
+      "start": 963.64,
+      "end": 965.88,
+      "en": "So that would be nothing.",
+      "zh": "所以,那不会是什么。"
+    },
+    {
+      "start": 965.88,
+      "end": 971.01,
+      "en": "The model business on its own is actually",
+      "zh": "模特儿的生意其实是"
+    },
+    {
+      "start": 972.7,
+      "end": 977.98,
+      "en": "probably not as lucrative as everybody believes, but these companies now have a lot more things.",
+      "zh": "可能没有大家相信的那么有利可图, 但是这些公司现在有更多的东西。"
+    },
+    {
+      "start": 977.98,
+      "end": 982.06,
+      "en": "It's not just that they're not no longer model companies only. Totally get that. But if they're",
+      "zh": "不仅仅是他们不再只是模范公司. 完全明白这一点。 但如果他们"
+    },
+    {
+      "start": 982.06,
+      "end": 987.58,
+      "en": "doing shallow things in those adjacencies, they're not exactly going to generate a trillion dollars",
+      "zh": "做一些浅薄的事情, 他们不会产生一万亿美元"
+    },
+    {
+      "start": 987.58,
+      "end": 992.78,
+      "en": "of revenue like Daria said. If you think about these two labs, they're very fundamentally",
+      "zh": "就像达里亚说的 如果你想到这两个实验室 他们根本就是"
+    },
+    {
+      "start": 992.78,
+      "end": 1001.26,
+      "en": "different businesses. OpenAI, of course, has amazing consumer product and entropic. Actually,",
+      "zh": "不同的企业。 OpenAI当然拥有惊人的消费产品和亚热带. 其实"
+    },
+    {
+      "start": 1001.26,
+      "end": 1008.93,
+      "en": "The interesting thing that is happening is the people are actually building on top of their platform.",
+      "zh": "有趣的是,人们正在他们的平台上建设。"
+    },
+    {
+      "start": 1009.81,
+      "end": 1014.69,
+      "en": "And so anything about anthropic, right now, there are a lot of folks who are actually",
+      "zh": "所以,任何关于人类学, 现在,有很多人 实际上,"
+    },
+    {
+      "start": 1015.25,
+      "end": 1022.21,
+      "en": "developing automations and skills and everybody's sort of creating these MCP servers to their internal",
+      "zh": "开发自动化和技能 以及每个人创建这些MCP服务器"
+    },
+    {
+      "start": 1022.21,
+      "end": 1027.81,
+      "en": "systems, getting connected all to cloud. So there's an ecosystem that's being developed.",
+      "zh": "系统连接到云层 所以有一个生态系统正在发展。"
+    },
+    {
+      "start": 1027.81,
+      "end": 1033.49,
+      "en": "So they very much, you should consider them an application level company, not just a model",
+      "zh": "所以他们非常喜欢,你应该把他们看作一个应用级公司,而不仅仅是一个模型"
+    },
+    {
+      "start": 1033.49,
+      "end": 1034.49,
+      "en": "company.",
+      "zh": "连队。"
+    },
+    {
+      "start": 1034.49,
+      "end": 1039.25,
+      "en": "If you were to make a guess in three years' time, what percent of your workflows do you",
+      "zh": "如果你在三年后做出一个猜测, 你的工作流程的百分之几"
+    },
+    {
+      "start": 1039.25,
+      "end": 1041.09,
+      "en": "think are through open source?",
+      "zh": "以为是开源?"
+    },
+    {
+      "start": 1041.09,
+      "end": 1048.57,
+      "en": "Well, we've been telling customers, I believe that majority of enterprise workloads will",
+      "zh": "嗯,我们一直告诉客户, 我相信大多数的企业工作量会"
+    },
+    {
+      "start": 1048.57,
+      "end": 1052.25,
+      "en": "actually be on open source models in three years, for sure.",
+      "zh": "3年内实际在开源模型上。"
+    },
+    {
+      "start": 1052.25,
+      "end": 1053.25,
+      "en": "Yeah.",
+      "zh": "对"
+    },
+    {
+      "start": 1053.25,
+      "end": 1057.57,
+      "en": "competitive element that you face for getting the model providers, it's like,",
+      "zh": "你面对的竞争因素 获得模型供应商,它就像,"
+    },
+    {
+      "start": 1057.57,
+      "end": 1063.41,
+      "en": "actually Microsoft. Microsoft have made a phenomenal business on the back of creating a 70% as good",
+      "zh": "实际上微软。 微软在创造70%的优势上 做了惊人的生意"
+    },
+    {
+      "start": 1063.41,
+      "end": 1068.29,
+      "en": "product, but bundling it into a bundle for enterprises and then selling it with a nice sticker on it.",
+      "zh": "产品,但捆绑起来为企业捆绑,然后在它上贴上漂亮的标签出售."
+    },
+    {
+      "start": 1068.29,
+      "end": 1074.05,
+      "en": "How do you think about the bundling pressure from a Microsoft co-pilot as a competitive threat?",
+      "zh": "你觉得微软副驾驶的捆绑压力 是一种竞争威胁吗?"
+    },
+    {
+      "start": 1074.05,
+      "end": 1083.77,
+      "en": "Well, for us, they are one of our most significant competitors, and the bundling strategy actually",
+      "zh": "对我们来说,他们是我们最重要的竞争对手之一, 捆绑策略实际上"
+    },
+    {
+      "start": 1083.77,
+      "end": 1085.77,
+      "en": "works.",
+      "zh": "工作时"
+    },
+    {
+      "start": 1085.77,
+      "end": 1087.45,
+      "en": "And you to fight against that.",
+      "zh": "而你要对抗这个"
+    },
+    {
+      "start": 1087.45,
+      "end": 1094.17,
+      "en": "I mean, luckily, there's always been room for best-of-breed software, and people and all",
+      "zh": "我的意思是,幸运的是,总是有 空间最好的软件, 人和所有"
+    },
+    {
+      "start": 1094.17,
+      "end": 1096.73,
+      "en": "customers think of us exactly like that.",
+      "zh": "顾客都这么认为我们"
+    },
+    {
+      "start": 1096.73,
+      "end": 1102.81,
+      "en": "If you are trying to actually bring a great search product, if you're trying to build",
+      "zh": "如果你真的想带一个伟大的搜索产品 如果你想制造"
+    },
+    {
+      "start": 1102.81,
+      "end": 1107.53,
+      "en": "horizontal comprehensive AI platform, they know that we know we do it better.",
+      "zh": "他们知道我们做得更好"
+    },
+    {
+      "start": 1107.53,
+      "end": 1116.37,
+      "en": "So, companies are willing to invest on top of that, like, you know, as part of the bundled",
+      "zh": "所以,公司愿意投资 之上,喜欢,你知道, 作为捆绑的一部分"
+    },
+    {
+      "start": 1116.37,
+      "end": 1118.81,
+      "en": "product suite from Microsoft.",
+      "zh": "来自微软的产品套件."
+    },
+    {
+      "start": 1118.81,
+      "end": 1126.84,
+      "en": "But the other thing, like, actually, is maybe making bundling not as effective of a strategy",
+      "zh": "但另一件事,就像,实际上, 可能使捆绑 没有效果的战略"
+    },
+    {
+      "start": 1126.84,
+      "end": 1132.64,
+      "en": "anymore is the fact that AI is moving towards consumption based models.",
+      "zh": "更何况AI正在走向消费模式。"
+    },
+    {
+      "start": 1132.64,
+      "end": 1138.16,
+      "en": "Once you move towards consumption, there's no inherent bundling advantage.",
+      "zh": "一旦你转向消费, 没有固有的捆绑优势。"
+    },
+    {
+      "start": 1138.16,
+      "end": 1143.94,
+      "en": "Because, you know, like, as a business, I can get six tools and I let the users choose where",
+      "zh": "因为,你知道,像,作为一个企业, 我可以得到六种工具, 我让用户选择哪里"
+    },
+    {
+      "start": 1143.94,
+      "end": 1144.94,
+      "en": "they want to do their work.",
+      "zh": "他们想做他们的工作。"
+    },
+    {
+      "start": 1144.94,
+      "end": 1149.14,
+      "en": "Wherever they do their work, I have to pay for that particular unit of work.",
+      "zh": "无论他们在哪里工作,我都要为这个特殊的工作单位付费。"
+    },
+    {
+      "start": 1149.14,
+      "end": 1153.62,
+      "en": "So consumption, you know, can ultimately break that bundling strategy.",
+      "zh": "所以,消费,你知道, 最终可以打破 捆绑策略。"
+    },
+    {
+      "start": 1153.62,
+      "end": 1160.06,
+      "en": "I respectfully, I don't know if it does if you're working with enterprise because they will make you compliant as an enterprise bundle.",
+      "zh": "恕我直言,我不知道你是否跟企业合作 因为他们会把你当作企业捆绑起来"
+    },
+    {
+      "start": 1160.06,
+      "end": 1165.98,
+      "en": "And so you'll go through approvals processes, sign off processes internally for the largest enterprise in the world,",
+      "zh": "所以,你将经历批准程序, 在内部为世界上最大的企业签署程序,"
+    },
+    {
+      "start": 1165.98,
+      "end": 1172.9,
+      "en": "your VWs or your Fords or your Gs or Tyson chickens, I was using this like a, you know, I know, random companies.",
+      "zh": "你的VW 或者你的福特 或者你的Gs 或者泰森鸡, 我像一个,你知道,我知道,随机的公司。"
+    },
+    {
+      "start": 1172.9,
+      "end": 1177.5,
+      "en": "But they'll approve Microsoft as one vendor.",
+      "zh": "但他们会批准微软为一家供应商."
+    },
+    {
+      "start": 1177.5,
+      "end": 1181.02,
+      "en": "If they're suddenly having to approve 15 vendors,",
+      "zh": "如果他们突然要批准15个卖家"
+    },
+    {
+      "start": 1181.02,
+      "end": 1183.34,
+      "en": "If we're getting the pricing and the transactions,",
+      "zh": "如果我们得到定价和交易,"
+    },
+    {
+      "start": 1183.34,
+      "end": 1186.78,
+      "en": "we create a vendor management problem that they didn't have before.",
+      "zh": "我们制造了一个他们以前没有的供应商管理问题"
+    },
+    {
+      "start": 1186.78,
+      "end": 1187.34,
+      "en": "That is true.",
+      "zh": "这是真的。"
+    },
+    {
+      "start": 1188.3,
+      "end": 1191.1,
+      "en": "But I think the... I would say that if you go and talk to",
+      "zh": "但我认为... 我会说,如果你去和说话"
+    },
+    {
+      "start": 1192.3,
+      "end": 1195.42,
+      "en": "companies that have been on the other side of the Microsoft,",
+      "zh": "在微软的另一边的公司,"
+    },
+    {
+      "start": 1195.42,
+      "end": 1200.3,
+      "en": "you know, on slot, most of them will talk about pricing as the main killer.",
+      "zh": "你知道,在时间档, 他们大多会谈论价格 作为主要的杀手。"
+    },
+    {
+      "start": 1201.07,
+      "end": 1202.91,
+      "en": "Because I think it's hard to compete with free.",
+      "zh": "因为我觉得跟自由竞争很困难"
+    },
+    {
+      "start": 1202.91,
+      "end": 1206.19,
+      "en": "Who's a Fierce compared to a Microsoft or the Frontier models?",
+      "zh": "与微软或边疆模型相比,谁是Fierce?"
+    },
+    {
+      "start": 1206.19,
+      "end": 1206.91,
+      "en": "Good question.",
+      "zh": "问得好"
+    },
+    {
+      "start": 1206.91,
+      "end": 1209.15,
+      "en": "I think it's early to tell that.",
+      "zh": "我觉得现在说这个还早"
+    },
+    {
+      "start": 1209.15,
+      "end": 1212.51,
+      "en": "but Microsoft is formidable.",
+      "zh": "但微软是可怕的。"
+    },
+    {
+      "start": 1212.51,
+      "end": 1213.59,
+      "en": "And I think like we,",
+      "zh": "我觉得像我们一样,"
+    },
+    {
+      "start": 1213.59,
+      "end": 1217.27,
+      "en": "so if we look at our experience with,",
+      "zh": "所以,如果我们看看我们的经验,"
+    },
+    {
+      "start": 1217.27,
+      "end": 1218.95,
+      "en": "as we go and prospect,",
+      "zh": "当我们去和展望,"
+    },
+    {
+      "start": 1218.95,
+      "end": 1223.95,
+      "en": "I think we would hear this answer more often that,",
+      "zh": "我认为我们会更经常地听到这个答案,"
+    },
+    {
+      "start": 1226.63,
+      "end": 1230.03,
+      "en": "well, like, you know, we are a Microsoft customer",
+      "zh": "嗯,就像,你知道,我们是一个微软客户"
+    },
+    {
+      "start": 1230.03,
+      "end": 1233.11,
+      "en": "and we already have, you know, we're getting co-pilot.",
+      "zh": "我们已经有,你知道, 我们正在得到副驾驶。"
+    },
+    {
+      "start": 1233.11,
+      "end": 1235.39,
+      "en": "And so therefore, like it doesn't make sense",
+      "zh": "所以,就好像说不通似的"
+    },
+    {
+      "start": 1235.39,
+      "end": 1236.67,
+      "en": "for them to consider us.",
+      "zh": "让他们考虑我们"
+    },
+    {
+      "start": 1236.67,
+      "end": 1237.91,
+      "en": "Like we do hear that,",
+      "zh": "就像我们听到的那样"
+    },
+    {
+      "start": 1237.91,
+      "end": 1240.67,
+      "en": "and we hear that more often than we don't hear from somebody that,",
+      "zh": "我们经常听到有人说"
+    },
+    {
+      "start": 1240.67,
+      "end": 1244.67,
+      "en": "or like, you know, I've embraced, you know, one of the lab products",
+      "zh": "或喜欢,你知道,我已经 拥抱,你知道,一个实验室产品"
+    },
+    {
+      "start": 1244.67,
+      "end": 1248.35,
+      "en": "and therefore there's nothing else that I'm going to do.",
+      "zh": "因此,我什么都不会做。"
+    },
+    {
+      "start": 1248.35,
+      "end": 1250.11,
+      "en": "We mentioned Alex Copp since the beginning",
+      "zh": "我们从一开始就提到Alex Copp"
+    },
+    {
+      "start": 1250.11,
+      "end": 1251.35,
+      "en": "and I interrupted you and said,",
+      "zh": "我打断了你,说:"
+    },
+    {
+      "start": 1251.35,
+      "end": 1254.11,
+      "en": "let's, before we dive to, like, we're not getting value.",
+      "zh": "让我们在潜水之前,像, 我们没有得到价值。"
+    },
+    {
+      "start": 1254.11,
+      "end": 1257.87,
+      "en": "Yeah. I think 20, 26, age two and 20, 27 is the year",
+      "zh": "对 我想20,26,2岁和20,27岁是一年"
+    },
+    {
+      "start": 1257.87,
+      "end": 1259.51,
+      "en": "wherever I'm going. So hang on a minute.",
+      "zh": "无论我去哪里 坚持一分钟。"
+    },
+    {
+      "start": 1259.51,
+      "end": 1264.71,
+      "en": "Yeah. Is this spend generating output or return of ROI?",
+      "zh": "对 这种支出是产生输出还是回报ROI?"
+    },
+    {
+      "start": 1264.71,
+      "end": 1270.47,
+      "en": "How do we think about the return on investment that enterprises are getting in his Alex carp",
+      "zh": "我们如何看待企业投资回报 他的Alex Carp"
+    },
+    {
+      "start": 1270.47,
+      "end": 1276.84,
+      "en": "right in saying everyone's going, what the fuck? Where's my return?",
+      "zh": "说每个人都要去,什么他妈的? 我的回报呢?"
+    },
+    {
+      "start": 1276.84,
+      "end": 1285.26,
+      "en": "I would say that there is pockets of value realization today. For example, take customer support as a",
+      "zh": "我要说,今天有一些有价值的成就。 例如,将客户支持视为一种"
+    },
+    {
+      "start": 1285.26,
+      "end": 1292.46,
+      "en": "vertical. I think there it was easy to measure productivity. You could actually say that like",
+      "zh": "垂直键。 我认为在那里很容易衡量生产率。 其实你可以说"
+    },
+    {
+      "start": 1292.46,
+      "end": 1301.13,
+      "en": "in your company, you support agent, results, 10 cases a day, and now they're able to do 12",
+      "zh": "在你的公司,你的支持代理,结果, 每天10个病例, 现在他们可以做12"
+    },
+    {
+      "start": 1301.85,
+      "end": 1307.85,
+      "en": "because of AI. You could see that in a very concrete measure of productivity increase.",
+      "zh": "因为AI。 你可以从一个非常具体的生产率提高的尺度中看到这一点。"
+    },
+    {
+      "start": 1308.57,
+      "end": 1313.29,
+      "en": "That's a use case where AI is actually pretty good because a lot of that time",
+      "zh": "那是个用法,因为很多时候的人工智能都不错"
+    },
+    {
+      "start": 1314.41,
+      "end": 1321.29,
+      "en": "that is spent by the support teams is about reading knowledge and then summarizing it to your customers",
+      "zh": "支持团队花费的是阅读知识 然后总结给客户"
+    },
+    {
+      "start": 1321.29,
+      "end": 1330.41,
+      "en": "in some ways. So there are definitely areas where there is clear value realization and",
+      "zh": "在某些方面。 因此,肯定有一些领域 有明确的价值实现和"
+    },
+    {
+      "start": 1330.41,
+      "end": 1336.01,
+      "en": "enterprise are feeling good. Some other ones are more complex. For example, I think the",
+      "zh": "企业感觉很好。 另一些则更为复杂。 比如,我认为"
+    },
+    {
+      "start": 1337.85,
+      "end": 1343.77,
+      "en": "majority of the AI spend right now is on coding. And you know that the coding as a practice has",
+      "zh": "大部分人工智能支出都用于编码 你知道作为练习的编码"
+    },
+    {
+      "start": 1343.77,
+      "end": 1348.49,
+      "en": "changed, like most developers now, actually you say, I to write code, they're not writing it by hand",
+      "zh": "换了,就像现在大多数的开发者, 其实你说,我写代码, 他们不是用手写的"
+    },
+    {
+      "start": 1348.49,
+      "end": 1355.53,
+      "en": "anymore. So that part, like you can, in some ways, you can say that yes, like AI made a big impact,",
+      "zh": "现在。 所以,这个部分,像你可以, 在某些方面,你可以说,是的, 像AI 产生了很大的影响,"
+    },
+    {
+      "start": 1355.53,
+      "end": 1362.17,
+      "en": "but the, but are they shipping the products faster or not? And that's what we hear most of the",
+      "zh": "但是,他们是否将产品运送得更快? 这就是我们听到的大部分"
+    },
+    {
+      "start": 1362.17,
+      "end": 1367.53,
+      "en": "companies saying that no, that the actual shipping speed of products has not increased even though",
+      "zh": "公司说,没有,产品的实际运输速度没有提高,尽管"
+    },
+    {
+      "start": 1368.25,
+      "end": 1373.45,
+      "en": "coding, you know, increased coding speed increase significantly, because I know that's only a small",
+      "zh": "编码,你知道,增加 编码速度显著增加, 因为我知道这只是一个小"
+    },
+    {
+      "start": 1373.45,
+      "end": 1378.25,
+      "en": "part of like overall shipping a product has your shipping speed increased. I would say like,",
+      "zh": "就像一个产品的整体运输一样 你的运输速度提高了 我想说,"
+    },
+    {
+      "start": 1378.25,
+      "end": 1380.53,
+      "en": "like, you know, it's hard to actually measure.",
+      "zh": "就像,你知道, 这很难真正衡量。"
+    },
+    {
+      "start": 1380.53,
+      "end": 1383.09,
+      "en": "That's the challenge because engineering productivity",
+      "zh": "这是挑战 因为工程生产力"
+    },
+    {
+      "start": 1383.09,
+      "end": 1385.41,
+      "en": "is one of the most difficult things to measure.",
+      "zh": "这是最难衡量的事情之一。"
+    },
+    {
+      "start": 1385.41,
+      "end": 1388.29,
+      "en": "It's the fuzziest of the jobs out there.",
+      "zh": "外面的工作最无聊"
+    },
+    {
+      "start": 1388.29,
+      "end": 1390.73,
+      "en": "If you look at some of the metrics like lines of code written,",
+      "zh": "如果你看一些指标 像代码行写,"
+    },
+    {
+      "start": 1390.73,
+      "end": 1393.41,
+      "en": "of course, we're adding way more lines of code now.",
+      "zh": "当然,我们现在在增加更多代码线。"
+    },
+    {
+      "start": 1393.41,
+      "end": 1398.41,
+      "en": "But if you look at, you know, are we shipping features",
+      "zh": "但是,如果你看,你知道, 我们运输特征"
+    },
+    {
+      "start": 1399.21,
+      "end": 1402.09,
+      "en": "at a greater pace, yes, we are.",
+      "zh": "以更大的速度,是的,我们是。"
+    },
+    {
+      "start": 1402.09,
+      "end": 1406.45,
+      "en": "But it's a result also of a larger team.",
+      "zh": "但这也是一个更大的团队的结果."
+    },
+    {
+      "start": 1406.45,
+      "end": 1411.45,
+      "en": "you know, we have a team that is more tenured than it was before.",
+      "zh": "你知道,我们有一个团队 比它以前更任。"
+    },
+    {
+      "start": 1411.85,
+      "end": 1414.37,
+      "en": "So it's sometimes it's hard to tease it apart.",
+      "zh": "所以有时很难把它拆散"
+    },
+    {
+      "start": 1415.37,
+      "end": 1417.49,
+      "en": "But with that, what do we do as a company?",
+      "zh": "但这样的话,我们做公司怎么办?"
+    },
+    {
+      "start": 1417.73,
+      "end": 1419.93,
+      "en": "Like we are right now saying that like, look, you know, we,",
+      "zh": "就像我们现在在说,你看,你知道,我们,"
+    },
+    {
+      "start": 1420.45,
+      "end": 1421.93,
+      "en": "we are just going to keep investing.",
+      "zh": "我们要继续投资"
+    },
+    {
+      "start": 1422.09,
+      "end": 1423.77,
+      "en": "What percent of clean code say,",
+      "zh": "干净代码的百分之百说,"
+    },
+    {
+      "start": 1423.77,
+      "end": 1425.21,
+      "en": "do you think is written by AI?",
+      "zh": "你觉得是AI写的吗?"
+    },
+    {
+      "start": 1425.99,
+      "end": 1428.07,
+      "en": "Now it's probably about almost 100%.",
+      "zh": "现在大概差不多是100%了"
+    },
+    {
+      "start": 1429.47,
+      "end": 1434.47,
+      "en": "Like nobody's actually like writing the initial code, you know,",
+      "zh": "就像没有人真的像写 初始代码,你知道,"
+    },
+    {
+      "start": 1434.47,
+      "end": 1437.59,
+      "en": "initial code by hand anymore.",
+      "zh": "开始用手代号"
+    },
+    {
+      "start": 1437.59,
+      "end": 1439.47,
+      "en": "Like maybe sometimes.",
+      "zh": "也许有时"
+    },
+    {
+      "start": 1439.47,
+      "end": 1441.55,
+      "en": "You could not design in the corner.",
+      "zh": "你无法设计在角落。"
+    },
+    {
+      "start": 1441.55,
+      "end": 1442.59,
+      "en": "Yeah.",
+      "zh": "对"
+    },
+    {
+      "start": 1442.59,
+      "end": 1445.91,
+      "en": "So yeah, so almost all the code is being written with AI,",
+      "zh": "所以几乎所有的代码都是用AI写的"
+    },
+    {
+      "start": 1445.91,
+      "end": 1450.27,
+      "en": "but we actually enforce human reviews.",
+      "zh": "但我们实际上执行 人类审查。"
+    },
+    {
+      "start": 1450.27,
+      "end": 1454.03,
+      "en": "So you cannot actually generate tons of AI code",
+      "zh": "所以你实际上不能生成吨的AI代码"
+    },
+    {
+      "start": 1454.03,
+      "end": 1457.27,
+      "en": "and then just check it in the repos.",
+      "zh": "然后就检查它 在回包。"
+    },
+    {
+      "start": 1457.27,
+      "end": 1461.59,
+      "en": "We're probably more conservative than most other companies.",
+      "zh": "我们可能比大多数其他公司保守。"
+    },
+    {
+      "start": 1461.59,
+      "end": 1464.43,
+      "en": "There was in fact a discussion inside the company",
+      "zh": "其实公司内部有场讨论"
+    },
+    {
+      "start": 1464.43,
+      "end": 1466.49,
+      "en": "that well, now I can write so much code",
+      "zh": "现在,我可以写这么多代码"
+    },
+    {
+      "start": 1466.49,
+      "end": 1469.25,
+      "en": "and then you'll bottle like I shifted from the person",
+      "zh": "然后,你会瓶子 像从人转移"
+    },
+    {
+      "start": 1469.25,
+      "end": 1471.49,
+      "en": "writes the code to person as a review.",
+      "zh": "将代码写给个人作为评论。"
+    },
+    {
+      "start": 1471.49,
+      "end": 1475.59,
+      "en": "And so there was a proposal to actually eliminate code reviews",
+      "zh": "所以有人建议取消代码审查"
+    },
+    {
+      "start": 1475.59,
+      "end": 1478.57,
+      "en": "and then just, and then many companies are doing that.",
+      "zh": "然后就是,然后很多公司都在这样做。"
+    },
+    {
+      "start": 1478.57,
+      "end": 1480.81,
+      "en": "It's like, let AI write the code",
+      "zh": "这就像,让AI写代码"
+    },
+    {
+      "start": 1480.81,
+      "end": 1484.05,
+      "en": "and directly get submitted into the repose.",
+      "zh": "然后直接被送进安眠室"
+    },
+    {
+      "start": 1485.05,
+      "end": 1487.57,
+      "en": "If you have to have a stringent code review process,",
+      "zh": "如果你需要一个严格的代码审查程序"
+    },
+    {
+      "start": 1487.57,
+      "end": 1490.85,
+      "en": "it almost removes the point of having a fast",
+      "zh": "几乎消除了吃斋戒的意义"
+    },
+    {
+      "start": 1490.85,
+      "end": 1493.41,
+      "en": "and code development process.",
+      "zh": "和代码开发过程。"
+    },
+    {
+      "start": 1493.41,
+      "end": 1495.49,
+      "en": "If you, if you, if you, yeah, it's true.",
+      "zh": "如果你,如果你,如果你, 是的,这是真的。"
+    },
+    {
+      "start": 1495.49,
+      "end": 1497.83,
+      "en": "So that's why, so, but I think like, you know,",
+      "zh": "所以,所以,所以, 但我认为,你知道,"
+    },
+    {
+      "start": 1497.83,
+      "end": 1503.31,
+      "en": "what it, what it's doing right now is the, you know,",
+      "zh": "它现在在做什么?"
+    },
+    {
+      "start": 1503.91,
+      "end": 1507.63,
+      "en": "we're still in the learning phase of using AI, you know,",
+      "zh": "我们仍在学习阶段 使用AI,你知道,"
+    },
+    {
+      "start": 1507.63,
+      "end": 1510.55,
+      "en": "properly, effectively thinking about long-term",
+      "zh": "适当、有效地思考长期"
+    },
+    {
+      "start": 1510.55,
+      "end": 1512.87,
+      "en": "ramifications of it because when you write code,",
+      "zh": "因为当你写代码时"
+    },
+    {
+      "start": 1512.87,
+      "end": 1516.33,
+      "en": "for example, with AI, you know, we, you know,",
+      "zh": "比如说,与AI, 你知道,我们,你知道,"
+    },
+    {
+      "start": 1516.33,
+      "end": 1518.75,
+      "en": "you can write like a million lines of code,",
+      "zh": "你可以写成百万行代码"
+    },
+    {
+      "start": 1518.75,
+      "end": 1526.29,
+      "en": "but it becomes incredibly hard to actually maintain it and understand it and manage it",
+      "zh": "但实际上很难维持 理解 管理"
+    },
+    {
+      "start": 1526.29,
+      "end": 1527.29,
+      "en": "over time.",
+      "zh": "随着时间的推移。"
+    },
+    {
+      "start": 1527.29,
+      "end": 1528.29,
+      "en": "So, just-",
+      "zh": "所以,就... ... 说说吧 So, just..."
+    },
+    {
+      "start": 1528.29,
+      "end": 1529.29,
+      "en": "Because I don't know what AI does say.",
+      "zh": "因为我不知道AI怎么说"
+    },
+    {
+      "start": 1529.29,
+      "end": 1533.25,
+      "en": "You have AI that does refactoring and AI that does security and AI that does.",
+      "zh": "你拥有的人工智能是重新构思的 人工智能是安全的 人工智能是安全的"
+    },
+    {
+      "start": 1533.25,
+      "end": 1536.21,
+      "en": "Yeah, the only thing is that, you know, it's not that perfect right now.",
+      "zh": "是啊,唯一的事情是, 你知道, 它不是那么完美 现在。"
+    },
+    {
+      "start": 1536.21,
+      "end": 1543.6,
+      "en": "So you have to, I think I viewed rather, I think right now we're willing to pay the cost",
+      "zh": "所以,你必须,我认为我 相当地,我认为现在,我们愿意支付成本"
+    },
+    {
+      "start": 1543.6,
+      "end": 1544.6,
+      "en": "of-",
+      "zh": "页:1"
+    },
+    {
+      "start": 1544.6,
+      "end": 1545.6,
+      "en": "Being slow.",
+      "zh": "慢慢来"
+    },
+    {
+      "start": 1545.6,
+      "end": 1547.92,
+      "en": "of well of reviewing the code.",
+      "zh": "来审查守则"
+    },
+    {
+      "start": 1547.92,
+      "end": 1550.72,
+      "en": "So we're still faster than before,",
+      "zh": "所以我们比以前还快"
+    },
+    {
+      "start": 1550.72,
+      "end": 1553.36,
+      "en": "because the writing part is actually much faster now.",
+      "zh": "因为写作部分现在要快得多"
+    },
+    {
+      "start": 1553.36,
+      "end": 1555.24,
+      "en": "And the person who writes is the one",
+      "zh": "写作的人就是"
+    },
+    {
+      "start": 1555.24,
+      "end": 1556.92,
+      "en": "who actually does the first review.",
+      "zh": "谁是真正的 做第一次审查。"
+    },
+    {
+      "start": 1556.92,
+      "end": 1559.96,
+      "en": "So when you say AI or AI ROI",
+      "zh": "所以当你说AI或AI ROI"
+    },
+    {
+      "start": 1559.96,
+      "end": 1563.52,
+      "en": "is really a throughput problem, what does that mean?",
+      "zh": "这到底意味着什么?"
+    },
+    {
+      "start": 1563.52,
+      "end": 1565.58,
+      "en": "Like the first thing that we have to do is",
+      "zh": "就像我们要做的第一件事"
+    },
+    {
+      "start": 1567.06,
+      "end": 1571.92,
+      "en": "like make sure that you are able to",
+      "zh": "就像确保你能够"
+    },
+    {
+      "start": 1571.92,
+      "end": 1579.27,
+      "en": "bring the right context to these AI agents.",
+      "zh": "给这些AI特工带来正确的背景"
+    },
+    {
+      "start": 1579.27,
+      "end": 1585.27,
+      "en": "The way, like I think, if you think about most enterprises today,",
+      "zh": "就像我想的那样,如果你今天想到大多数企业"
+    },
+    {
+      "start": 1585.27,
+      "end": 1589.34,
+      "en": "the way they're rolling out AI is that they actually just throw it in,",
+      "zh": "他们推出AI的方式是 他们只是把它扔进去,"
+    },
+    {
+      "start": 1589.34,
+      "end": 1594.34,
+      "en": "throw it into the system, and connect AI with all of the enterprise systems",
+      "zh": "把它扔到系统中,并连接AI与所有企业系统"
+    },
+    {
+      "start": 1594.34,
+      "end": 1599.34,
+      "en": "in a rudimentary manner using MCP servers.",
+      "zh": "最初使用MCP服务器。"
+    },
+    {
+      "start": 1599.34,
+      "end": 1604.52,
+      "en": "And now you're letting any piece of work that you are trying to do with AI, you are",
+      "zh": "现在,你让任何 你试图做的 与AI,你是"
+    },
+    {
+      "start": 1604.52,
+      "end": 1609.68,
+      "en": "letting the models sort of brute force their way into trying to figure out and assemble",
+      "zh": "让模特儿们疯狂地逼迫自己去想出办法"
+    },
+    {
+      "start": 1609.68,
+      "end": 1614.82,
+      "en": "the right raw materials that they need to complete the task and then do it.",
+      "zh": "他们需要正确的原料来完成任务,然后去做。"
+    },
+    {
+      "start": 1614.82,
+      "end": 1618.96,
+      "en": "And in this sort of, in this mode, AI is super slow.",
+      "zh": "在这种模式下,AI是超慢的。"
+    },
+    {
+      "start": 1618.96,
+      "end": 1623.72,
+      "en": "It takes a lot of time to actually just assemble the basic information you need to do the work.",
+      "zh": "需要很多时间来收集工作所需的基本信息。"
+    },
+    {
+      "start": 1623.72,
+      "end": 1630.4,
+      "en": "It also becomes very, very costly because most of the tokens are being burned just trying",
+      "zh": "也变得非常,非常昂贵 因为大多数的代币 被烧毁只是尝试"
+    },
+    {
+      "start": 1630.4,
+      "end": 1634.04,
+      "en": "to assemble the right context for that given task.",
+      "zh": "以正确的背景来完成此项任务。"
+    },
+    {
+      "start": 1634.04,
+      "end": 1637.8,
+      "en": "And you're trying to sort of use AI for things where it's not even good at or needed.",
+      "zh": "你试图用人工智能 来做它甚至不擅长或需要的东西"
+    },
+    {
+      "start": 1637.8,
+      "end": 1644.92,
+      "en": "So instead, what we talk about is to make AI really perform and deliver, you have to sort",
+      "zh": "所以,我们所谈的是 让AI真正发挥和交付, 你必须排序"
+    },
+    {
+      "start": 1644.92,
+      "end": 1646.8,
+      "en": "of invest around it.",
+      "zh": "和周围的投资。"
+    },
+    {
+      "start": 1646.8,
+      "end": 1651.64,
+      "en": "You have to make sure that you provided the right context so that it can actually work",
+      "zh": "你得确保你提供了正确的环境 这样它才能真正工作"
+    },
+    {
+      "start": 1651.64,
+      "end": 1654.36,
+      "en": "faster at lower cost.",
+      "zh": "以更低的成本更快。"
+    },
+    {
+      "start": 1654.36,
+      "end": 1659.12,
+      "en": "What does it mean to invest around it? And are we wrong as CEOs to be urging all of our",
+      "zh": "围绕它投资是什么意思? 我们作为首席执行官 是否不该敦促我们所有的人"
+    },
+    {
+      "start": 1659.12,
+      "end": 1663.76,
+      "en": "team members to be trying to replace themselves with AI, even if it means that we're wasting",
+      "zh": "尽管这意味着我们在浪费"
+    },
+    {
+      "start": 1663.76,
+      "end": 1665.46,
+      "en": "tokens?",
+      "zh": "纪念品?"
+    },
+    {
+      "start": 1665.46,
+      "end": 1671.9,
+      "en": "I think it's a wrong goal, in my opinion, to say that, hey, replace yourself with AI.",
+      "zh": "我认为说\"嘿,用AI代替自己\"是错误的目标."
+    },
+    {
+      "start": 1671.9,
+      "end": 1675.78,
+      "en": "First of all, I think we've been giving too much credit to AI. And when you say that,",
+      "zh": "首先,我想我们给AI的 太多的功劳。 当你说,"
+    },
+    {
+      "start": 1675.78,
+      "end": 1680.74,
+      "en": "it's just not ready right now. You give in the name of one job that you can replace",
+      "zh": "只是现在还没准备好 你以一份工作的名义 交出来,你可以替代"
+    },
+    {
+      "start": 1680.74,
+      "end": 1685.06,
+      "en": "with the AI. For example, do you think you can replace your EA?",
+      "zh": "与AI. 例如,你觉得你能代替你的EA吗?"
+    },
+    {
+      "start": 1685.06,
+      "end": 1686.58,
+      "en": "Mine, no, but I'm a fucking diva.",
+      "zh": "我的,没有,但我是一个他妈的diva。"
+    },
+    {
+      "start": 1688.5,
+      "end": 1692.42,
+      "en": "I think most people, I think you can do the majority. Yeah, I do.",
+      "zh": "我认为大多数人, 我想你可以做多数。 没错"
+    },
+    {
+      "start": 1693.78,
+      "end": 1700.9,
+      "en": "And that's the thing. It can actually take care of a lot of things for any given role,",
+      "zh": "这就是问题所在。 它可以为任何角色处理很多事情"
+    },
+    {
+      "start": 1701.78,
+      "end": 1706.66,
+      "en": "but it cannot replace that the final, the last intangible.",
+      "zh": "但它不能取代 最终的,最后的无形。"
+    },
+    {
+      "start": 1706.66,
+      "end": 1709.94,
+      "en": "No, but that can be a tipping point where actually for a lot of people,",
+      "zh": "不,但这可能是一个临界点 实际上,很多人,"
+    },
+    {
+      "start": 1709.94,
+      "end": 1718.02,
+      "en": "if it does 90% fine, you'll do that birthday present for your wife because it's once a year,",
+      "zh": "如果九成可以的话,你会为你妻子做生日礼物 因为每年一次"
+    },
+    {
+      "start": 1718.02,
+      "end": 1724.1,
+      "en": "it's not very often and Claude isn't quite personal enough to know your wife's preferences of perfume.",
+      "zh": "克劳德不太了解你妻子对香水的偏好"
+    },
+    {
+      "start": 1724.82,
+      "end": 1728.1,
+      "en": "And so it's very, but that role will get cannibalized.",
+      "zh": "所以它是非常的, 但是这个角色会被食人族吞噬。"
+    },
+    {
+      "start": 1729.0,
+      "end": 1735.97,
+      "en": "I'm not sure. And I'll tell you why. I think you want to be performing the best in whatever",
+      "zh": "我不确定,我还不知道 我告诉你为什么 我想你想表现得最好"
+    },
+    {
+      "start": 1735.97,
+      "end": 1740.36,
+      "en": "you do. And I don't think you're going to take a 90% solution.",
+      "zh": "你这样做。 而且我不认为你会 采取90%的解决方案。"
+    },
+    {
+      "start": 1740.56,
+      "end": 1742.88,
+      "en": "Or no, but I'm on cross constraint being a dick.",
+      "zh": "或者没有,但我是在交叉约束 作为一个家伙。"
+    },
+    {
+      "start": 1744.24,
+      "end": 1749.64,
+      "en": "I mean, like look, the kind of like, you know, like, it's not about you",
+      "zh": "我的意思是,像, 那种喜欢,你知道, 像,这不是你"
+    },
+    {
+      "start": 1749.64,
+      "end": 1750.88,
+      "en": "but not being cross constraint.",
+      "zh": "但不是交叉约束"
+    },
+    {
+      "start": 1751.2,
+      "end": 1756.12,
+      "en": "It's about you had to be competitive in your in your work with others.",
+      "zh": "这是关于你必须竞争 在你的工作与其他人。"
+    },
+    {
+      "start": 1756.52,
+      "end": 1759.68,
+      "en": "I remember they also have all the tools that you have, but if they also",
+      "zh": "我记得他们也有你拥有的所有工具 但如果他们也有"
+    },
+    {
+      "start": 1759.68,
+      "end": 1762.63,
+      "en": "have a human on top, you know, how are you going to compete with them?",
+      "zh": "上面有个人类 你要怎么和他们竞争?"
+    },
+    {
+      "start": 1762.75,
+      "end": 1765.31,
+      "en": "So do you not think how many people would you have now?",
+      "zh": "所以,你不认为 你会有多少人吗?"
+    },
+    {
+      "start": 1765.31,
+      "end": 1768.47,
+      "en": "In our company, we're over a thousand people now.",
+      "zh": "在我们公司里 我们现在有一千多人了"
+    },
+    {
+      "start": 1768.47,
+      "end": 1769.67,
+      "en": "Over a thousand people.",
+      "zh": "千余众."
+    },
+    {
+      "start": 1769.67,
+      "end": 1772.43,
+      "en": "How many do you think you'll have in five years' time?",
+      "zh": "五年内能有多少人?"
+    },
+    {
+      "start": 1772.43,
+      "end": 1775.71,
+      "en": "Well, hopefully, you know, 5,000.",
+      "zh": "嗯,希望,你知道,5000。"
+    },
+    {
+      "start": 1775.71,
+      "end": 1776.71,
+      "en": "Wow.",
+      "zh": "珃"
+    },
+    {
+      "start": 1776.71,
+      "end": 1778.23,
+      "en": "So you don't grow.",
+      "zh": "故不增长."
+    },
+    {
+      "start": 1778.23,
+      "end": 1780.03,
+      "en": "But that is very atypical.",
+      "zh": "但这是非常非典型的。"
+    },
+    {
+      "start": 1780.03,
+      "end": 1782.27,
+      "en": "I sit with the biggest CEOs in the world.",
+      "zh": "我和世界上最大的首席执行官坐在一起"
+    },
+    {
+      "start": 1782.27,
+      "end": 1784.43,
+      "en": "Every single one of the miss shrinking teams.",
+      "zh": "每一个小队都缺人手"
+    },
+    {
+      "start": 1784.43,
+      "end": 1785.83,
+      "en": "And every single one of them is saying to me.",
+      "zh": "他们每个人都在对我说"
+    },
+    {
+      "start": 1785.83,
+      "end": 1788.21,
+      "en": "I absolutely don't believe in it.",
+      "zh": "我绝对不相信"
+    },
+    {
+      "start": 1788.21,
+      "end": 1789.21,
+      "en": "Why?",
+      "zh": "为什么?"
+    },
+    {
+      "start": 1789.21,
+      "end": 1789.89,
+      "en": "Why?",
+      "zh": "为什么?"
+    },
+    {
+      "start": 1789.89,
+      "end": 1792.73,
+      "en": "Well, I mean, I think first thing logically,",
+      "zh": "嗯,我的意思是,我认为第一件事 逻辑上,"
+    },
+    {
+      "start": 1792.73,
+      "end": 1796.69,
+      "en": "The take two companies, take Coca-Cola and Pepsi,",
+      "zh": "带两家公司去可口可乐和百事可乐"
+    },
+    {
+      "start": 1796.69,
+      "end": 1799.17,
+      "en": "all like two companies that compete with each other.",
+      "zh": "就像两个互相竞争的公司"
+    },
+    {
+      "start": 1801.84,
+      "end": 1804.47,
+      "en": "One company decides to shrink",
+      "zh": "一家公司决定收缩"
+    },
+    {
+      "start": 1804.47,
+      "end": 1808.11,
+      "en": "and the other one still has a lot more people.",
+      "zh": "而另一个还有更多的人。"
+    },
+    {
+      "start": 1808.11,
+      "end": 1810.43,
+      "en": "Both of them have full access to the same AI tools",
+      "zh": "两人完全可以使用同样的AI工具"
+    },
+    {
+      "start": 1810.43,
+      "end": 1812.4,
+      "en": "and technology.",
+      "zh": "技术。"
+    },
+    {
+      "start": 1812.4,
+      "end": 1815.32,
+      "en": "And so now the question is,",
+      "zh": "所以现在的问题是,"
+    },
+    {
+      "start": 1817.81,
+      "end": 1820.93,
+      "en": "if you were trying to do the same amount of work",
+      "zh": "如果你想做同样多的工作"
+    },
+    {
+      "start": 1820.93,
+      "end": 1823.13,
+      "en": "and you believe you can do it with fewer people",
+      "zh": "你相信,你可以做到这一点 与更少的人"
+    },
+    {
+      "start": 1823.13,
+      "end": 1829.04,
+      "en": "and therefore you shrink, your competition can also do the same, but they chose actually",
+      "zh": "因此,你收缩,你的竞争 也可以这样做,但他们选择了实际上"
+    },
+    {
+      "start": 1829.04,
+      "end": 1834.92,
+      "en": "not to do the same amount of work. They chose to actually elevate and build a 10x better",
+      "zh": "不做同样多的工作。 他们选择了真正提升 和建造10x更好"
+    },
+    {
+      "start": 1834.92,
+      "end": 1844.84,
+      "en": "product or build 10x more, produce 10x more goods because they have more people, they're",
+      "zh": "生产10x 生产10x 更多的商品,因为他们有更多的人,他们是"
+    },
+    {
+      "start": 1844.84,
+      "end": 1846.96,
+      "en": "going to be larger, they're going to be, they're going to beat you.",
+      "zh": "将会更大,他们会是,他们会打败你。"
+    },
+    {
+      "start": 1846.96,
+      "end": 1850.28,
+      "en": "But I don't need more people, mates, for better products.",
+      "zh": "但我不需要更多的人,伙计, 更好的产品。"
+    },
+    {
+      "start": 1850.28,
+      "end": 1851.8,
+      "en": "That's a different thing.",
+      "zh": "这不一样"
+    },
+    {
+      "start": 1851.8,
+      "end": 1857.6,
+      "en": "If I can cut headcount and then afford the best frontier models, the best technology for",
+      "zh": "如果我能削减人口统计 然后买得起最好的前沿模型 最好的技术"
+    },
+    {
+      "start": 1857.6,
+      "end": 1862.56,
+      "en": "my 100x engineers because I've reduced headcount, the best engineers will want to come to my",
+      "zh": "我的100名工程师 因为我减少了人数 最好的工程师会想来我的"
+    },
+    {
+      "start": 1862.56,
+      "end": 1868.84,
+      "en": "company and actually I'll be creating better products faster with my smaller team.",
+      "zh": "公司,实际上我会 创造更好的产品 更快与我的小团队。"
+    },
+    {
+      "start": 1868.84,
+      "end": 1871.24,
+      "en": "That's a good point but I think that argument-",
+      "zh": "说得好,但我觉得这个论点..."
+    },
+    {
+      "start": 1871.24,
+      "end": 1873.6,
+      "en": "And I think more people slow down everything.",
+      "zh": "我认为更多的人 放慢一切。"
+    },
+    {
+      "start": 1873.6,
+      "end": 1875.68,
+      "en": "But that's not an AI argument.",
+      "zh": "但这不是AI的论点."
+    },
+    {
+      "start": 1875.68,
+      "end": 1877.52,
+      "en": "That argument has always been true.",
+      "zh": "这一论点始终是正确的。"
+    },
+    {
+      "start": 1877.52,
+      "end": 1883.28,
+      "en": "Sure. But combined with the AI element, if you're able to ship more, if you're able to ship more,",
+      "zh": "当然 但结合AI元素, 如果你能多运送, 如果你能多运送,"
+    },
+    {
+      "start": 1883.28,
+      "end": 1886.88,
+      "en": "I promise you when you have, and you know, that's when you have more people, they'll just put up",
+      "zh": "我答应你,当你有,你知道, 那就是当你有更多的人, 他们会只是忍受"
+    },
+    {
+      "start": 1886.88,
+      "end": 1893.2,
+      "en": "the barriers to get in the way of that product going out. Well, look, even in the, we have these",
+      "zh": "阻碍产品出口的障碍 好吧,你看,即使在里面,我们有这些"
+    },
+    {
+      "start": 1893.2,
+      "end": 1903.62,
+      "en": "AI discussions right now, but before that, just post COVID, like many companies felt they were",
+      "zh": "AI的讨论现在,但在此之前, 刚刚之后COVID, 像很多公司觉得他们是"
+    },
+    {
+      "start": 1903.62,
+      "end": 1910.24,
+      "en": "bloated, they cut down 15% 20% of their staff. And every CEO came out and said, they're actually,",
+      "zh": "他们把15%的员工削减了20%。 每位首席执行官都出来说"
+    },
+    {
+      "start": 1910.96,
+      "end": 1917.76,
+      "en": "as a result of that, they're actually moving 20% faster. So a lot of companies came and talked",
+      "zh": "因此,他们实际上移动了20%的速度。 所以有很多公司来谈"
+    },
+    {
+      "start": 1917.76,
+      "end": 1924.4,
+      "en": "about that. So that's it. That's the argument. There's always there. At some point, teams get",
+      "zh": "关于那个。 於是 it然. 这就是争论。 总有. 某时,队伍得到"
+    },
+    {
+      "start": 1924.4,
+      "end": 1929.68,
+      "en": "large, they start to slow each other down. Humans do that. I also believe in that. But",
+      "zh": "大,它们开始互相减慢。 人类会这么做的 我也相信这一点。 不过"
+    },
+    {
+      "start": 1929.68,
+      "end": 1939.68,
+      "en": "But ultimately, people are also your asset, and you have to be able to deploy them correctly",
+      "zh": "但归根结底,人们也是你的资产, 你必须能够正确部署他们"
+    },
+    {
+      "start": 1939.68,
+      "end": 1941.68,
+      "en": "in the right set of projects.",
+      "zh": "在正确的一组项目中。"
+    },
+    {
+      "start": 1941.68,
+      "end": 1949.18,
+      "en": "And I don't think the world's greatest companies are going to be companies with 100 people.",
+      "zh": "我不认为世界上最伟大的公司 将会是百人的公司。"
+    },
+    {
+      "start": 1949.18,
+      "end": 1951.68,
+      "en": "And look at the model companies, you know, like the same for them, like why are they",
+      "zh": "看看那些模范公司,你知道的, 就像对他们一样,就像为什么他们"
+    },
+    {
+      "start": 1951.68,
+      "end": 1952.68,
+      "en": "hiring aggressively?",
+      "zh": "招人冲动?"
+    },
+    {
+      "start": 1952.68,
+      "end": 1956.42,
+      "en": "Do you not think that the best people will want to work with the best technology?",
+      "zh": "难道你不认为最好的人 会想用最好的技术工作吗?"
+    },
+    {
+      "start": 1956.42,
+      "end": 1960.66,
+      "en": "we'll see an increase in technology spend by the biggest companies in the world from 8 to 12",
+      "zh": "世界上最大的公司 技术开支从8增加到12"
+    },
+    {
+      "start": 1960.66,
+      "end": 1966.42,
+      "en": "cent riders today to maybe 16 to 20. And then actually you'll see a reduction in headcount",
+      "zh": "今天的一分钱骑手 可能达到16到20 然后,实际上你会看到人口减少"
+    },
+    {
+      "start": 1966.42,
+      "end": 1970.66,
+      "en": "but an increase in technology spend and the best people will want to go where they have the best",
+      "zh": "但技术支出的增加 最好的人会想去 他们有最好的"
+    },
+    {
+      "start": 1970.66,
+      "end": 1978.17,
+      "en": "tools and equipment. I'm not sure about that either because I think technology is actually",
+      "zh": "工具和设备。 我也不确定,因为我觉得科技是"
+    },
+    {
+      "start": 1979.05,
+      "end": 1985.77,
+      "en": "not supposed to increase in cost. So I think do you admit that the currently this technology",
+      "zh": "不应该增加成本。 所以,我认为你是否承认 目前这种技术"
+    },
+    {
+      "start": 1985.77,
+      "end": 1989.17,
+      "en": "despised in it, you know, absurdly for what it delivers.",
+      "zh": "在其中被轻视,你知道, 荒谬的,因为它提供什么。"
+    },
+    {
+      "start": 1989.17,
+      "end": 1991.69,
+      "en": "I think it totally depends on what it's doing.",
+      "zh": "我觉得这完全取决于它在做什么。"
+    },
+    {
+      "start": 1991.69,
+      "end": 1996.13,
+      "en": "So no, I don't at all for Kersa or for any of the dev tools.",
+      "zh": "所以,我一点也不喜欢Kersa或任何Dev工具。"
+    },
+    {
+      "start": 1996.13,
+      "end": 1998.53,
+      "en": "I think it's still dramatically underpriced.",
+      "zh": "我觉得它仍然价格极低"
+    },
+    {
+      "start": 1998.53,
+      "end": 2001.25,
+      "en": "When you look at Mark Benny offspending 300 million on",
+      "zh": "当你看着马克·本尼花掉3亿"
+    },
+    {
+      "start": 2001.25,
+      "end": 2004.73,
+      "en": "Anthropic, it's 3.7% of developer salaries.",
+      "zh": "Anthropic,是开发商工资的3.7%."
+    },
+    {
+      "start": 2004.73,
+      "end": 2006.61,
+      "en": "I think that's relatively small.",
+      "zh": "我认为这相对较小。"
+    },
+    {
+      "start": 2006.61,
+      "end": 2009.05,
+      "en": "I would say it's absurdly expensive.",
+      "zh": "我会说这太昂贵了"
+    },
+    {
+      "start": 2009.05,
+      "end": 2010.45,
+      "en": "I'll give you an example.",
+      "zh": "举个例子"
+    },
+    {
+      "start": 2010.45,
+      "end": 2015.93,
+      "en": "We had this really cool triage agent for engineering.",
+      "zh": "我们有一个非常酷的 工程分解剂。"
+    },
+    {
+      "start": 2019.93,
+      "end": 2021.69,
+      "en": "And we have 15 people team on call team",
+      "zh": "我们有15个人小组在呼叫小组"
+    },
+    {
+      "start": 2021.69,
+      "end": 2022.61,
+      "en": "that was supposed to,",
+      "zh": "这是应该的,"
+    },
+    {
+      "start": 2022.61,
+      "end": 2026.13,
+      "en": "that their work was to actually triage",
+      "zh": "他们的工作其实是分解"
+    },
+    {
+      "start": 2026.13,
+      "end": 2028.21,
+      "en": "every single production issue that happens,",
+      "zh": "每一次生产问题发生,"
+    },
+    {
+      "start": 2028.21,
+      "end": 2031.61,
+      "en": "like any system alerts, things that are going bad.",
+      "zh": "像任何系统警报, 事情是坏的。"
+    },
+    {
+      "start": 2031.61,
+      "end": 2035.09,
+      "en": "And we built this agent that actually now is taking care",
+      "zh": "我们造了这个特工 现在正在照顾他"
+    },
+    {
+      "start": 2035.09,
+      "end": 2038.47,
+      "en": "of like 95% of those issues automatically for them.",
+      "zh": "大约95%的这些问题 自动为他们。"
+    },
+    {
+      "start": 2038.47,
+      "end": 2041.35,
+      "en": "But even there is actually doing it at cost,",
+      "zh": "但即使有 实际这样做的成本,"
+    },
+    {
+      "start": 2041.35,
+      "end": 2043.07,
+      "en": "which is actually questionable.",
+      "zh": "这确实值得怀疑。"
+    },
+    {
+      "start": 2043.07,
+      "end": 2044.83,
+      "en": "Like, is it actually more effective?",
+      "zh": "像,它实际上更有效吗?"
+    },
+    {
+      "start": 2044.83,
+      "end": 2047.39,
+      "en": "Is it more efficient than humans?",
+      "zh": "比人类更有效率吗?"
+    },
+    {
+      "start": 2047.39,
+      "end": 2050.75,
+      "en": "We were spending a million dollars a month",
+      "zh": "我们一个月花一百万"
+    },
+    {
+      "start": 2050.75,
+      "end": 2053.23,
+      "en": "on that particular agent.",
+      "zh": "在那个特工身上"
+    },
+    {
+      "start": 2055.87,
+      "end": 2058.03,
+      "en": "And that was actually more than the cost of-",
+      "zh": "这实际上比..."
+    },
+    {
+      "start": 2058.03,
+      "end": 2059.47,
+      "en": "A million a month.",
+      "zh": "一个月一百万"
+    },
+    {
+      "start": 2059.47,
+      "end": 2060.31,
+      "en": "Yeah.",
+      "zh": "对"
+    },
+    {
+      "start": 2060.31,
+      "end": 2061.47,
+      "en": "Are you buying Cristiano Ronaldo?",
+      "zh": "你要买克里斯蒂亚诺·罗纳尔多吗?"
+    },
+    {
+      "start": 2061.47,
+      "end": 2062.71,
+      "en": "What do you do?",
+      "zh": "你们做什么的?"
+    },
+    {
+      "start": 2062.71,
+      "end": 2064.79,
+      "en": "Well, I mean, I also like that.",
+      "zh": "嗯,我的意思是,我也喜欢这样。"
+    },
+    {
+      "start": 2064.79,
+      "end": 2067.43,
+      "en": "I mean, it is quite expensive.",
+      "zh": "我的意思是,这是相当昂贵的。"
+    },
+    {
+      "start": 2067.43,
+      "end": 2069.35,
+      "en": "So the-",
+      "zh": "所以说..."
+    },
+    {
+      "start": 2069.35,
+      "end": 2070.19,
+      "en": "Sorry, don't skip out here.",
+      "zh": "对不起,不要跳出这里。"
+    },
+    {
+      "start": 2070.19,
+      "end": 2071.03,
+      "en": "Yeah.",
+      "zh": "对"
+    },
+    {
+      "start": 2071.03,
+      "end": 2073.91,
+      "en": "You said that, because I discussed this a lot on the show,",
+      "zh": "你说的,因为我在节目中讨论了很多"
+    },
+    {
+      "start": 2073.91,
+      "end": 2075.75,
+      "en": "so you're making me much smarter.",
+      "zh": "所以你让我聪明多了"
+    },
+    {
+      "start": 2075.75,
+      "end": 2079.23,
+      "en": "You think that spending 3.8% of developers' annaries",
+      "zh": "你认为花费3.8%的开发商的动因"
+    },
+    {
+      "start": 2079.23,
+      "end": 2081.19,
+      "en": "on these tools is a lot.",
+      "zh": "这些工具有很多"
+    },
+    {
+      "start": 2081.19,
+      "end": 2083.11,
+      "en": "If you think that's a lot,",
+      "zh": "如果你觉得很多"
+    },
+    {
+      "start": 2083.11,
+      "end": 2088.05,
+      "en": "then these model providers are absolutely screwed.",
+      "zh": "那么这些模型供应商就完蛋了"
+    },
+    {
+      "start": 2088.05,
+      "end": 2090.49,
+      "en": "Well, I mean, I think the point that I'm making is,",
+      "zh": "嗯,我的意思是,我认为 我提出的观点是,"
+    },
+    {
+      "start": 2090.49,
+      "end": 2092.09,
+      "en": "well, the 3.8% number",
+      "zh": "嗯,3.8%的数字"
+    },
+    {
+      "start": 2092.09,
+      "end": 2094.69,
+      "en": "is actually doesn't seem high at all.",
+      "zh": "其实并不高"
+    },
+    {
+      "start": 2094.69,
+      "end": 2096.21,
+      "en": "I mean, when you look at it that way.",
+      "zh": "我的意思是,当你这样看它。"
+    },
+    {
+      "start": 2096.21,
+      "end": 2097.37,
+      "en": "Yeah.",
+      "zh": "对"
+    },
+    {
+      "start": 2097.37,
+      "end": 2102.2,
+      "en": "But I also know that already you see with open source",
+      "zh": "但我也知道,你已经看到开源"
+    },
+    {
+      "start": 2102.2,
+      "end": 2107.2,
+      "en": "that you can do the same work for a tenth of the cost.",
+      "zh": "您可以承担十分之一的费用。"
+    },
+    {
+      "start": 2107.48,
+      "end": 2108.32,
+      "en": "That's number one.",
+      "zh": "即第一义."
+    },
+    {
+      "start": 2109.48,
+      "end": 2112.98,
+      "en": "Number two, like historically,",
+      "zh": "二号,像历史,"
+    },
+    {
+      "start": 2112.98,
+      "end": 2114.58,
+      "en": "for as far as I can remember,",
+      "zh": "据我所知,"
+    },
+    {
+      "start": 2114.58,
+      "end": 2117.7,
+      "en": "we've not put technology costs in labor cost",
+      "zh": "我们没有把技术成本 劳动成本"
+    },
+    {
+      "start": 2117.7,
+      "end": 2120.82,
+      "en": "in the same sort of sentence ever before.",
+      "zh": "在同样的句子 之前。"
+    },
+    {
+      "start": 2120.82,
+      "end": 2122.82,
+      "en": "This is the first time we're actually hearing that,",
+      "zh": "这是我们第一次真正听到,"
+    },
+    {
+      "start": 2122.82,
+      "end": 2127.06,
+      "en": "that I would rather have fewer humans and more tokens.",
+      "zh": "我宁愿拥有更少的人类和更多的象征"
+    },
+    {
+      "start": 2127.06,
+      "end": 2128.18,
+      "en": "the first time.",
+      "zh": "这是第一次"
+    },
+    {
+      "start": 2128.18,
+      "end": 2129.58,
+      "en": "And I just feel like, you know,",
+      "zh": "我只是觉得,你知道,"
+    },
+    {
+      "start": 2129.58,
+      "end": 2131.26,
+      "en": "this is not how technology works.",
+      "zh": "科技不是这样运作的。"
+    },
+    {
+      "start": 2131.26,
+      "end": 2133.54,
+      "en": "Like the models are supposed to get cheaper and cheaper.",
+      "zh": "就像模型应该更便宜 更便宜。"
+    },
+    {
+      "start": 2133.54,
+      "end": 2135.74,
+      "en": "The tech is going to be more and more affordable.",
+      "zh": "技术会越来越便宜"
+    },
+    {
+      "start": 2135.74,
+      "end": 2138.1,
+      "en": "But it's, I'm so sorry, this is so funny for me",
+      "zh": "但是,我很抱歉,这对我来说太有趣了"
+    },
+    {
+      "start": 2138.1,
+      "end": 2140.14,
+      "en": "because you know, the co-founder of Bean and Rubric",
+      "zh": "因为你知道,豆和鲁布里克的共同创始人"
+    },
+    {
+      "start": 2140.14,
+      "end": 2142.86,
+      "en": "and so he the fuck am I about a podcaster.",
+      "zh": "所以他他妈的是我 关于一个脚踏车。"
+    },
+    {
+      "start": 2142.86,
+      "end": 2144.74,
+      "en": "But it is exactly what technology is for.",
+      "zh": "但这正是技术的目的。"
+    },
+    {
+      "start": 2144.74,
+      "end": 2147.14,
+      "en": "This is agents being proactive,",
+      "zh": "这是特工们的主动性"
+    },
+    {
+      "start": 2147.14,
+      "end": 2149.86,
+      "en": "having an opinion, making a decision.",
+      "zh": "有意见,作出决定。"
+    },
+    {
+      "start": 2149.86,
+      "end": 2152.06,
+      "en": "They should absolutely be included",
+      "zh": "绝对应该列入"
+    },
+    {
+      "start": 2152.06,
+      "end": 2154.86,
+      "en": "or put in the same sentence as labor",
+      "zh": "或与劳动相同的判刑"
+    },
+    {
+      "start": 2154.86,
+      "end": 2159.18,
+      "en": "because they are replacing the labor that we used to spend money on.",
+      "zh": "因为他们取代了我们过去花钱的劳动力。"
+    },
+    {
+      "start": 2159.18,
+      "end": 2164.58,
+      "en": "I think good technologies figure out how to make technology really cheap, and it's going",
+      "zh": "我认为良好的技术 找出如何使技术真正便宜, 它正在发展"
+    },
+    {
+      "start": 2164.58,
+      "end": 2167.12,
+      "en": "to happen here too.",
+      "zh": "发生在这里。"
+    },
+    {
+      "start": 2167.12,
+      "end": 2168.12,
+      "en": "That's my belief.",
+      "zh": "这是我的信念。"
+    },
+    {
+      "start": 2168.12,
+      "end": 2169.88,
+      "en": "You're going to see it.",
+      "zh": "你会看到它。"
+    },
+    {
+      "start": 2169.88,
+      "end": 2175.6,
+      "en": "You're going to see inferencing costs come down by orders of magnitude.",
+      "zh": "你将会看到 降息成本的幅度。"
+    },
+    {
+      "start": 2175.6,
+      "end": 2181.6,
+      "en": "I think we saw something bizarre actually, in the last six to nine months, every model",
+      "zh": "我认为我们看到一些奇怪的事情, 在过去的六到九个月里, 每个模型"
+    },
+    {
+      "start": 2181.6,
+      "end": 2185.04,
+      "en": "will actually increase their per token price.",
+      "zh": "将会提高他们的每个象征性价格。"
+    },
+    {
+      "start": 2185.04,
+      "end": 2188.4,
+      "en": "And if you go back 15 months,",
+      "zh": "如果你回去15个月"
+    },
+    {
+      "start": 2188.4,
+      "end": 2191.6,
+      "en": "everybody thought that the token price",
+      "zh": "大家都认为是象征性的价格"
+    },
+    {
+      "start": 2191.6,
+      "end": 2194.28,
+      "en": "is gonna just keep falling like it was before.",
+      "zh": "会像以前一样继续下降"
+    },
+    {
+      "start": 2194.28,
+      "end": 2197.16,
+      "en": "So we don't know what happened here.",
+      "zh": "所以我们不知道这里发生了什么"
+    },
+    {
+      "start": 2197.16,
+      "end": 2199.32,
+      "en": "This is also sort of unique.",
+      "zh": "这也是独一无二的。"
+    },
+    {
+      "start": 2199.32,
+      "end": 2201.48,
+      "en": "Well, they needed to prove that they were good businesses",
+      "zh": "他们需要证明自己是好企业"
+    },
+    {
+      "start": 2201.48,
+      "end": 2203.08,
+      "en": "before they went public.",
+      "zh": "在他们公开之前"
+    },
+    {
+      "start": 2203.08,
+      "end": 2204.42,
+      "en": "That's what happened.",
+      "zh": "师便打曰."
+    },
+    {
+      "start": 2204.42,
+      "end": 2207.0,
+      "en": "I can say things that you can't.",
+      "zh": "我可以说一些你无法说的话"
+    },
+    {
+      "start": 2207.0,
+      "end": 2211.72,
+      "en": "Yeah, but my bet is on AI getting much, much cheaper",
+      "zh": "是啊,但我的赌注是AI 越来越便宜了"
+    },
+    {
+      "start": 2211.72,
+      "end": 2212.72,
+      "en": "moderate is today.",
+      "zh": "温和是今天。"
+    },
+    {
+      "start": 2212.72,
+      "end": 2217.4,
+      "en": "If I get as much, much cheaper than it is today, these already lost making businesses,",
+      "zh": "如果我得到的一样多, 比今天便宜得多, 这些已经失去了生意,"
+    },
+    {
+      "start": 2217.4,
+      "end": 2225.18,
+      "en": "which prop up our entire global economy, pretty much at this point, are very threatened.",
+      "zh": "它支撑着我们整个全球经济, 几乎在这个时候, 受到严重威胁。"
+    },
+    {
+      "start": 2225.18,
+      "end": 2231.02,
+      "en": "Yeah, I mean, like, you know, my take remains the same.",
+      "zh": "是啊,我的意思是,喜欢,你知道, 我的拿仍然一样。"
+    },
+    {
+      "start": 2231.02,
+      "end": 2232.7,
+      "en": "Okay, says really interesting.",
+      "zh": "好吧,说真的很有趣。"
+    },
+    {
+      "start": 2232.7,
+      "end": 2235.98,
+      "en": "So you don't expect like an engineering team to get smaller in the future.",
+      "zh": "所以你不会期望将来工程团队会变小."
+    },
+    {
+      "start": 2235.98,
+      "end": 2244.05,
+      "en": "I think per person productivity is going to shoot up, but so will the demands.",
+      "zh": "我认为,每个人的生产力将会上升,但需求也会上升。"
+    },
+    {
+      "start": 2244.05,
+      "end": 2249.85,
+      "en": "To make the same amount of revenue, you have to produce a 10x better product in the future, unfortunately.",
+      "zh": "为了获得同样的收入,你必须在未来生产一个10x更好的产品,不幸的是."
+    },
+    {
+      "start": 2250.35,
+      "end": 2255.89,
+      "en": "When you think about tokens spend internally, how did you sit down and think about it as a team,",
+      "zh": "当你想到信物在内部花费时, 你怎么坐下来想作为一个团队,"
+    },
+    {
+      "start": 2255.89,
+      "end": 2263.07,
+      "en": "sitting with your CFO, how did you go through the decision of how to think about token budgeting?",
+      "zh": "与你的首席财务干事一起, 你怎么通过决定 如何思考象征性的预算编制?"
+    },
+    {
+      "start": 2263.07,
+      "end": 2266.87,
+      "en": "Well, I think we did probably what most companies did, which is we didn't do anything.",
+      "zh": "我想我们做了大多数公司都做过的事 也就是说我们什么都没做"
+    },
+    {
+      "start": 2266.87,
+      "end": 2272.63,
+      "en": "I think because we didn't, we were in this phase of, like, people figured out what they",
+      "zh": "我认为因为我们没有, 我们处于这个阶段一样, 人们知道他们是什么"
+    },
+    {
+      "start": 2272.63,
+      "end": 2273.63,
+      "en": "can do with this tech.",
+      "zh": "这技术可以做。"
+    },
+    {
+      "start": 2273.63,
+      "end": 2274.97,
+      "en": "And what did you see?",
+      "zh": "你看见什么了?"
+    },
+    {
+      "start": 2274.97,
+      "end": 2275.97,
+      "en": "People weren't crazy.",
+      "zh": "人们不是疯了。"
+    },
+    {
+      "start": 2275.97,
+      "end": 2276.97,
+      "en": "People didn't adopt it.",
+      "zh": "人们没有收养它。"
+    },
+    {
+      "start": 2276.97,
+      "end": 2277.97,
+      "en": "What happened?",
+      "zh": "发生了什么事?"
+    },
+    {
+      "start": 2277.97,
+      "end": 2282.59,
+      "en": "There's a power law, like, you know, in our company and also at all of our customers,",
+      "zh": "我们公司和所有客户都有权力法"
+    },
+    {
+      "start": 2282.59,
+      "end": 2288.87,
+      "en": "you will see some people who spend $10,000 or $15,000 in tokens every month and then",
+      "zh": "你会看到一些人 谁花一万或一万五千美元 每个月和然后"
+    },
+    {
+      "start": 2288.87,
+      "end": 2292.15,
+      "en": "you have others who spend $20.",
+      "zh": "你有其他人谁花费20美元。"
+    },
+    {
+      "start": 2292.15,
+      "end": 2296.77,
+      "en": "One thing is interesting though, that everybody has embraced AI to some degree.",
+      "zh": "但有趣的是,每个人都在某种程度上接受了AI。"
+    },
+    {
+      "start": 2296.77,
+      "end": 2303.51,
+      "en": "Everybody is using the basic, as I mentioned before, the number one application of use case",
+      "zh": "正如我之前提到的那样,每个人都在使用第一种应用"
+    },
+    {
+      "start": 2303.51,
+      "end": 2309.11,
+      "en": "for AI today in the world is information seeking, question answering, and everybody is doing",
+      "zh": "今日的AI正在寻找资讯,回答问题,"
+    },
+    {
+      "start": 2309.11,
+      "end": 2310.11,
+      "en": "that.",
+      "zh": "那个"
+    },
+    {
+      "start": 2310.11,
+      "end": 2314.75,
+      "en": "So you see the entire, everyone on the team and our team, as well as our customers, they're",
+      "zh": "所以,你可以看到整个,每个人 在团队和我们的团队, 以及我们的客户,他们是"
+    },
+    {
+      "start": 2314.75,
+      "end": 2315.75,
+      "en": "all doing that.",
+      "zh": "都这样"
+    },
+    {
+      "start": 2315.75,
+      "end": 2316.75,
+      "en": "Everybody's asking questions.",
+      "zh": "每个人都在问问题"
+    },
+    {
+      "start": 2316.75,
+      "end": 2321.67,
+      "en": "Everybody's getting some basic summarization information synthesis going.",
+      "zh": "每个人都得到了一些基本的总结信息综合。"
+    },
+    {
+      "start": 2321.67,
+      "end": 2325.77,
+      "en": "then advanced use cases are limited to like 5% of employee base.",
+      "zh": "然后,高级使用案例仅限于5%的雇员。"
+    },
+    {
+      "start": 2325.77,
+      "end": 2330.55,
+      "en": "Is there anything you do as a leader to try and infuse AI as aggressively as possible?",
+      "zh": "作为领导者,你有没有做任何事情 尝试和灌输AI尽可能激烈?"
+    },
+    {
+      "start": 2330.55,
+      "end": 2334.83,
+      "en": "We had an Akash from Palo Alto every week, he has a leadership meeting where he's like",
+      "zh": "我们每个星期都有来自帕洛阿尔托的阿卡什 他有一个领导会议 他喜欢那里"
+    },
+    {
+      "start": 2334.83,
+      "end": 2339.31,
+      "en": "show and tell and everyone needs to stand up and show something that they've done with",
+      "zh": "显示和告诉,每个人都需要站起来 展示他们做过的事"
+    },
+    {
+      "start": 2339.31,
+      "end": 2343.83,
+      "en": "AI that week that it replaces what they do, improves their job, whatever it is.",
+      "zh": "该周AI,它取代了他们的工作,改善他们的工作,不管它是什么。"
+    },
+    {
+      "start": 2343.83,
+      "end": 2345.55,
+      "en": "Is there anything that you can do?",
+      "zh": "你能做些什么吗?"
+    },
+    {
+      "start": 2345.55,
+      "end": 2347.39,
+      "en": "Yeah, that's actually really good idea.",
+      "zh": "是啊,这是真的 好主意。"
+    },
+    {
+      "start": 2347.39,
+      "end": 2349.39,
+      "en": "I've thought about doing that.",
+      "zh": "我考虑过这么做"
+    },
+    {
+      "start": 2349.39,
+      "end": 2351.91,
+      "en": "We remedied the token maxing dashboards.",
+      "zh": "我们修补了仪表板"
+    },
+    {
+      "start": 2351.91,
+      "end": 2354.87,
+      "en": "And I always thought that was not the right idea",
+      "zh": "我一直认为这不是个好主意"
+    },
+    {
+      "start": 2354.87,
+      "end": 2360.87,
+      "en": "to just sort of reward people who are consuming more tokens.",
+      "zh": "来奖励那些消费更多象征的人"
+    },
+    {
+      "start": 2360.87,
+      "end": 2362.91,
+      "en": "I felt like we didn't need to do that.",
+      "zh": "我觉得我们没必要这么做"
+    },
+    {
+      "start": 2362.91,
+      "end": 2364.71,
+      "en": "We are a native AI company ourselves.",
+      "zh": "我们是本地的AI公司"
+    },
+    {
+      "start": 2364.71,
+      "end": 2368.87,
+      "en": "And people are already kind of educated enough,",
+      "zh": "人们已经受过足够的教育"
+    },
+    {
+      "start": 2368.87,
+      "end": 2371.75,
+      "en": "and they will use AI when they need to.",
+      "zh": "必要时会使用人工智能"
+    },
+    {
+      "start": 2371.75,
+      "end": 2377.51,
+      "en": "But executives, like sharing a success story,",
+      "zh": "但是,高管们, 就像分享一个成功的故事,"
+    },
+    {
+      "start": 2377.51,
+      "end": 2386.63,
+      "en": "We haven't sort of demanded it from every single exact, every single week, but we have the showcase",
+      "zh": "我们没有要求它 从每一个具体,每个星期, 但我们有展示"
+    },
+    {
+      "start": 2386.63,
+      "end": 2392.47,
+      "en": "like in our town hall, for example, will always ask people to share those wins. Like every town hall,",
+      "zh": "比如说在我们市政厅 总是要求人们分享胜利 像每个市政厅,"
+    },
+    {
+      "start": 2392.47,
+      "end": 2398.55,
+      "en": "there's a section dedicated to these are the new AI agents that teams are using to work differently.",
+      "zh": "有一节专门介绍这些 新的AI代理 团队正在使用不同的工作。"
+    },
+    {
+      "start": 2398.55,
+      "end": 2403.59,
+      "en": "Can I ask you, tell us the exacts and the people that you have? I think recruiting has never been",
+      "zh": "我可以问你,告诉我们 具体和你有的人吗? 我认为招募从来没有"
+    },
+    {
+      "start": 2403.59,
+      "end": 2411.35,
+      "en": "harder. How hard is recruiting today with some of the largest model providers, as we said, paying",
+      "zh": "更难。 今天与一些最大的模式供应商的招聘有多困难,正如我们所说,"
+    },
+    {
+      "start": 2411.35,
+      "end": 2420.0,
+      "en": "just enormous salaries that we haven't seen before? Yeah, I would actually say, maybe, maybe,",
+      "zh": "只是我们以前没见过的巨额薪水? 是啊,我会说,也许,也许,"
+    },
+    {
+      "start": 2420.0,
+      "end": 2428.2,
+      "en": "like, last two or three months, let's put that aside for a minute. I would say that recruiting",
+      "zh": "比如说,过去两三个月, 让我们把那个放在一边一分钟。 我要说,招募"
+    },
+    {
+      "start": 2428.2,
+      "end": 2434.44,
+      "en": "was actually getting easier for compared to the SaaS speak.",
+      "zh": "和SaaS的演讲相比 已经变得更加容易了"
+    },
+    {
+      "start": 2434.44,
+      "end": 2441.94,
+      "en": "Wow. Why? Because I think companies have been more, they haven't been growing, they had",
+      "zh": "珃 为什么? 因为我认为公司已经更多, 他们没有增长,他们有"
+    },
+    {
+      "start": 2441.94,
+      "end": 2447.86,
+      "en": "count. Like if you look at the big, the largest employers of tech talent, many of them actually",
+      "zh": "计数。 碞钩ê 程"
+    },
+    {
+      "start": 2447.86,
+      "end": 2452.18,
+      "en": "haven't been growing, many of them have been laying off continuously. I think one meta, for example,",
+      "zh": "还没有成长,他们中许多人一直在不断裁员。 我认为,举例来说,"
+    },
+    {
+      "start": 2452.18,
+      "end": 2457.38,
+      "en": "right? Like in every year, significant layoffs. And I don't know if they overall had count my",
+      "zh": "对吧? 像每年一样,重大裁员。 我不知道他们有没有算过我"
+    },
+    {
+      "start": 2457.38,
+      "end": 2461.86,
+      "en": "I guess is that it's probably down from the peak of 2021 or 2022, right?",
+      "zh": "我猜是从2021年或2022年的高峰开始的吧?"
+    },
+    {
+      "start": 2463.14,
+      "end": 2467.82,
+      "en": "So actually there was more talent available in the market as such than before.",
+      "zh": "所以实际上市场上的人才比以前多。"
+    },
+    {
+      "start": 2467.82,
+      "end": 2472.9,
+      "en": "But if you now start to talk about, okay, AI talent, ML talent, top people,",
+      "zh": "但是如果你现在开始谈论, 好吧,AI的才华, ML的才华,顶尖的人,"
+    },
+    {
+      "start": 2473.14,
+      "end": 2478.9,
+      "en": "top people are sort of, you know, way more than ever before.",
+      "zh": "顶尖人物比以前要多得多"
+    },
+    {
+      "start": 2479.26,
+      "end": 2483.54,
+      "en": "And, and also the pay scales have completely changed.",
+      "zh": "而且,工资表也完全改变了。"
+    },
+    {
+      "start": 2483.54,
+      "end": 2486.18,
+      "en": "And not just from the model companies, but even from startups,",
+      "zh": "不仅来自模特公司 甚至是初创企业"
+    },
+    {
+      "start": 2486.18,
+      "end": 2490.1,
+      "en": "because startups are also like,",
+      "zh": "因为初创公司也喜欢,"
+    },
+    {
+      "start": 2490.1,
+      "end": 2494.22,
+      "en": "you are giving them too much money to compete for talent.",
+      "zh": "你给了他们太多钱来争夺人才"
+    },
+    {
+      "start": 2494.22,
+      "end": 2497.87,
+      "en": "So like even startups actually these days pay a lot.",
+      "zh": "所以,像连初创企业 这些天实际上支付了很多。"
+    },
+    {
+      "start": 2497.87,
+      "end": 2499.59,
+      "en": "We have to.",
+      "zh": "我们必须这么做 We have to."
+    },
+    {
+      "start": 2499.59,
+      "end": 2500.43,
+      "en": "Yeah, we have to,",
+      "zh": "是啊,我们必须,"
+    },
+    {
+      "start": 2500.43,
+      "end": 2503.31,
+      "en": "because their alternatives are so large too.",
+      "zh": "因为他们的替代品也很大"
+    },
+    {
+      "start": 2503.31,
+      "end": 2505.95,
+      "en": "And actually, if it costs three, four,",
+      "zh": "实际上,如果它花费三,四,"
+    },
+    {
+      "start": 2505.95,
+      "end": 2507.95,
+      "en": "500 grand for a great dev,",
+      "zh": "5万元给一个伟大的虔诚者,"
+    },
+    {
+      "start": 2507.95,
+      "end": 2509.08,
+      "en": "yeah.",
+      "zh": "对"
+    },
+    {
+      "start": 2509.08,
+      "end": 2510.68,
+      "en": "Well, shit, the two million dollar seed round",
+      "zh": "哦,该死,两百万的种子回合"
+    },
+    {
+      "start": 2510.68,
+      "end": 2512.0,
+      "en": "just doesn't go anywhere.",
+      "zh": "只是不会去任何地方。"
+    },
+    {
+      "start": 2512.0,
+      "end": 2513.0,
+      "en": "For the founder building the team,",
+      "zh": "对于创始人建设团队,"
+    },
+    {
+      "start": 2513.0,
+      "end": 2514.04,
+      "en": "even if they don't take a salary,",
+      "zh": "即使他们不拿工资,"
+    },
+    {
+      "start": 2514.04,
+      "end": 2515.88,
+      "en": "if I'm gonna hire four people,",
+      "zh": "如果我要雇用四个人"
+    },
+    {
+      "start": 2515.88,
+      "end": 2517.4,
+      "en": "I need six million bucks.",
+      "zh": "我需要六百万块"
+    },
+    {
+      "start": 2517.4,
+      "end": 2518.32,
+      "en": "That's right.",
+      "zh": "没错"
+    },
+    {
+      "start": 2518.32,
+      "end": 2520.68,
+      "en": "Do you think Founders should raise a large seed rounds?",
+      "zh": "你认为创始人应该举办大型种子赛吗?"
+    },
+    {
+      "start": 2520.68,
+      "end": 2521.52,
+      "en": "I think it's better.",
+      "zh": "我觉得这样更好"
+    },
+    {
+      "start": 2521.52,
+      "end": 2524.84,
+      "en": "I always prefer to raise as much, you know,",
+      "zh": "我总是喜欢 提高,你知道,"
+    },
+    {
+      "start": 2524.84,
+      "end": 2529.0,
+      "en": "for round as you can, you know, from the get-go.",
+      "zh": "尽你所能,你知道,从开始。"
+    },
+    {
+      "start": 2529.0,
+      "end": 2532.16,
+      "en": "What round felt the most highly priced?",
+      "zh": "哪个回合的价格最高?"
+    },
+    {
+      "start": 2532.16,
+      "end": 2534.76,
+      "en": "So first, actually, we never actually went out to raise,",
+      "zh": "所以,首先,实际上, 我们从来没有真正出去 抚养,"
+    },
+    {
+      "start": 2537.16,
+      "end": 2540.44,
+      "en": "you know, except for our first round of the company.",
+      "zh": "你知道,除了我们的第一回合公司。"
+    },
+    {
+      "start": 2540.44,
+      "end": 2542.96,
+      "en": "You know, we always had somebody come in",
+      "zh": "你知道,我们总是有人进来"
+    },
+    {
+      "start": 2542.96,
+      "end": 2547.5,
+      "en": "and was a relationship that got built over some time",
+      "zh": "并且是一段关系 已经建立一段时间"
+    },
+    {
+      "start": 2547.5,
+      "end": 2549.18,
+      "en": "and kind of became the defacto like, you know,",
+      "zh": "并成为了一种事实 喜欢,你知道,"
+    },
+    {
+      "start": 2549.18,
+      "end": 2552.35,
+      "en": "that they are going to be the ones putting money in.",
+      "zh": "他们要把钱放进去"
+    },
+    {
+      "start": 2552.35,
+      "end": 2556.77,
+      "en": "I would say like our series C probably felt the most,",
+      "zh": "我想说,像我们的系列C 可能感觉最,"
+    },
+    {
+      "start": 2558.57,
+      "end": 2561.39,
+      "en": "I guess you could say the most expensive",
+      "zh": "我想你可以说是最贵的"
+    },
+    {
+      "start": 2561.39,
+      "end": 2562.93,
+      "en": "because we barely had any business,",
+      "zh": "因为我们几乎没有任何生意,"
+    },
+    {
+      "start": 2562.93,
+      "end": 2565.69,
+      "en": "like definitely like, you know, sub two or three million",
+      "zh": "像绝对一样,你知道, 二到三百万"
+    },
+    {
+      "start": 2565.69,
+      "end": 2566.93,
+      "en": "dollars, maybe five million dollars.",
+      "zh": "美元,也许500万美元。"
+    },
+    {
+      "start": 2566.93,
+      "end": 2569.69,
+      "en": "I don't remember exactly, but the evaluation was not",
+      "zh": "我记不清,但评价不是"
+    },
+    {
+      "start": 2569.69,
+      "end": 2578.07,
+      "en": "of a billion. And so that was extreme. Like, and I think we, but I guess we take what we",
+      "zh": "10亿 所以这是极端的。 喜欢,我想我们,但我想我们拿"
+    },
+    {
+      "start": 2578.07,
+      "end": 2579.36,
+      "en": "get.",
+      "zh": "获取。"
+    },
+    {
+      "start": 2579.36,
+      "end": 2582.64,
+      "en": "I mean, that's incredible. Do you worry about scaling into that when you're doing it? Or",
+      "zh": "我的意思是,这是不可思议的。 你担心在做的时候会变成那样吗? 或者说"
+    },
+    {
+      "start": 2582.64,
+      "end": 2588.39,
+      "en": "do you just head down and think, this is great, a low dilution for a high price?",
+      "zh": "难道你只是低头 认为,这是伟大的, 低稀释为高价?"
+    },
+    {
+      "start": 2588.39,
+      "end": 2597.86,
+      "en": "The way we thought about it more was that that was a statement to be made to the prospective",
+      "zh": "我们更深思熟虑的方式是,这是对预期者的陈述。"
+    },
+    {
+      "start": 2597.86,
+      "end": 2604.76,
+      "en": "employees, more than anything else. If you wanted to make the market understand that we",
+      "zh": "员工,比其他任何东西都多。 如果你想让市场了解我们"
+    },
+    {
+      "start": 2604.76,
+      "end": 2608.64,
+      "en": "believe something special, and that kind of gives us that validation.",
+      "zh": "相信一些特别的东西, 那种给我们这种验证。"
+    },
+    {
+      "start": 2608.64,
+      "end": 2611.64,
+      "en": "Do employees give a shit who your investors are?",
+      "zh": "员工会在乎你的投资者是谁吗?"
+    },
+    {
+      "start": 2611.64,
+      "end": 2614.1,
+      "en": "Absolutely. Yeah. I mean, like, you know, the-",
+      "zh": "当然 对 我的意思是,喜欢,你知道,"
+    },
+    {
+      "start": 2614.1,
+      "end": 2617.1,
+      "en": "A lot of founders are like, you know what, the best people don't care, they're there",
+      "zh": "很多创始人喜欢, 你知道吗,最好的人不在乎, 他们在那里"
+    },
+    {
+      "start": 2617.1,
+      "end": 2620.78,
+      "en": "for the mission, they're there for- and I'm always like, I promise you, if you have",
+      "zh": "我向你保证,如果你有的话"
+    },
+    {
+      "start": 2620.78,
+      "end": 2626.26,
+      "en": "client or you have DST or you have Sequoia, great candidate suddenly wanted to talk to",
+      "zh": "客户端或者你有DST 或者你有Sequoia, 伟大的候选人突然想和"
+    },
+    {
+      "start": 2626.26,
+      "end": 2627.26,
+      "en": "you a lot more.",
+      "zh": "你还有很多"
+    },
+    {
+      "start": 2627.26,
+      "end": 2632.36,
+      "en": "I mean, investor reparation directly impacts your reparation.",
+      "zh": "我的意思是,投资者赔偿 直接影响你的赔偿。"
+    },
+    {
+      "start": 2632.36,
+      "end": 2635.28,
+      "en": "When you look today, what if you change your mind",
+      "zh": "今天看时,如果你改变主意了怎么办?"
+    },
+    {
+      "start": 2635.28,
+      "end": 2637.76,
+      "en": "on most in the last 12 months?",
+      "zh": "在过去的12个月里?"
+    },
+    {
+      "start": 2637.76,
+      "end": 2641.76,
+      "en": "I've always personally, like my style",
+      "zh": "我个人总是喜欢我的风格"
+    },
+    {
+      "start": 2641.76,
+      "end": 2645.74,
+      "en": "has been a little bit too disciplined",
+      "zh": "已经有点太守规矩了"
+    },
+    {
+      "start": 2645.74,
+      "end": 2647.66,
+      "en": "to be the right strategy anymore.",
+      "zh": "成为正确的策略了"
+    },
+    {
+      "start": 2647.66,
+      "end": 2650.3,
+      "en": "I get that feedback from my team",
+      "zh": "我得到我的团队的反馈"
+    },
+    {
+      "start": 2651.78,
+      "end": 2654.18,
+      "en": "that we are trying to become supportive,",
+      "zh": "我们试图成为支持,"
+    },
+    {
+      "start": 2654.18,
+      "end": 2657.26,
+      "en": "we're trying to make sure that our capital goes a long way.",
+      "zh": "我们正在努力确保我们的首都能走很长一段路。"
+    },
+    {
+      "start": 2657.26,
+      "end": 2661.26,
+      "en": "And in that sort of, in that mindset,",
+      "zh": "在那种心态下,"
+    },
+    {
+      "start": 2661.26,
+      "end": 2665.07,
+      "en": "we may lose the land grab.",
+      "zh": "我们可能会失去土地掠夺。"
+    },
+    {
+      "start": 2665.07,
+      "end": 2669.31,
+      "en": "And so I'm sort of feeling the pressure to change it.",
+      "zh": "所以我觉得压力很大,需要改变它。"
+    },
+    {
+      "start": 2670.55,
+      "end": 2672.95,
+      "en": "Myself, like, you know, just change, change how I think",
+      "zh": "我自己,就像,你知道, 只是改变,改变我的想法"
+    },
+    {
+      "start": 2672.95,
+      "end": 2674.83,
+      "en": "about like how we should be spending,",
+      "zh": "就像我们应该怎么花,"
+    },
+    {
+      "start": 2674.83,
+      "end": 2676.95,
+      "en": "how we should be investing.",
+      "zh": "我们应该如何投资。"
+    },
+    {
+      "start": 2676.95,
+      "end": 2677.79,
+      "en": "But at the same time, like, you know,",
+      "zh": "但与此同时,像,你知道,"
+    },
+    {
+      "start": 2677.79,
+      "end": 2680.03,
+      "en": "I have this fundamental belief that",
+      "zh": "我有一个基本信念:"
+    },
+    {
+      "start": 2680.03,
+      "end": 2683.2,
+      "en": "a business is always built on discipline.",
+      "zh": "一个企业总是建立在纪律之上。"
+    },
+    {
+      "start": 2683.2,
+      "end": 2687.64,
+      "en": "And in the real, like, you have to charge",
+      "zh": "在真正的,喜欢,你必须收取"
+    },
+    {
+      "start": 2687.64,
+      "end": 2690.64,
+      "en": "for the product, it has to generate value for the customers.",
+      "zh": "对于产品,它必须为客户创造价值。"
+    },
+    {
+      "start": 2690.64,
+      "end": 2693.44,
+      "en": "For every dollar that you invest in marketing,",
+      "zh": "你每投资一美元营销,"
+    },
+    {
+      "start": 2693.44,
+      "end": 2695.64,
+      "en": "there has to be some good return back from it.",
+      "zh": "一定有好的回报"
+    },
+    {
+      "start": 2697.16,
+      "end": 2699.32,
+      "en": "You don't assume that you just keep raising the money",
+      "zh": "你不认为你一直在筹钱"
+    },
+    {
+      "start": 2700.76,
+      "end": 2703.92,
+      "en": "to make up for all those things that were not there.",
+      "zh": "以弥补那些没有的东西。"
+    },
+    {
+      "start": 2704.28,
+      "end": 2707.0,
+      "en": "Do you agree with that when you have examples like Uber,",
+      "zh": "你是否同意 当你有类似Uber的例子时"
+    },
+    {
+      "start": 2707.0,
+      "end": 2710.64,
+      "en": "which proves that a bad business model can turn good with scale?",
+      "zh": "证明一个糟糕的经营模式 能够随着规模的扩大而变好?"
+    },
+    {
+      "start": 2710.96,
+      "end": 2714.24,
+      "en": "Yeah, I mean, that's something that's the only way I feel",
+      "zh": "是啊,我的意思是,这是的东西 这是唯一的方法,我感觉"
+    },
+    {
+      "start": 2714.24,
+      "end": 2718.32,
+      "en": "that pressure that like, you know, perhaps my way of thinking is incorrect.",
+      "zh": "压力,比如,你知道, 也许我的想法方式是不正确的。"
+    },
+    {
+      "start": 2718.44,
+      "end": 2719.84,
+      "en": "Do you think it is a land grab?",
+      "zh": "你觉得这是掠夺土地吗?"
+    },
+    {
+      "start": 2720.64,
+      "end": 2723.16,
+      "en": "We're absolutely in a land grab, like, you know, no question.",
+      "zh": "我们绝对是在抢占土地, 就像,你知道,毫无疑问。"
+    },
+    {
+      "start": 2723.48,
+      "end": 2727.48,
+      "en": "Like every single company in the world wants a product like ours today.",
+      "zh": "就像世界上每个公司都想要像我们这样的产品"
+    },
+    {
+      "start": 2728.2,
+      "end": 2733.52,
+      "en": "And either we get in today or it's going to be like 10 times harder to get in the future.",
+      "zh": "要么我们进入今天, 要么它会像10倍 更难在未来得到。"
+    },
+    {
+      "start": 2733.76,
+      "end": 2735.56,
+      "en": "We spoke about a kind of job displacement.",
+      "zh": "我们谈论了一种工作转移。"
+    },
+    {
+      "start": 2735.56,
+      "end": 2738.68,
+      "en": "We had an interesting conversation around that.",
+      "zh": "我们围绕这个进行了有趣的谈话."
+    },
+    {
+      "start": 2739.04,
+      "end": 2743.24,
+      "en": "What job does not exist today that you think will be incredibly common",
+      "zh": "今天没有的工作,你认为会非常普遍"
+    },
+    {
+      "start": 2743.24,
+      "end": 2745.6,
+      "en": "in three to five years time?",
+      "zh": "三到五年的时间?"
+    },
+    {
+      "start": 2745.6,
+      "end": 2750.54,
+      "en": "The composite roles will be very common.",
+      "zh": "综合角色将非常常见。"
+    },
+    {
+      "start": 2750.54,
+      "end": 2755.67,
+      "en": "So like as for example, somebody who can build a product,",
+      "zh": "比如说 一个能制造产品的人"
+    },
+    {
+      "start": 2756.67,
+      "end": 2758.17,
+      "en": "I don't know how to call them,",
+      "zh": "我不知道该怎么叫他们"
+    },
+    {
+      "start": 2758.17,
+      "end": 2764.13,
+      "en": "but they act like engineers, product managers, designers.",
+      "zh": "但他们的行为就像工程师,产品经理,设计师。"
+    },
+    {
+      "start": 2766.0,
+      "end": 2769.76,
+      "en": "Similarly, in GoToMarket,",
+      "zh": "同样,在GoToMarket,"
+    },
+    {
+      "start": 2771.72,
+      "end": 2773.74,
+      "en": "somebody who can sell the product",
+      "zh": "能够卖掉产品的人"
+    },
+    {
+      "start": 2773.74,
+      "end": 2780.2,
+      "en": "And they are capable of not only doing the business negotiations, but they can actually",
+      "zh": "他们不仅有能力进行商业谈判,而且可以"
+    },
+    {
+      "start": 2780.2,
+      "end": 2784.8,
+      "en": "demo the product, they can actually talk about use cases, and instead of having that segregation",
+      "zh": "演示产品,他们可以谈论使用的案例 而不是隔离"
+    },
+    {
+      "start": 2784.8,
+      "end": 2791.0,
+      "en": "between account executives and solution engineers and then both sales, solution architects,",
+      "zh": "在账户经理和解决方案工程师之间 然后是销售 解决方案建筑师"
+    },
+    {
+      "start": 2791.0,
+      "end": 2796.96,
+      "en": "I think we will see more and more generalization of roles, like away from specialization.",
+      "zh": "我认为,我们将看到对角色的日益概括化,如远离专业化。"
+    },
+    {
+      "start": 2796.96,
+      "end": 2801.8,
+      "en": "And in fact, I was trying to drive that very, very hard, even in our own company.",
+      "zh": "事实上,我当时正试着把车开得非常非常硬, 即使在我们自己的公司里也是如此。"
+    },
+    {
+      "start": 2801.8,
+      "end": 2802.8,
+      "en": "our company.",
+      "zh": "我们的公司。"
+    },
+    {
+      "start": 2802.8,
+      "end": 2807.52,
+      "en": "But I'm sorry, I mean this in a nice way, the composite roles goes exactly against the idea",
+      "zh": "对不起,我的意思是,从一个很好的方式, 综合角色完全相反的想法"
+    },
+    {
+      "start": 2807.52,
+      "end": 2812.88,
+      "en": "of maintaining team size, because if you have composite roles where you bring in four different",
+      "zh": "保持团队规模,因为如果你有复合角色 你带来四个不同的"
+    },
+    {
+      "start": 2812.88,
+      "end": 2816.84,
+      "en": "specialities into one, that is smaller teams.",
+      "zh": "特长变成一个,那就是小队。"
+    },
+    {
+      "start": 2816.84,
+      "end": 2817.84,
+      "en": "It is, yes.",
+      "zh": "没错"
+    },
+    {
+      "start": 2817.84,
+      "end": 2822.6,
+      "en": "But as I said, you have to do 10 times the work to get the same amount of revenue from",
+      "zh": "但正如我所说,你必须做10倍的工作 才能从中获取同样的收入"
+    },
+    {
+      "start": 2822.6,
+      "end": 2824.6,
+      "en": "your customers in the future.",
+      "zh": "未来的客户。"
+    },
+    {
+      "start": 2824.6,
+      "end": 2828.28,
+      "en": "You have a much smaller team to deliver the same amount of work that you used to deliver",
+      "zh": "你有一支更小的队伍 来完成你以前完成的同样多的工作"
+    },
+    {
+      "start": 2828.28,
+      "end": 2829.28,
+      "en": "before.",
+      "zh": "之前,我刚说"
+    },
+    {
+      "start": 2829.28,
+      "end": 2831.28,
+      "en": "We just have fours to do more.",
+      "zh": "我们只有4个可以做更多。"
+    },
+    {
+      "start": 2831.28,
+      "end": 2838.0,
+      "en": "Got you, okay. And then what role do we have today? Will we not have? What do we look at and go,",
+      "zh": "知道了,好吗? 那么我们今天的作用是什么? 我们没有吗? 我们该看什么然后走"
+    },
+    {
+      "start": 2838.0,
+      "end": 2842.48,
+      "en": "oh my gosh, I can't believe we used to do that. A lot of analysts roles,",
+      "zh": "哦,我的上帝,我不敢相信我们过去这样做。 很多分析家的角色,"
+    },
+    {
+      "start": 2843.8,
+      "end": 2850.6,
+      "en": "like the data analysts roles, which are not business thinkers, they were given a task",
+      "zh": "像数据分析员的角色, 他们不是商业思想家, 他们的任务"
+    },
+    {
+      "start": 2850.6,
+      "end": 2855.16,
+      "en": "that, hey, I need to see this data and then they produced, like, they sort of go and build",
+      "zh": "嘿,我需要看到这个数据 然后,他们生产, 像,他们有点去建造"
+    },
+    {
+      "start": 2855.16,
+      "end": 2861.64,
+      "en": "those specific dashboards, configure, backend systems. I think that kind of work definitely goes",
+      "zh": "这些特定的仪表板,配置,后端系统。 我认为这种工作肯定去"
+    },
+    {
+      "start": 2861.64,
+      "end": 2870.84,
+      "en": "away. I think business intelligence is going to be very different. Business owners will directly",
+      "zh": "离开。 我认为商业情报会很不一样 企业主会直接"
+    },
+    {
+      "start": 2870.84,
+      "end": 2878.6,
+      "en": "be able to get answers to their questions. Business analysts did analysts that won many HR roles,",
+      "zh": "能够解答他们的问题 商业分析家做了分析 赢得了许多人力资源角色,"
+    },
+    {
+      "start": 2879.24,
+      "end": 2884.44,
+      "en": "sources, for example, so sort of like in recruiting. That's the role that I think",
+      "zh": "例如,来源, 有点像招募。 我想这就是这个角色"
+    },
+    {
+      "start": 2885.64,
+      "end": 2890.28,
+      "en": "is going to definitely get consumed into a full cycle recruiting role.",
+      "zh": "绝对会成为整个循环的招募角色"
+    },
+    {
+      "start": 2890.28,
+      "end": 2896.7,
+      "en": "I do have to ask one final one, which is we're sitting here in Europe and it brings about a question of sovereignty",
+      "zh": "我不得不问最后一个问题,那就是我们正坐在欧洲,这带来了主权问题。"
+    },
+    {
+      "start": 2896.7,
+      "end": 2899.96,
+      "en": "the US and Europe bluntly have not",
+      "zh": "美国和欧洲没有"
+    },
+    {
+      "start": 2900.48,
+      "end": 2903.68,
+      "en": "Come up to muster. So just be on open source",
+      "zh": "上来聚. 所以,只是开源"
+    },
+    {
+      "start": 2903.68,
+      "end": 2906.96,
+      "en": "Yeah, do you think we will have a world of sovereign models?",
+      "zh": "是的,你认为我们会有一个世界 主权模式?"
+    },
+    {
+      "start": 2906.96,
+      "end": 2913.5,
+      "en": "And do you think given what we've seen in the last month or so that we need to have sovereignty over our models?",
+      "zh": "你觉得从我们上个月所看到的情况来看, 我们需要对我们的模式拥有主权吗?"
+    },
+    {
+      "start": 2914.08,
+      "end": 2916.08,
+      "en": "the desire for",
+      "zh": "渴望着"
+    },
+    {
+      "start": 2916.16,
+      "end": 2917.84,
+      "en": "sovereign models",
+      "zh": "主权模式"
+    },
+    {
+      "start": 2917.84,
+      "end": 2923.0,
+      "en": "Like is strong and it's actually I would say like was probably stronger a",
+      "zh": "就像很强壮,其实我想说... 可能更强壮"
+    },
+    {
+      "start": 2923.82,
+      "end": 2930.2,
+      "en": "Year back compared to now at least like you know, I feel like I'm hearing less of it to someday, you know like the",
+      "zh": "和现在相比,一年多来,至少你知道, 我感觉我听到的不多 到有一天,你知道,"
+    },
+    {
+      "start": 2931.56,
+      "end": 2935.48,
+      "en": "There was a period where every every nation thought that they could build one",
+      "zh": "有一个时期,每一个国家都认为 他们可以建立一个"
+    },
+    {
+      "start": 2936.82,
+      "end": 2940.38,
+      "en": "They were then AI was still in its early stages",
+      "zh": "那时,大赦国际仍处于初期阶段。"
+    },
+    {
+      "start": 2941.02,
+      "end": 2943.05,
+      "en": "But then like a lot of those",
+      "zh": "但后来喜欢很多的"
+    },
+    {
+      "start": 2943.09,
+      "end": 2944.53,
+      "en": "nations actually",
+      "zh": "国家实际上"
+    },
+    {
+      "start": 2944.53,
+      "end": 2951.81,
+      "en": "figured out that that's not going to be the way. And so they're okay with letting their enterprises",
+      "zh": "发现那是不可能的 所以他们同意让他们的企业"
+    },
+    {
+      "start": 2951.81,
+      "end": 2960.37,
+      "en": "within their own countries use OpenAI or Anthropic or all the other models. So I'm not an expert,",
+      "zh": "在其本国内部使用OpenAI或Anthropic或所有其他模型。 所以我不是专家"
+    },
+    {
+      "start": 2960.37,
+      "end": 2968.77,
+      "en": "I don't know whether this trend is on the rise or sort of on the fall a little bit.",
+      "zh": "我不知道这个趋势是上升还是下降。"
+    },
+    {
+      "start": 2968.77,
+      "end": 2973.49,
+      "en": "I think it's unequivocally on the rise given what we saw with the Trump administration banning",
+      "zh": "我认为我们所看到的 特朗普政府所禁止的"
+    },
+    {
+      "start": 2974.53,
+      "end": 2980.29,
+      "en": "anthropic-slaters models and it's understanding from a lot of, especially Europeans, that we cannot",
+      "zh": "人类-后期模型 以及它的理解 从很多,特别是欧洲人,"
+    },
+    {
+      "start": 2980.29,
+      "end": 2984.61,
+      "en": "rely on a US individual who could ban our access to intelligence.",
+      "zh": "依赖一个可以禁止我们获取情报的美国个人。"
+    },
+    {
+      "start": 2986.45,
+      "end": 2991.73,
+      "en": "But where are the results from it? I mean, that was a month ago. So I think to expect to stand",
+      "zh": "但结果呢? 我的意思是,那是一个月前。 所以我觉得应该站着"
+    },
+    {
+      "start": 2991.73,
+      "end": 2997.81,
+      "en": "up model within three weeks would be tough. Yeah, but even before that, I think it just hasn't",
+      "zh": "三周内登上模特儿会很困难 是的,但即使在此之前, 我认为它只是没有"
+    },
+    {
+      "start": 2997.81,
+      "end": 3004.05,
+      "en": "happened. The only country in the world that has produced models outside of US is China.",
+      "zh": "发生了。 世界上唯一一个在美国以外生产模型的国家是中国."
+    },
+    {
+      "start": 3004.53,
+      "end": 3008.97,
+      "en": "And then of course, maybe a little bit in like, you know, France, but in the start.",
+      "zh": "当然了,也许有点像,法国, 但从一开始。"
+    },
+    {
+      "start": 3008.97,
+      "end": 3011.67,
+      "en": "Is that simply an incentive problem?",
+      "zh": "这是否只是一个激励问题?"
+    },
+    {
+      "start": 3011.67,
+      "end": 3016.31,
+      "en": "The lack of open source community in the US and why we don't have any US open source",
+      "zh": "美国缺乏开放源码社区 为何我们没有任何美国开放源码"
+    },
+    {
+      "start": 3016.31,
+      "end": 3019.5,
+      "en": "to real degree and sub-stantiveness?",
+      "zh": "真实程度和副稳定性?"
+    },
+    {
+      "start": 3019.5,
+      "end": 3026.9,
+      "en": "No, I think the, like, there is good open source community in the US in many other",
+      "zh": "不,我认为,像, 美国有好的开源社区 在许多其他"
+    },
+    {
+      "start": 3026.9,
+      "end": 3027.9,
+      "en": "areas.",
+      "zh": "区域。"
+    },
+    {
+      "start": 3027.9,
+      "end": 3030.78,
+      "en": "Well, I mean, what open model from the US?",
+      "zh": "什么公开模式?"
+    },
+    {
+      "start": 3030.78,
+      "end": 3035.58,
+      "en": "So there's no, yeah, you're right that we don't have open models, but it's not because open",
+      "zh": "所以,没有,是的,你是对的 我们没有开放的模型, 但这不是因为开放"
+    },
+    {
+      "start": 3035.58,
+      "end": 3040.7,
+      "en": "source as a movement, as a, you know, as a concept is weak in the US.",
+      "zh": "源作为一个运动,作为一个,你知道,作为一个概念在美国是软弱的。"
+    },
+    {
+      "start": 3040.7,
+      "end": 3042.34,
+      "en": "They actually work quite strong.",
+      "zh": "他们实际上相当有效。"
+    },
+    {
+      "start": 3042.34,
+      "end": 3050.45,
+      "en": "It's probably if you think about models, the, they require a lot of upfront investment,",
+      "zh": "也许如果你想到模型, 他们需要大量的前期投资,"
+    },
+    {
+      "start": 3050.45,
+      "end": 3053.49,
+      "en": "which is not open source friendly in many ways.",
+      "zh": "这在许多方面并不友好开源。"
+    },
+    {
+      "start": 3053.49,
+      "end": 3057.13,
+      "en": "A lot of open source software has been skunk works.",
+      "zh": "许多开放源代码软件都是臭鼬作品."
+    },
+    {
+      "start": 3057.13,
+      "end": 3061.53,
+      "en": "developers is getting no funding associated with them and they still get something built.",
+      "zh": "开发者没有得到任何与他们相关的资金,他们仍然得到一些构建。"
+    },
+    {
+      "start": 3062.09,
+      "end": 3065.53,
+      "en": "They couldn't build models that way. And so that's why, like, you know, naturally,",
+      "zh": "他们不能那样建模型。 这就是为什么,喜欢,你知道,自然,"
+    },
+    {
+      "start": 3066.33,
+      "end": 3073.69,
+      "en": "this thing didn't work out. And, and you, you know, you need these techniques, you know, where,",
+      "zh": "这件事没有成功 而且,你,你知道, 你需要这些技术, 你知道,在哪里,"
+    },
+    {
+      "start": 3074.25,
+      "end": 3079.37,
+      "en": "like super high investment is not needed. And the...",
+      "zh": "像超高投资是不需要的。 还有..."
+    },
+    {
+      "start": 3080.33,
+      "end": 3084.97,
+      "en": "Do you worry that when you look at the state, you know, I spend a lot of time on OpenRusa.",
+      "zh": "你担心当你看国家的时候 我花了很多时间在OpenRusa上"
+    },
+    {
+      "start": 3084.97,
+      "end": 3092.41,
+      "en": "I see the model usage and traffic and like, you know, anthropic today was first US model of seventh,",
+      "zh": "我看到了模型的使用和交通 喜欢,你知道,人类今天 是第一个美国模型第七,"
+    },
+    {
+      "start": 3092.41,
+      "end": 3099.38,
+      "en": "the first six were Chinese. Do we just like go out bucket who cares that the CCP are funding the top",
+      "zh": "前六位是中国人 我们只是喜欢出去的桶 谁在乎中共资助顶级"
+    },
+    {
+      "start": 3099.38,
+      "end": 3105.54,
+      "en": "six models? The fact that you know, you can actually run inferencing on those like, you know, in that",
+      "zh": "六个模特儿? 其实,你知道,你实际上可以 运行在那些像,你知道,"
+    },
+    {
+      "start": 3105.54,
+      "end": 3111.22,
+      "en": "contained environment makes people feel comfortable and but I don't think you know, that's like as a",
+      "zh": "内在的环境让人感到舒适 但我不认为你知道 就像一个"
+    },
+    {
+      "start": 3111.22,
+      "end": 3119.0,
+      "en": "as US, US won't feel absolutely won't feel okay with that trend. There is good work",
+      "zh": "作为美国,美国不会觉得 绝对不会觉得 与这个趋势。 干得不错"
+    },
+    {
+      "start": 3119.0,
+      "end": 3124.2,
+      "en": "that's happening now to actually promote open source model development in the US. There's",
+      "zh": "这正在发生 真正促进开放源代码 在美国开发。 还有"
+    },
+    {
+      "start": 3124.2,
+      "end": 3130.6,
+      "en": "some models coming out. The alternative is that Sam and OpenAI give 5% to Trump and",
+      "zh": "一些模型出来了。 另一种选择是萨姆和OpenAI给特朗普5%和"
+    },
+    {
+      "start": 3130.6,
+      "end": 3137.72,
+      "en": "then he puts regular issue, regulatory capture on anthropic and open AI and puts attacks on",
+      "zh": "然后他把定期发行, 监管捕捉人类 和开放AI 并攻击"
+    },
+    {
+      "start": 3137.72,
+      "end": 3139.76,
+      "en": "open source. Well, I hope not.",
+      "zh": "打开源。 希望不会"
+    },
+    {
+      "start": 3139.76,
+      "end": 3145.28,
+      "en": "even that I that's I I I I I I thought that's that's gonna happen. Yeah.",
+      "zh": "即便我,我,我,我以为那是会发生的。 对"
+    },
+    {
+      "start": 3145.48,
+      "end": 3151.52,
+      "en": "Why would I'm so sorry I'm only learning a while with Sam given 5% to quid pro quo. I need you you",
+      "zh": "为什么我会非常抱歉,我只学习一段时间 与山姆给予5%的交换。 我需要你的帮助"
+    },
+    {
+      "start": 3151.52,
+      "end": 3159.0,
+      "en": "need me. Well, I mean, I guess I just believe more in the US system and the ultimately",
+      "zh": "需要我帮忙 嗯,我的意思是,我猜我只是 相信更多的美国系统 并最终"
+    },
+    {
+      "start": 3159.64,
+      "end": 3165.99,
+      "en": "curbing. I don't think right now, by the way, you need to curb open source like, you know, it's too",
+      "zh": "控制。 我不认为现在,顺便说一句, 你需要抑制开源 像,你知道,这是太"
+    },
+    {
+      "start": 3165.99,
+      "end": 3167.91,
+      "en": "far behind in the US.",
+      "zh": "在美国远远落后。"
+    },
+    {
+      "start": 3167.91,
+      "end": 3172.63,
+      "en": "You don't think Sam and Dario are sitting going, oh wow, we underestimated this and this is",
+      "zh": "你不认为山姆和达里奥坐着, 哦,哇,我们低估了这一点,这是"
+    },
+    {
+      "start": 3172.63,
+      "end": 3174.35,
+      "en": "a core threat to our business.",
+      "zh": "对我们生意的核心威胁"
+    },
+    {
+      "start": 3174.35,
+      "end": 3182.07,
+      "en": "I mean, they probably are thinking that, but I don't think they can fix that by through",
+      "zh": "我的意思是,他们也许在想, 但我不认为他们可以通过"
+    },
+    {
+      "start": 3182.07,
+      "end": 3183.07,
+      "en": "regulation.",
+      "zh": "条例。"
+    },
+    {
+      "start": 3183.07,
+      "end": 3188.67,
+      "en": "You don't think that Sam will be calling up Trump, who he has a direct line to saying,",
+      "zh": "你不认为山姆会打电话给特朗普 他直言不讳"
+    },
+    {
+      "start": 3188.67,
+      "end": 3192.23,
+      "en": "hey, the CCP are funding your biggest competitors.",
+      "zh": "嘿,中共资助了你最大的竞争对手"
+    },
+    {
+      "start": 3192.23,
+      "end": 3195.59,
+      "en": "We cannot promise that there isn't a backtor to Xi Jinping.",
+      "zh": "我们不能保证,习近平没有后台."
+    },
+    {
+      "start": 3195.59,
+      "end": 3199.62,
+      "en": "You need to stop this and I'll give you 5% for your troubles.",
+      "zh": "你需要停止这一切, 我给你5%的麻烦。"
+    },
+    {
+      "start": 3199.62,
+      "end": 3201.98,
+      "en": "Well, isn't the argument the other way around?",
+      "zh": "争论不是相反的吗?"
+    },
+    {
+      "start": 3201.98,
+      "end": 3206.18,
+      "en": "Right now, there are all these open source models which are very good and they're all",
+      "zh": "现在,所有这些开源模型 非常好,都是"
+    },
+    {
+      "start": 3206.18,
+      "end": 3210.02,
+      "en": "built in China and the US needs to build its own.",
+      "zh": "在中国和美国建造的,需要自己建造。"
+    },
+    {
+      "start": 3210.02,
+      "end": 3214.94,
+      "en": "The US can't be seen as a country that doesn't innovate on technology.",
+      "zh": "不能把美国看成是不创新技术的国家."
+    },
+    {
+      "start": 3214.94,
+      "end": 3217.42,
+      "en": "So it's actually paramount for the US to build open source models.",
+      "zh": "因此,美国建立开源模型实际上至关重要。"
+    },
+    {
+      "start": 3217.42,
+      "end": 3223.98,
+      "en": "So, if you're saying it takes billions of dollars and years of time, Trump defend America and",
+      "zh": "所以,如果你说这需要数十亿美元 和多年的时间,特朗普捍卫美国和"
+    },
+    {
+      "start": 3223.98,
+      "end": 3230.72,
+      "en": "support open AI and anthropic and put barriers up to prevent Chinese, which is open models",
+      "zh": "支持开放AI和慈善,设置屏障防止中文,即开放模式"
+    },
+    {
+      "start": 3230.72,
+      "end": 3234.32,
+      "en": "from getting adoption, taxes, bans.",
+      "zh": "从收养,税收,禁令。"
+    },
+    {
+      "start": 3234.32,
+      "end": 3242.32,
+      "en": "Those maybe, yes, but the, but US open source models that they are going to have a lot",
+      "zh": "那些也许,是的,但 美国的开放源代码模型 他们将会有很多"
+    },
+    {
+      "start": 3242.32,
+      "end": 3244.44,
+      "en": "of payments and they have to.",
+      "zh": "他们必须支付。"
+    },
+    {
+      "start": 3244.44,
+      "end": 3250.3,
+      "en": "This is the known accepted issue that every technologist in",
+      "zh": "这是已知公认的问题 每个技术员在"
+    },
+    {
+      "start": 3250.3,
+      "end": 3252.34,
+      "en": "Bay Area talks about.",
+      "zh": "湾区谈."
+    },
+    {
+      "start": 3252.62,
+      "end": 3255.84,
+      "en": "There's a lot of motivated parties that actually want to",
+      "zh": "有很多有动机的派对 其实想"
+    },
+    {
+      "start": 3255.84,
+      "end": 3259.54,
+      "en": "promote including NVIDIA, for example, putting a lot of",
+      "zh": "例如,促进将NVIDIA纳入其中,将许多"
+    },
+    {
+      "start": 3259.54,
+      "end": 3262.78,
+      "en": "investment in promoting an ultimate upgrade to open source",
+      "zh": "投资促进最终升级为开放源码"
+    },
+    {
+      "start": 3262.78,
+      "end": 3263.72,
+      "en": "models in the US.",
+      "zh": "美国的模特儿"
+    },
+    {
+      "start": 3264.14,
+      "end": 3265.5,
+      "en": "And I hope they succeed.",
+      "zh": "我希望他们成功。"
+    },
+    {
+      "start": 3268.1,
+      "end": 3270.72,
+      "en": "A multi-model world is important for all of us.",
+      "zh": "多模式世界对我们所有人都很重要。"
+    },
+    {
+      "start": 3271.32,
+      "end": 3272.86,
+      "en": "I'm going to do a quick fire round with you.",
+      "zh": "与汝速发火."
+    },
+    {
+      "start": 3272.86,
+      "end": 3275.18,
+      "en": "So I say short statement, you give me your immediate thoughts.",
+      "zh": "因此,我说简短的发言,你立即给我你的想法。"
+    },
+    {
+      "start": 3275.18,
+      "end": 3276.02,
+      "en": "So that's okay.",
+      "zh": "所以没关系。"
+    },
+    {
+      "start": 3276.06,
+      "end": 3276.46,
+      "en": "Okay.",
+      "zh": "好吧,我告诉你。"
+    },
+    {
+      "start": 3276.94,
+      "end": 3280.22,
+      "en": "What's your biggest advice to someone studying in computer science today?",
+      "zh": "今天你对研究计算机科学的人有什么建议?"
+    },
+    {
+      "start": 3280.54,
+      "end": 3281.58,
+      "en": "It's fine to study it.",
+      "zh": "精进修习."
+    },
+    {
+      "start": 3281.58,
+      "end": 3286.1,
+      "en": "Don't be, don't get too worried because what other people are telling you.",
+      "zh": "不要,不要太担心 因为别人在告诉你什么。"
+    },
+    {
+      "start": 3286.42,
+      "end": 3290.1,
+      "en": "Which legacy company has adopted AI the best, do you think?",
+      "zh": "你觉得哪家遗产公司采用了最好的AI?"
+    },
+    {
+      "start": 3290.62,
+      "end": 3292.62,
+      "en": "Well, are you willing to call Google a legacy company?",
+      "zh": "你愿意把谷歌称为遗产公司吗?"
+    },
+    {
+      "start": 3293.1,
+      "end": 3293.58,
+      "en": "Yeah.",
+      "zh": "对"
+    },
+    {
+      "start": 3293.66,
+      "end": 3293.98,
+      "en": "Yeah.",
+      "zh": "对"
+    },
+    {
+      "start": 3293.98,
+      "end": 3302.38,
+      "en": "So Google probably is higher than anybody else in terms of not only embracing AI internally, but also",
+      "zh": "所以Google可能比任何人都高 不仅在内部接受AI, 而且还包括"
+    },
+    {
+      "start": 3302.86,
+      "end": 3305.98,
+      "en": "in there, like launching products.",
+      "zh": "在那里,像发射产品。"
+    },
+    {
+      "start": 3305.98,
+      "end": 3308.66,
+      "en": "But there, I guess the REI companies are kind of,",
+      "zh": "但在那里,我想REI公司是有点,"
+    },
+    {
+      "start": 3308.66,
+      "end": 3312.5,
+      "en": "it's unfair to put them in their category.",
+      "zh": "把他们归入他们的类别是不公平的。"
+    },
+    {
+      "start": 3312.5,
+      "end": 3315.62,
+      "en": "You start a new company and you can only take one ambassador.",
+      "zh": "你开一家新公司 你只能带一个大使"
+    },
+    {
+      "start": 3315.62,
+      "end": 3316.98,
+      "en": "Who do you take with you?",
+      "zh": "你带谁去?"
+    },
+    {
+      "start": 3316.98,
+      "end": 3320.22,
+      "en": "Well, I think I'll take one of our existing ones.",
+      "zh": "好吧,我想我会采取 我们现有的之一。"
+    },
+    {
+      "start": 3320.22,
+      "end": 3322.22,
+      "en": "You create relationships with all of them.",
+      "zh": "你和他们都建立了关系"
+    },
+    {
+      "start": 3322.22,
+      "end": 3324.16,
+      "en": "Which one would you take?",
+      "zh": "你选哪一个?"
+    },
+    {
+      "start": 3324.16,
+      "end": 3325.0,
+      "en": "I don't know.",
+      "zh": "师曰."
+    },
+    {
+      "start": 3325.0,
+      "end": 3326.56,
+      "en": "I won't answer that question.",
+      "zh": "我不会回答这个问题。"
+    },
+    {
+      "start": 3326.56,
+      "end": 3327.88,
+      "en": "I just don't have the answer, really.",
+      "zh": "我只是没有答案,真的。"
+    },
+    {
+      "start": 3327.88,
+      "end": 3328.72,
+      "en": "I get to think about it.",
+      "zh": "我会考虑的"
+    },
+    {
+      "start": 3328.72,
+      "end": 3330.44,
+      "en": "I think it's probably circumstantial,",
+      "zh": "我觉得可能是间接的"
+    },
+    {
+      "start": 3330.44,
+      "end": 3332.6,
+      "en": "depending on what I'm doing.",
+      "zh": "取决于我在做什么。"
+    },
+    {
+      "start": 3332.6,
+      "end": 3335.19,
+      "en": "you know, different people bring different sense.",
+      "zh": "你知道,不同的人带来不同的感觉。"
+    },
+    {
+      "start": 3335.19,
+      "end": 3337.39,
+      "en": "What would you mostly like to change",
+      "zh": "你想改变什么?"
+    },
+    {
+      "start": 3337.39,
+      "end": 3340.75,
+      "en": "about the startup ecosystem that we see today?",
+      "zh": "关于我们今天看到的启动生态系统?"
+    },
+    {
+      "start": 3340.75,
+      "end": 3341.91,
+      "en": "I should do think that, you know,",
+      "zh": "我确实认为,你知道,"
+    },
+    {
+      "start": 3341.91,
+      "end": 3345.95,
+      "en": "there is too much capital available today",
+      "zh": "今天的资本太多了"
+    },
+    {
+      "start": 3345.95,
+      "end": 3349.01,
+      "en": "in the first startups.",
+      "zh": "在第一个开始。"
+    },
+    {
+      "start": 3349.01,
+      "end": 3354.01,
+      "en": "And it's actually sometimes creating failure paths for people.",
+      "zh": "它有时会为人们创造失败的道路。"
+    },
+    {
+      "start": 3355.13,
+      "end": 3357.21,
+      "en": "I think they're not getting what it takes",
+      "zh": "我觉得他们拿不到钱"
+    },
+    {
+      "start": 3357.21,
+      "end": 3359.01,
+      "en": "to build a great company.",
+      "zh": "建立一个伟大的公司。"
+    },
+    {
+      "start": 3359.01,
+      "end": 3361.61,
+      "en": "I'll give you an example.",
+      "zh": "举个例子"
+    },
+    {
+      "start": 3361.61,
+      "end": 3363.83,
+      "en": "Like a startup that has raised a seat around,",
+      "zh": "像一个起步者, 已经提高了一个座位周围,"
+    },
+    {
+      "start": 3363.83,
+      "end": 3365.87,
+      "en": "decides to pay half a million dollars",
+      "zh": "决定支付50万美元"
+    },
+    {
+      "start": 3365.87,
+      "end": 3367.97,
+      "en": "to an engineer like you were saying before.",
+      "zh": "就像你之前说的工程师"
+    },
+    {
+      "start": 3369.68,
+      "end": 3371.46,
+      "en": "And this is happening today.",
+      "zh": "今天就发生了这种情况。"
+    },
+    {
+      "start": 3371.46,
+      "end": 3373.42,
+      "en": "And the startup founder is okay with it,",
+      "zh": "创始人也同意"
+    },
+    {
+      "start": 3373.42,
+      "end": 3375.3,
+      "en": "the investors are okay with it.",
+      "zh": "投资者可以接受"
+    },
+    {
+      "start": 3375.3,
+      "end": 3378.74,
+      "en": "But it's just surely not a sustainable path",
+      "zh": "但这肯定不是一条可持续的道路"
+    },
+    {
+      "start": 3378.74,
+      "end": 3379.94,
+      "en": "to actually win.",
+      "zh": "真正赢得。"
+    },
+    {
+      "start": 3379.94,
+      "end": 3382.54,
+      "en": "And they're paying it while Google is not.",
+      "zh": "而谷歌却不付钱"
+    },
+    {
+      "start": 3382.54,
+      "end": 3384.26,
+      "en": "And Google knows that they don't need",
+      "zh": "谷歌知道他们不需要"
+    },
+    {
+      "start": 3384.26,
+      "end": 3388.98,
+      "en": "to actually buy talent like that.",
+      "zh": "来买这种人才"
+    },
+    {
+      "start": 3388.98,
+      "end": 3397.24,
+      "en": "So I think that is one thing that I feel this overbundance of capital is getting startups",
+      "zh": "所以我认为,我觉得 资本的过度充裕 就是开始创业了"
+    },
+    {
+      "start": 3397.24,
+      "end": 3400.76,
+      "en": "to sort of create structures which are not going to be sustainable for them.",
+      "zh": "来创造一些无法维持的结构。"
+    },
+    {
+      "start": 3400.76,
+      "end": 3405.24,
+      "en": "You worry about the lack of exit options that are now becoming more and more real.",
+      "zh": "你担心缺乏 退出选择 现在越来越真实。"
+    },
+    {
+      "start": 3405.24,
+      "end": 3409.24,
+      "en": "What I mean by that is like, I want to say if you don't have a billion in revenue today,",
+      "zh": "我是说,如果你今天没有十亿的收入, 我想说,"
+    },
+    {
+      "start": 3409.24,
+      "end": 3413.27,
+      "en": "it's hard to go public.",
+      "zh": "很难公开"
+    },
+    {
+      "start": 3413.27,
+      "end": 3417.43,
+      "en": "Tachyquires, your big companies, very specific about what they want to buy.",
+      "zh": "Tachyquires,你的大公司,非常具体 他们想要买什么。"
+    },
+    {
+      "start": 3417.83,
+      "end": 3422.15,
+      "en": "P, licking his wounds from having a portfolio that's full of medallias.",
+      "zh": "P,舔他的伤口 拥有一个充满奖牌的组合。"
+    },
+    {
+      "start": 3423.35,
+      "end": 3424.47,
+      "en": "It's a tough landscape.",
+      "zh": "地貌艰难."
+    },
+    {
+      "start": 3424.91,
+      "end": 3426.87,
+      "en": "Like startups have never been easy.",
+      "zh": "就像初创企业从来就不容易"
+    },
+    {
+      "start": 3427.55,
+      "end": 3433.15,
+      "en": "Like I think in fact, I don't know for, for, for, I would say in, in the last 25 years",
+      "zh": "就像我想的,事实上,我不知道, 因为,因为,因为,我会说, 在过去25年里,"
+    },
+    {
+      "start": 3434.07,
+      "end": 3443.2,
+      "en": "that I've seen, I would say it's been, it's easier to build a startup and get a good exit from it.",
+      "zh": "我曾经见过,我会说,它已经, 这是比较容易建立 启动和得到一个很好的退出。"
+    },
+    {
+      "start": 3444.14,
+      "end": 3446.84,
+      "en": "these days that it used to be in the past.",
+      "zh": "这些天,它曾经是过去。"
+    },
+    {
+      "start": 3446.84,
+      "end": 3449.66,
+      "en": "I started the brutal game.",
+      "zh": "我开始了残酷的游戏。"
+    },
+    {
+      "start": 3449.94,
+      "end": 3459.14,
+      "en": "What does no one know about being a founder and CEO from the outside that they should know that it's not a sexy job.",
+      "zh": "没有人知道 做一个创始人和CEO 从外部 他们应该知道 这不是一个性感的工作。"
+    },
+    {
+      "start": 3459.62,
+      "end": 3465.64,
+      "en": "It's actually one of the most stressful things and you really have to be crazy.",
+      "zh": "这其实是最紧张的事情之一 你真的是疯了。"
+    },
+    {
+      "start": 3465.74,
+      "end": 3467.94,
+      "en": "I think they know that now.",
+      "zh": "我想他们现在知道了"
+    },
+    {
+      "start": 3467.94,
+      "end": 3471.24,
+      "en": "I think one for me is that you have to consistently be unhappy.",
+      "zh": "我认为一个对我来说是 你必须一直不开心。"
+    },
+    {
+      "start": 3471.24,
+      "end": 3477.0,
+      "en": "You should never be happy, I think, as a CEO, because there's always something that needs",
+      "zh": "你不应该快乐,我想,作为一个CEO, 因为总有事情需要"
+    },
+    {
+      "start": 3477.0,
+      "end": 3480.28,
+      "en": "doing could be done better.",
+      "zh": "可以做得更好。"
+    },
+    {
+      "start": 3480.28,
+      "end": 3485.36,
+      "en": "Telling someone you will never be happy is something that I like, chard by.",
+      "zh": "告诉别人你永远不会快乐 我喜欢的就是这个"
+    },
+    {
+      "start": 3485.36,
+      "end": 3491.04,
+      "en": "Yeah, that's a good one, this is a tough job all around.",
+      "zh": "是啊,这是一个很好的, 这是一个艰难的工作 周围。"
+    },
+    {
+      "start": 3491.04,
+      "end": 3496.76,
+      "en": "And I think they oftentimes, you know, people who have not done it, they feel that there's",
+      "zh": "我认为他们经常,你知道, 那些没有这样做的人, 他们觉得有"
+    },
+    {
+      "start": 3496.76,
+      "end": 3501.8,
+      "en": "lot of glamour, they feel that, you know, this is going to make a lot of money and and",
+      "zh": "有很多魅力,他们觉得, 你知道,这会 赚很多钱和"
+    },
+    {
+      "start": 3501.8,
+      "end": 3505.16,
+      "en": "their life will be fantastic. They're going to have a lot of respect. And I think like almost",
+      "zh": "他们的生活将会是美妙的。 诸人得大恭敬. 我觉得就像"
+    },
+    {
+      "start": 3505.16,
+      "end": 3511.72,
+      "en": "all of those things, you know, are irrelevant. You know, this is a you have to be truly mission-oriented",
+      "zh": "所有这些事情,你知道,都是无关紧要的。 你知道,这是一个你必须 真正面向任务"
+    },
+    {
+      "start": 3512.28,
+      "end": 3515.0,
+      "en": "for to be to to survive, you know, as a founder.",
+      "zh": "为了生存,作为一个创始人。"
+    },
+    {
+      "start": 3515.0,
+      "end": 3521.16,
+      "en": "Did your style change with money? You've been successful before. I think better,",
+      "zh": "你的风格跟钱不一样了吗? 你以前成功过 我觉得好多了"
+    },
+    {
+      "start": 3521.16,
+      "end": 3526.36,
+      "en": "I think founders are better and investors are better when they are already rich. If I'm being",
+      "zh": "我认为创始人比较好,投资人已经富有时比较好. 如果我是个"
+    },
+    {
+      "start": 3526.36,
+      "end": 3535.36,
+      "en": "I think you make more rational sound decisions that are not made with economic impatience.",
+      "zh": "我认为你做出更合理的合理决定 并不是在经济上不耐烦"
+    },
+    {
+      "start": 3535.36,
+      "end": 3537.36,
+      "en": "I think for me, maybe not.",
+      "zh": "我想对我来说,也许不是。"
+    },
+    {
+      "start": 3537.36,
+      "end": 3544.92,
+      "en": "But at the same time, I'm a man with minimal needs and my needs are already met a long time",
+      "zh": "但与此同时,我是一个男人 有最小的需要, 我的需要已经满足了很长时间"
+    },
+    {
+      "start": 3544.92,
+      "end": 3545.92,
+      "en": "back.",
+      "zh": "回来。"
+    },
+    {
+      "start": 3545.92,
+      "end": 3554.96,
+      "en": "So I guess I've definitely built these startups without that worry of, can I feed my family?",
+      "zh": "所以我猜我绝对已经 建造这些初创企业 不担心,我可以养活我的家人吗?"
+    },
+    {
+      "start": 3554.96,
+      "end": 3561.52,
+      "en": "Yeah, maybe that has helped me, but as I've seen more success, it doesn't change me fundamentally",
+      "zh": "是啊,也许这帮助了我, 但我看到更多的成功, 它没有根本改变我"
+    },
+    {
+      "start": 3561.52,
+      "end": 3569.0,
+      "en": "in terms of, you have to have that drive, you have to work continuously to work more than",
+      "zh": "也就是说,你必须拥有这个驱动器, 你必须持续工作 工作超过"
+    },
+    {
+      "start": 3569.0,
+      "end": 3574.44,
+      "en": "every other person in your company, lead by example, and keep pushing, and you have to",
+      "zh": "你公司里所有的人 都以身作则 继续推"
+    },
+    {
+      "start": 3574.44,
+      "end": 3579.6,
+      "en": "have this rational need to make something big happen.",
+      "zh": "有这种合理的需要 使大事发生。"
+    },
+    {
+      "start": 3579.6,
+      "end": 3585.6,
+      "en": "I so appreciate your time. I apologize for being robust in my discussion back.",
+      "zh": "非常感谢你的时间。 我为我之前的讨论很热烈而道歉。"
+    },
+    {
+      "start": 3585.6,
+      "end": 3593.4,
+      "en": "Yeah. I think it was a different interview to a lot of interviews that you do where it was",
+      "zh": "对 我认为这是不同的采访 很多采访,你做它在哪里"
+    },
+    {
+      "start": 3593.4,
+      "end": 3596.96,
+      "en": "more discursive. But I so appreciate the time and you've been fantastic, dude.",
+      "zh": "更令人困惑。 但我很感激你的时间,你一直很好,伙计。"
+    },
+    {
+      "start": 3596.96,
+      "end": 3597.6,
+      "en": "Yeah, thank you.",
+      "zh": "谢谢"
+    }
+  ],
+  "translation": "Google machine translation (batch generated, 2026-07-15)"
+}

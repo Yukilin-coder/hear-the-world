@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: hear-the-world
+    runtime: node
+    plan: starter
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /
+    envVars:
+      - key: NODE_VERSION
+        value: 24
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_ANON_KEY
+        sync: false
+      - key: PUBLIC_MEDIA_MODE
+        value: local
