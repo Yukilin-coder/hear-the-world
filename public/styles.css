@@ -14,3 +14,5 @@
 .auth-submit{width:100%;margin-top:8px;font-size:15px}.auth-link{display:block;border:0;background:transparent;color:var(--blue);padding:5px 0;margin:2px 0 8px;cursor:pointer;font-size:12px;text-align:left}
 .auth-back{margin:14px auto 0;text-align:center}.auth-email-tip{background:#f5f7fb;border-radius:8px;padding:10px!important;margin:12px 0 0!important;color:#555!important}
 #authMessage{min-height:18px;line-height:1.5}#authMessage.auth-success{color:#167746;background:#ecf8f1;border-radius:8px;padding:10px;margin-top:12px}#authMessage.auth-error{color:#b42318;background:#fff1f0;border-radius:8px;padding:10px;margin-top:12px}
+
+.auth-card [hidden]{display:none!important}
