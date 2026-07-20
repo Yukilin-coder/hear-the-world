@@ -41,11 +41,13 @@
     if (error) throw error;
   }
 
-  async function sendEmailOtp(email, shouldCreateUser = false) {
+  async function sendEmailLink(email, shouldCreateUser = false, action = "login") {
     if (!client) throw new Error("请先配置 Supabase");
+    const publicSite = "https://yukilin-coder.github.io/hear-the-world/";
+    const emailRedirectTo = action === "login" ? publicSite : `${publicSite}?auth_action=${encodeURIComponent(action)}`;
     const { error } = await client.auth.signInWithOtp({
       email,
-      options: { shouldCreateUser, emailRedirectTo: `${location.origin}${location.pathname}` }
+      options: { shouldCreateUser, emailRedirectTo }
     });
     if (error) throw error;
   }
@@ -94,6 +96,6 @@
   }
 
   window.Cloud = {
-    configured, init, signUp, signIn, signOut, resetPassword, updatePassword, sendEmailOtp, verifyEmailOtp, loadUserData, insert, upsert, remove
+    configured, init, signUp, signIn, signOut, resetPassword, updatePassword, sendEmailLink, verifyEmailOtp, loadUserData, insert, upsert, remove
   };
 })();
