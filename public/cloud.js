@@ -41,6 +41,21 @@
     if (error) throw error;
   }
 
+  async function sendEmailOtp(email, shouldCreateUser = false) {
+    if (!client) throw new Error("请先配置 Supabase");
+    const { error } = await client.auth.signInWithOtp({
+      email,
+      options: { shouldCreateUser, emailRedirectTo: `${location.origin}${location.pathname}` }
+    });
+    if (error) throw error;
+  }
+
+  async function verifyEmailOtp(email, token) {
+    if (!client) throw new Error("请先配置 Supabase");
+    const { data, error } = await client.auth.verifyOtp({ email, token, type: "email" });
+    if (error) throw error;
+    return data;
+  }
   async function signIn(email, password) {
     if (!client) throw new Error("请先配置 Supabase");
     const { error } = await client.auth.signInWithPassword({ email, password });
@@ -79,6 +94,6 @@
   }
 
   window.Cloud = {
-    configured, init, signUp, signIn, signOut, resetPassword, updatePassword, loadUserData, insert, upsert, remove
+    configured, init, signUp, signIn, signOut, resetPassword, updatePassword, sendEmailOtp, verifyEmailOtp, loadUserData, insert, upsert, remove
   };
 })();
