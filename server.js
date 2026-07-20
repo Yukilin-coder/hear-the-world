@@ -38,4 +38,4 @@ const server=http.createServer(async(req,res)=>{
   if(!file.startsWith(root)){res.writeHead(403);return res.end('Forbidden')}
   fs.stat(file,(err,stat)=>{if(err||!stat.isFile()){res.writeHead(404);return res.end('Not found')}const headers={'Content-Type':types[path.extname(file).toLowerCase()]||'application/octet-stream'};const range=req.headers.range;if(range&&path.extname(file)==='.m4a'){const [a,b]=range.replace(/bytes=/,'').split('-'),start=Number(a),end=b?Number(b):stat.size-1;headers['Content-Range']=`bytes ${start}-${end}/${stat.size}`;headers['Accept-Ranges']='bytes';headers['Content-Length']=end-start+1;res.writeHead(206,headers);return fs.createReadStream(file,{start,end}).pipe(res)}headers['Content-Length']=stat.size;res.writeHead(200,headers);fs.createReadStream(file).pipe(res)})
 });
-const port=Number(process.env.PORT||4173);server.listen(port,'127.0.0.1',()=>console.log(`播啵星 bobostar: http://127.0.0.1:${port}`));
+const port=Number(process.env.PORT||4173);server.listen(port,'127.0.0.1',()=>console.log(`听风口 Tidear: http://127.0.0.1:${port}`));

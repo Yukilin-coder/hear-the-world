@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="听风口 Tidear">
+  <rect width="64" height="64" rx="18" fill="#ff0033"/>
+  <path d="M10 24c8-9 15-9 23 0s15 9 21 0M10 40c8-9 15-9 23 0s15 9 21 0" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+</svg>

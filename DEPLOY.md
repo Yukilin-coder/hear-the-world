@@ -1,4 +1,4 @@
-# 「播啵星 bobostar」公开发布指南
+# 「听风口 Tidear」公开发布指南
 
 ## 1. 内容版权先处理
 
@@ -27,7 +27,7 @@
 cd C:\Users\HP\EnglishPodcastLearner
 git init
 git add .
-git commit -m "Build public bobostar MVP"
+git commit -m "Build public Tidear MVP"
 git branch -M main
 git remote add origin 你的GitHub仓库地址
 git push -u origin main
