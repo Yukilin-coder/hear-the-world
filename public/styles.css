@@ -5,3 +5,12 @@
 .seo-about{margin:52px 0 20px;padding:32px;border:1px solid #e5e5e5;border-radius:20px;background:#fafafa;max-width:980px}
 .seo-about h2{font-size:28px;margin:0 0 14px}.seo-about h3{font-size:18px;margin:24px 0 8px}.seo-about p{color:#555;line-height:1.8;margin:0}
 
+
+/* Distinct login, signup and password-recovery states */
+.auth-card{width:min(480px,100%)}
+.auth-tabs{display:grid;grid-template-columns:1fr 1fr;gap:4px;margin:18px 0 22px;padding:4px;background:#f1f1f1;border-radius:12px}
+.auth-tabs[hidden]{display:none}.auth-tabs button{border:0;background:transparent;border-radius:9px;padding:11px;font-weight:700;cursor:pointer;color:var(--muted)}
+.auth-tabs button.active{background:#fff;color:var(--ink);box-shadow:0 1px 6px rgba(0,0,0,.09)}
+.auth-submit{width:100%;margin-top:8px;font-size:15px}.auth-link{display:block;border:0;background:transparent;color:var(--blue);padding:5px 0;margin:2px 0 8px;cursor:pointer;font-size:12px;text-align:left}
+.auth-back{margin:14px auto 0;text-align:center}.auth-email-tip{background:#f5f7fb;border-radius:8px;padding:10px!important;margin:12px 0 0!important;color:#555!important}
+#authMessage{min-height:18px;line-height:1.5}#authMessage.auth-success{color:#167746;background:#ecf8f1;border-radius:8px;padding:10px;margin-top:12px}#authMessage.auth-error{color:#b42318;background:#fff1f0;border-radius:8px;padding:10px;margin-top:12px}

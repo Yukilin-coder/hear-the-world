@@ -15,15 +15,29 @@
       window.APP_CONFIG.SUPABASE_ANON_KEY
     );
     const { data } = await client.auth.getSession();
-    authHandler(data.session?.user || null, true);
-    client.auth.onAuthStateChange((_event, session) => {
-      authHandler(session?.user || null, true);
+    authHandler(data.session?.user || null, true, "INITIAL_SESSION");
+    client.auth.onAuthStateChange((event, session) => {
+      authHandler(session?.user || null, true, event);
     });
   }
 
   async function signUp(email, password) {
     if (!client) throw new Error("请先配置 Supabase");
-    const { error } = await client.auth.signUp({ email, password });
+    const emailRedirectTo = `${location.origin}${location.pathname}`;
+    const { error } = await client.auth.signUp({ email, password, options: { emailRedirectTo } });
+    if (error) throw error;
+  }
+
+  async function resetPassword(email) {
+    if (!client) throw new Error("请先配置 Supabase");
+    const redirectTo = `${location.origin}${location.pathname}`;
+    const { error } = await client.auth.resetPasswordForEmail(email, { redirectTo });
+    if (error) throw error;
+  }
+
+  async function updatePassword(password) {
+    if (!client) throw new Error("请先配置 Supabase");
+    const { error } = await client.auth.updateUser({ password });
     if (error) throw error;
   }
 
@@ -65,6 +79,6 @@
   }
 
   window.Cloud = {
-    configured, init, signUp, signIn, signOut, loadUserData, insert, upsert, remove
+    configured, init, signUp, signIn, signOut, resetPassword, updatePassword, loadUserData, insert, upsert, remove
   };
 })();
